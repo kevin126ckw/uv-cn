@@ -303,7 +303,7 @@ mod tests {
         assert_eq!(actual, expected);
     }
 
-    /// <https://pypi.org/simple/shellingham/?format=application/vnd.pypi.simple.v1+json>
+    /// <https://pypi.tuna.tsinghua.edu.cn/simple/shellingham/?format=application/vnd.pypi.simple.v1+json>
     #[test]
     fn specifier_invalid_single_quotes() {
         let actual: VersionSpecifiers = LenientVersionSpecifiers::from_str(">= '2.7'")
@@ -313,7 +313,7 @@ mod tests {
         assert_eq!(actual, expected);
     }
 
-    /// <https://pypi.org/simple/tensorflowonspark/?format=application/vnd.pypi.simple.v1+json>
+    /// <https://pypi.tuna.tsinghua.edu.cn/simple/tensorflowonspark/?format=application/vnd.pypi.simple.v1+json>
     #[test]
     fn specifier_invalid_double_quotes() {
         let actual: VersionSpecifiers = LenientVersionSpecifiers::from_str(">=\"3.6\"")
@@ -323,7 +323,7 @@ mod tests {
         assert_eq!(actual, expected);
     }
 
-    /// <https://pypi.org/simple/celery/?format=application/vnd.pypi.simple.v1+json>
+    /// <https://pypi.tuna.tsinghua.edu.cn/simple/celery/?format=application/vnd.pypi.simple.v1+json>
     #[test]
     fn specifier_multi_fix() {
         let actual: VersionSpecifiers = LenientVersionSpecifiers::from_str(
@@ -337,7 +337,7 @@ mod tests {
         assert_eq!(actual, expected);
     }
 
-    /// <https://pypi.org/simple/wincertstore/?format=application/vnd.pypi.simple.v1+json>
+    /// <https://pypi.tuna.tsinghua.edu.cn/simple/wincertstore/?format=application/vnd.pypi.simple.v1+json>
     #[test]
     fn smaller_than_star() {
         let actual: VersionSpecifiers =
@@ -349,8 +349,8 @@ mod tests {
         assert_eq!(actual, expected);
     }
 
-    /// <https://pypi.org/simple/algoliasearch/?format=application/vnd.pypi.simple.v1+json>
-    /// <https://pypi.org/simple/okta/?format=application/vnd.pypi.simple.v1+json>
+    /// <https://pypi.tuna.tsinghua.edu.cn/simple/algoliasearch/?format=application/vnd.pypi.simple.v1+json>
+    /// <https://pypi.tuna.tsinghua.edu.cn/simple/okta/?format=application/vnd.pypi.simple.v1+json>
     #[test]
     fn stray_quote() {
         let actual: VersionSpecifiers =

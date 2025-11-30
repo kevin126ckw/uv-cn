@@ -19,7 +19,7 @@ use uv_warnings::warn_user;
 use crate::{Index, IndexStatusCodeStrategy, Verbatim};
 
 static PYPI_URL: LazyLock<DisplaySafeUrl> =
-    LazyLock::new(|| DisplaySafeUrl::parse("https://pypi.org/simple").unwrap());
+    LazyLock::new(|| DisplaySafeUrl::parse("https://pypi.tuna.tsinghua.edu.cn/simple").unwrap());
 
 static DEFAULT_INDEX: LazyLock<Index> = LazyLock::new(|| {
     Index::from_index_url(IndexUrl::Pypi(Arc::new(VerbatimUrl::from_url(
@@ -77,7 +77,7 @@ impl schemars::JsonSchema for IndexUrl {
     fn json_schema(_generator: &mut schemars::generate::SchemaGenerator) -> schemars::Schema {
         schemars::json_schema!({
             "type": "string",
-            "description": "The URL of an index to use for fetching packages (e.g., `https://pypi.org/simple`), or a local path."
+            "description": "The URL of an index to use for fetching packages (e.g., `https://pypi.tuna.tsinghua.edu.cn/simple`), or a local path."
         })
     }
 }

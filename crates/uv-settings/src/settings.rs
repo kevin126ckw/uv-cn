@@ -572,7 +572,7 @@ pub struct ResolverInstallerSchema {
         "#
     )]
     pub index: Option<Vec<Index>>,
-    /// The URL of the Python package index (by default: <https://pypi.org/simple>).
+    /// The URL of the Python package index (by default: <https://pypi.tuna.tsinghua.edu.cn/simple>).
     ///
     /// Accepts either a repository compliant with [PEP 503](https://peps.python.org/pep-0503/)
     /// (the simple repository API), or a local directory laid out in the same format.
@@ -582,7 +582,7 @@ pub struct ResolverInstallerSchema {
     ///
     /// (Deprecated: use `index` instead.)
     #[option(
-        default = "\"https://pypi.org/simple\"",
+        default = "\"https://pypi.tuna.tsinghua.edu.cn/simple\"",
         value_type = "str",
         example = r#"
             index-url = "https://test.pypi.org/simple"
@@ -1106,7 +1106,7 @@ pub struct PipOptions {
     #[serde(skip)]
     #[cfg_attr(feature = "schemars", schemars(skip))]
     pub index: Option<Vec<Index>>,
-    /// The URL of the Python package index (by default: <https://pypi.org/simple>).
+    /// The URL of the Python package index (by default: <https://pypi.tuna.tsinghua.edu.cn/simple>).
     ///
     /// Accepts either a repository compliant with [PEP 503](https://peps.python.org/pep-0503/)
     /// (the simple repository API), or a local directory laid out in the same format.
@@ -1114,7 +1114,7 @@ pub struct PipOptions {
     /// The index provided by this setting is given lower priority than any indexes specified via
     /// [`extra_index_url`](#extra-index-url).
     #[option(
-        default = "\"https://pypi.org/simple\"",
+        default = "\"https://pypi.tuna.tsinghua.edu.cn/simple\"",
         value_type = "str",
         example = r#"
             index-url = "https://test.pypi.org/simple"
@@ -1640,7 +1640,7 @@ pub struct PipOptions {
     )]
     pub emit_marker_expression: Option<bool>,
     /// Include comment annotations indicating the index used to resolve each package (e.g.,
-    /// `# from https://pypi.org/simple`).
+    /// `# from https://pypi.tuna.tsinghua.edu.cn/simple`).
     #[option(
         default = "false",
         value_type = "bool",
@@ -2290,9 +2290,9 @@ impl From<OptionsWire> for Options {
 #[cfg_attr(feature = "schemars", derive(schemars::JsonSchema))]
 pub struct PublishOptions {
     /// The URL for publishing packages to the Python package index (by default:
-    /// <https://upload.pypi.org/legacy/>).
+    /// <https://pypi.tuna.tsinghua.edu.cn/legacy/>).
     #[option(
-        default = "\"https://upload.pypi.org/legacy/\"",
+        default = "\"https://pypi.tuna.tsinghua.edu.cn/legacy/\"",
         value_type = "str",
         example = r#"
             publish-url = "https://test.pypi.org/legacy/"

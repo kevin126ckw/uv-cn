@@ -311,7 +311,7 @@
       ]
     },
     "index-url": {
-      "description": "The URL of the Python package index (by default: <https://pypi.org/simple>).\n\nAccepts either a repository compliant with [PEP 503](https://peps.python.org/pep-0503/)\n(the simple repository API), or a local directory laid out in the same format.\n\nThe index provided by this setting is given lower priority than any indexes specified via\n[`extra_index_url`](#extra-index-url) or [`index`](#index).\n\n(Deprecated: use `index` instead.)",
+      "description": "The URL of the Python package index (by default: <https://pypi.tuna.tsinghua.edu.cn/simple>).\n\nAccepts either a repository compliant with [PEP 503](https://peps.python.org/pep-0503/)\n(the simple repository API), or a local directory laid out in the same format.\n\nThe index provided by this setting is given lower priority than any indexes specified via\n[`extra_index_url`](#extra-index-url) or [`index`](#index).\n\n(Deprecated: use `index` instead.)",
       "anyOf": [
         {
           "$ref": "#/definitions/IndexUrl"
@@ -482,7 +482,7 @@
       ]
     },
     "publish-url": {
-      "description": "The URL for publishing packages to the Python package index (by default:\n<https://upload.pypi.org/legacy/>).",
+      "description": "The URL for publishing packages to the Python package index (by default:\n<https://pypi.tuna.tsinghua.edu.cn/legacy/>).",
       "anyOf": [
         {
           "$ref": "#/definitions/DisplaySafeUrl"
@@ -1053,7 +1053,7 @@
           ]
         },
         "publish-url": {
-          "description": "The URL of the upload endpoint.\n\nWhen using `uv publish --index <name>`, this URL is used for publishing.\n\nA configuration for the default index PyPI would look as follows:\n\n```toml\n[[tool.uv.index]]\nname = \"pypi\"\nurl = \"https://pypi.org/simple\"\npublish-url = \"https://upload.pypi.org/legacy/\"\n```",
+          "description": "The URL of the upload endpoint.\n\nWhen using `uv publish --index <name>`, this URL is used for publishing.\n\nA configuration for the default index PyPI would look as follows:\n\n```toml\n[[tool.uv.index]]\nname = \"pypi\"\nurl = \"https://pypi.tuna.tsinghua.edu.cn/simple\"\npublish-url = \"https://pypi.tuna.tsinghua.edu.cn/legacy/\"\n```",
           "anyOf": [
             {
               "$ref": "#/definitions/DisplaySafeUrl"
@@ -1064,7 +1064,7 @@
           ]
         },
         "url": {
-          "description": "The URL of the index.\n\nExpects to receive a URL (e.g., `https://pypi.org/simple`) or a local path.",
+          "description": "The URL of the index.\n\nExpects to receive a URL (e.g., `https://pypi.tuna.tsinghua.edu.cn/simple`) or a local path.",
           "allOf": [
             {
               "$ref": "#/definitions/IndexUrl"
@@ -1134,7 +1134,7 @@
       ]
     },
     "IndexUrl": {
-      "description": "The URL of an index to use for fetching packages (e.g., `https://pypi.org/simple`), or a local path.",
+      "description": "The URL of an index to use for fetching packages (e.g., `https://pypi.tuna.tsinghua.edu.cn/simple`), or a local path.",
       "type": "string"
     },
     "KeyringProviderType": {
@@ -1327,7 +1327,7 @@
           ]
         },
         "emit-index-annotation": {
-          "description": "Include comment annotations indicating the index used to resolve each package (e.g.,\n`# from https://pypi.org/simple`).",
+          "description": "Include comment annotations indicating the index used to resolve each package (e.g.,\n`# from https://pypi.tuna.tsinghua.edu.cn/simple`).",
           "type": [
             "boolean",
             "null"
@@ -1461,7 +1461,7 @@
           ]
         },
         "index-url": {
-          "description": "The URL of the Python package index (by default: <https://pypi.org/simple>).\n\nAccepts either a repository compliant with [PEP 503](https://peps.python.org/pep-0503/)\n(the simple repository API), or a local directory laid out in the same format.\n\nThe index provided by this setting is given lower priority than any indexes specified via\n[`extra_index_url`](#extra-index-url).",
+          "description": "The URL of the Python package index (by default: <https://pypi.tuna.tsinghua.edu.cn/simple>).\n\nAccepts either a repository compliant with [PEP 503](https://peps.python.org/pep-0503/)\n(the simple repository API), or a local directory laid out in the same format.\n\nThe index provided by this setting is given lower priority than any indexes specified via\n[`extra_index_url`](#extra-index-url).",
           "anyOf": [
             {
               "$ref": "#/definitions/IndexUrl"

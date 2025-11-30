@@ -93,7 +93,7 @@ fn packse_add_remove_one_package() {
          [[package]]
         +name = "tzdata"
         +version = "2024.1"
-        +source = { registry = "https://pypi.org/simple" }
+        +source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         +sdist = { url = "https://files.pythonhosted.org/packages/74/5b/e025d02cb3b66b7b76093404392d4b44343c69101cc85f4d180dd5784717/tzdata-2024.1.tar.gz", hash = "sha256:2674120f8d891909751c38abcdfd386ac0a5a1127954fbc332af6b5ceae07efd", size = 190559, upload-time = "2024-02-11T23:22:40.2Z" }
         +wheels = [
         +    { url = "https://files.pythonhosted.org/packages/65/58/f9c9e6be752e9fcb8b6a0ee9fb87e6e7a1f6bcab2cdc73f02bb7ba91ada0/tzdata-2024.1-py2.py3-none-any.whl", hash = "sha256:9068bc196136463f5245e51efda838afa15aaeca9903f49050dfa2679db4d252", size = 345370, upload-time = "2024-02-11T23:22:38.223Z" },
@@ -102,7 +102,7 @@ fn packse_add_remove_one_package() {
         +[[package]]
          name = "urllib3"
          version = "2.2.1"
-         source = { registry = "https://pypi.org/simple" }
+         source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
          sdist = { url = "https://files.pythonhosted.org/packages/7a/50/7fd50a27caa0652cd4caf224aa87741ea41d3265ad13f010886167cfcc79/urllib3-2.2.1.tar.gz", hash = "sha256:d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19", size = 291020, upload-time = "2024-02-18T03:55:57.539Z" }
          wheels = [
              { url = "https://files.pythonhosted.org/packages/a2/73/a68704750a7679d0b6d3ad7aa8d4da8e14e151ae82e6fee774e6e0d05ec8/urllib3-2.2.1-py3-none-any.whl", hash = "sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d", size = 121067, upload-time = "2024-02-18T03:55:54.704Z" },
@@ -184,7 +184,7 @@ fn packse_add_remove_one_package() {
         -[[package]]
         -name = "tzdata"
         -version = "2024.1"
-        -source = { registry = "https://pypi.org/simple" }
+        -source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         -sdist = { url = "https://files.pythonhosted.org/packages/74/5b/e025d02cb3b66b7b76093404392d4b44343c69101cc85f4d180dd5784717/tzdata-2024.1.tar.gz", hash = "sha256:2674120f8d891909751c38abcdfd386ac0a5a1127954fbc332af6b5ceae07efd", size = 190559, upload-time = "2024-02-11T23:22:40.2Z" }
         -wheels = [
         -    { url = "https://files.pythonhosted.org/packages/65/58/f9c9e6be752e9fcb8b6a0ee9fb87e6e7a1f6bcab2cdc73f02bb7ba91ada0/tzdata-2024.1-py2.py3-none-any.whl", hash = "sha256:9068bc196136463f5245e51efda838afa15aaeca9903f49050dfa2679db4d252", size = 345370, upload-time = "2024-02-11T23:22:38.223Z" },
@@ -193,7 +193,7 @@ fn packse_add_remove_one_package() {
          [[package]]
          name = "urllib3"
          version = "2.2.1"
-         source = { registry = "https://pypi.org/simple" }
+         source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
          sdist = { url = "https://files.pythonhosted.org/packages/7a/50/7fd50a27caa0652cd4caf224aa87741ea41d3265ad13f010886167cfcc79/urllib3-2.2.1.tar.gz", hash = "sha256:d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19", size = 291020, upload-time = "2024-02-18T03:55:57.539Z" }
          wheels = [
              { url = "https://files.pythonhosted.org/packages/a2/73/a68704750a7679d0b6d3ad7aa8d4da8e14e151ae82e6fee774e6e0d05ec8/urllib3-2.2.1-py3-none-any.whl", hash = "sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d", size = 121067, upload-time = "2024-02-18T03:55:54.704Z" },
@@ -446,7 +446,7 @@ fn jax_instability() -> Result<()> {
          [[package]]
          name = "importlib-metadata"
          version = "7.1.0"
-         source = { registry = "https://pypi.org/simple" }
+         source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
          dependencies = [
         -    { name = "zipp" },
         +    { name = "zipp", marker = "python_full_version < '3.10'" },
@@ -459,7 +459,7 @@ fn jax_instability() -> Result<()> {
          [[package]]
          name = "jax"
          version = "0.4.17"
-         source = { registry = "https://pypi.org/simple" }
+         source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         @@ -150,28 +150,41 @@
              { url = "https://files.pythonhosted.org/packages/f3/31/91a2a3c5eb85d2bfa86d7c98f2df5d77dcdefb3d80ca9f9037ad04393acf/scipy-1.12.0-cp312-cp312-win_amd64.whl", hash = "sha256:e646d8571804a304e1da01040d21577685ce8e2db08ac58e543eaca063453e1c", size = 45816713, upload-time = "2024-01-20T21:12:26.619Z" },
              { url = "https://files.pythonhosted.org/packages/ed/be/49a3f999dc91f1a653847f38c34763dcdeaa8a327f3665bdfe9bf5555109/scipy-1.12.0-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:913d6e7956c3a671de3b05ccb66b11bc293f56bfdef040583a7221d9e22a2e35", size = 38929252, upload-time = "2024-01-20T21:12:33.197Z" },
@@ -473,7 +473,7 @@ fn jax_instability() -> Result<()> {
          [[package]]
         +name = "tzdata"
         +version = "2024.1"
-        +source = { registry = "https://pypi.org/simple" }
+        +source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         +sdist = { url = "https://files.pythonhosted.org/packages/74/5b/e025d02cb3b66b7b76093404392d4b44343c69101cc85f4d180dd5784717/tzdata-2024.1.tar.gz", hash = "sha256:2674120f8d891909751c38abcdfd386ac0a5a1127954fbc332af6b5ceae07efd", size = 190559, upload-time = "2024-02-11T23:22:40.2Z" }
         +wheels = [
         +    { url = "https://files.pythonhosted.org/packages/65/58/f9c9e6be752e9fcb8b6a0ee9fb87e6e7a1f6bcab2cdc73f02bb7ba91ada0/tzdata-2024.1-py2.py3-none-any.whl", hash = "sha256:9068bc196136463f5245e51efda838afa15aaeca9903f49050dfa2679db4d252", size = 345370, upload-time = "2024-02-11T23:22:38.223Z" },
@@ -498,7 +498,7 @@ fn jax_instability() -> Result<()> {
          [[package]]
          name = "zipp"
          version = "3.18.1"
-         source = { registry = "https://pypi.org/simple" }
+         source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
          sdist = { url = "https://files.pythonhosted.org/packages/3e/ef/65da662da6f9991e87f058bc90b91a935ae655a16ae5514660d6460d1298/zipp-3.18.1.tar.gz", hash = "sha256:2884ed22e7d8961de1c9a05142eb69a247f120291bc0206a00a7642f09b5b715", size = 21220, upload-time = "2024-03-14T21:09:04.099Z" }
          wheels = [
              { url = "https://files.pythonhosted.org/packages/c2/0a/ba9d0ee9536d3ef73a3448e931776e658b36f128d344e175bc32b092a8bf/zipp-3.18.1-py3-none-any.whl", hash = "sha256:206f5a15f2af3dbaee80769fb7dc6f249695e940acca08dfb2a4769fe61e538b", size = 8247, upload-time = "2024-03-14T21:09:02.638Z" },
@@ -530,7 +530,7 @@ fn jax_instability() -> Result<()> {
          [[package]]
         -name = "tzdata"
         -version = "2024.1"
-        -source = { registry = "https://pypi.org/simple" }
+        -source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         -sdist = { url = "https://files.pythonhosted.org/packages/74/5b/e025d02cb3b66b7b76093404392d4b44343c69101cc85f4d180dd5784717/tzdata-2024.1.tar.gz", hash = "sha256:2674120f8d891909751c38abcdfd386ac0a5a1127954fbc332af6b5ceae07efd", size = 190559, upload-time = "2024-02-11T23:22:40.2Z" }
         -wheels = [
         -    { url = "https://files.pythonhosted.org/packages/65/58/f9c9e6be752e9fcb8b6a0ee9fb87e6e7a1f6bcab2cdc73f02bb7ba91ada0/tzdata-2024.1-py2.py3-none-any.whl", hash = "sha256:9068bc196136463f5245e51efda838afa15aaeca9903f49050dfa2679db4d252", size = 345370, upload-time = "2024-02-11T23:22:38.223Z" },
@@ -555,7 +555,7 @@ fn jax_instability() -> Result<()> {
          [[package]]
          name = "zipp"
          version = "3.18.1"
-         source = { registry = "https://pypi.org/simple" }
+         source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
          sdist = { url = "https://files.pythonhosted.org/packages/3e/ef/65da662da6f9991e87f058bc90b91a935ae655a16ae5514660d6460d1298/zipp-3.18.1.tar.gz", hash = "sha256:2884ed22e7d8961de1c9a05142eb69a247f120291bc0206a00a7642f09b5b715", size = 21220, upload-time = "2024-03-14T21:09:04.099Z" }
          wheels = [
              { url = "https://files.pythonhosted.org/packages/c2/0a/ba9d0ee9536d3ef73a3448e931776e658b36f128d344e175bc32b092a8bf/zipp-3.18.1-py3-none-any.whl", hash = "sha256:206f5a15f2af3dbaee80769fb7dc6f249695e940acca08dfb2a4769fe61e538b", size = 8247, upload-time = "2024-03-14T21:09:02.638Z" },
@@ -587,7 +587,7 @@ fn jax_instability() -> Result<()> {
          [[package]]
          name = "importlib-metadata"
          version = "7.1.0"
-         source = { registry = "https://pypi.org/simple" }
+         source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
          dependencies = [
         -    { name = "zipp" },
         +    { name = "zipp", marker = "python_full_version < '3.10'" },
@@ -600,7 +600,7 @@ fn jax_instability() -> Result<()> {
          [[package]]
          name = "jax"
          version = "0.4.17"
-         source = { registry = "https://pypi.org/simple" }
+         source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         "#);
     });
 

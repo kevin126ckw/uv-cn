@@ -2823,7 +2823,7 @@ fn version_set_evil_constraints() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -2852,7 +2852,7 @@ fn version_set_evil_constraints() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -2909,7 +2909,7 @@ fn version_set_evil_constraints() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "async-generator" },
             { name = "sniffio" },
@@ -2922,7 +2922,7 @@ fn version_set_evil_constraints() -> Result<()> {
         [[package]]
         name = "async-generator"
         version = "1.10"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/ce/b6/6fa6b3b598a03cba5e80f829e0dadbb49d7645f523d209b2fb7ea0bbb02a/async_generator-1.10.tar.gz", hash = "sha256:6ebb3d106c12920aaae42ccb6f787ef5eefdcdd166ea3d628fa8476abe712144", size = 29870, upload-time = "2018-08-01T03:36:21.69Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/71/52/39d20e03abd0ac9159c162ec24b93fbcaa111e8400308f2465432495ca2b/async_generator-1.10-py3-none-any.whl", hash = "sha256:01c7bf666359b4967d2cda0000cc2e4af16a0ae098cbffcb8472fb9e8ad6585b", size = 18857, upload-time = "2018-08-01T03:36:20.029Z" },
@@ -2947,7 +2947,7 @@ fn version_set_evil_constraints() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },

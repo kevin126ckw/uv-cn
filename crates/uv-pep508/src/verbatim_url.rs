@@ -77,7 +77,7 @@ impl VerbatimUrl {
             Some((scheme, ..)) => {
                 match Scheme::parse(scheme) {
                     Some(_) => {
-                        // Ex) `https://pypi.org/simple`
+                        // Ex) `https://pypi.tuna.tsinghua.edu.cn/simple`
                         Self::parse_url(input)?
                     }
                     None => {

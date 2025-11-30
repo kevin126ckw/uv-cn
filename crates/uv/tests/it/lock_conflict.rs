@@ -108,10 +108,10 @@ fn extra_basic() -> Result<()> {
 
         [package.optional-dependencies]
         extra1 = [
-            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         extra2 = [
-            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -124,7 +124,7 @@ fn extra_basic() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/14/10/6a9481890bae97da9edd6e737c9c3dec6aea3fc2fa53b0934037b35c89ea/sortedcontainers-2.3.0.tar.gz", hash = "sha256:59cc937650cf60d677c16775597c89a960658a09cf7c1a668f86e1e4464b10a1", size = 30509, upload-time = "2020-11-09T00:03:52.258Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/20/4d/a7046ae1a1a4cc4e9bbed194c387086f06b25038be596543d026946330c9/sortedcontainers-2.3.0-py2.py3-none-any.whl", hash = "sha256:37257a32add0a3ee490bb170b599e93095eed89a55da91fa9f48753ea12fd73f", size = 29479, upload-time = "2020-11-09T00:03:50.723Z" },
@@ -133,7 +133,7 @@ fn extra_basic() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e8/c4/ba2f8066cceb6f23394729afe52f3bf7adec04bf9ed2c820b39e19299111/sortedcontainers-2.4.0.tar.gz", hash = "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88", size = 30594, upload-time = "2021-05-16T22:03:42.897Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/32/46/9cb0e58b2deb7f82b84065f37f3bffeb12413f947f9388e4cac22c4621ce/sortedcontainers-2.4.0-py2.py3-none-any.whl", hash = "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0", size = 29575, upload-time = "2021-05-16T22:03:41.177Z" },
@@ -303,13 +303,13 @@ fn extra_basic_three_extras() -> Result<()> {
 
         [package.optional-dependencies]
         extra1 = [
-            { name = "sortedcontainers", version = "2.2.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         extra2 = [
-            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         project3 = [
-            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -323,7 +323,7 @@ fn extra_basic_three_extras() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/83/c9/466c0f9b42a0563366bb7c39906d9c6673315f81516f55e3a23a99f52234/sortedcontainers-2.2.0.tar.gz", hash = "sha256:331f5b7acb6bdfaf0b0646f5f86c087e414c9ae9d85e2076ad2eacb17ec2f4ff", size = 30402, upload-time = "2020-06-07T04:54:25.487Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/0c/75/4f79725a6ad966f1985d96c5aeda0b27d00c23afa14e8566efcdee1380ad/sortedcontainers-2.2.0-py2.py3-none-any.whl", hash = "sha256:f0694fbe8d090fab0fbabbfecad04756fbbb35dc3c0f89e0f6965396fe815d25", size = 29386, upload-time = "2020-06-07T04:54:23.921Z" },
@@ -332,7 +332,7 @@ fn extra_basic_three_extras() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/14/10/6a9481890bae97da9edd6e737c9c3dec6aea3fc2fa53b0934037b35c89ea/sortedcontainers-2.3.0.tar.gz", hash = "sha256:59cc937650cf60d677c16775597c89a960658a09cf7c1a668f86e1e4464b10a1", size = 30509, upload-time = "2020-11-09T00:03:52.258Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/20/4d/a7046ae1a1a4cc4e9bbed194c387086f06b25038be596543d026946330c9/sortedcontainers-2.3.0-py2.py3-none-any.whl", hash = "sha256:37257a32add0a3ee490bb170b599e93095eed89a55da91fa9f48753ea12fd73f", size = 29479, upload-time = "2020-11-09T00:03:50.723Z" },
@@ -341,7 +341,7 @@ fn extra_basic_three_extras() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e8/c4/ba2f8066cceb6f23394729afe52f3bf7adec04bf9ed2c820b39e19299111/sortedcontainers-2.4.0.tar.gz", hash = "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88", size = 30594, upload-time = "2021-05-16T22:03:42.897Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/32/46/9cb0e58b2deb7f82b84065f37f3bffeb12413f947f9388e4cac22c4621ce/sortedcontainers-2.4.0-py2.py3-none-any.whl", hash = "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0", size = 29575, upload-time = "2021-05-16T22:03:41.177Z" },
@@ -776,7 +776,7 @@ fn extra_multiple_independent() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -789,7 +789,7 @@ fn extra_multiple_independent() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -802,7 +802,7 @@ fn extra_multiple_independent() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -815,16 +815,16 @@ fn extra_multiple_independent() -> Result<()> {
 
         [package.optional-dependencies]
         extra1 = [
-            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         extra2 = [
-            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         project3 = [
-            { name = "anyio", version = "4.1.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "anyio", version = "4.1.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         project4 = [
-            { name = "anyio", version = "4.2.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "anyio", version = "4.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -839,7 +839,7 @@ fn extra_multiple_independent() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -848,7 +848,7 @@ fn extra_multiple_independent() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/14/10/6a9481890bae97da9edd6e737c9c3dec6aea3fc2fa53b0934037b35c89ea/sortedcontainers-2.3.0.tar.gz", hash = "sha256:59cc937650cf60d677c16775597c89a960658a09cf7c1a668f86e1e4464b10a1", size = 30509, upload-time = "2020-11-09T00:03:52.258Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/20/4d/a7046ae1a1a4cc4e9bbed194c387086f06b25038be596543d026946330c9/sortedcontainers-2.3.0-py2.py3-none-any.whl", hash = "sha256:37257a32add0a3ee490bb170b599e93095eed89a55da91fa9f48753ea12fd73f", size = 29479, upload-time = "2020-11-09T00:03:50.723Z" },
@@ -857,7 +857,7 @@ fn extra_multiple_independent() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e8/c4/ba2f8066cceb6f23394729afe52f3bf7adec04bf9ed2c820b39e19299111/sortedcontainers-2.4.0.tar.gz", hash = "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88", size = 30594, upload-time = "2021-05-16T22:03:42.897Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/32/46/9cb0e58b2deb7f82b84065f37f3bffeb12413f947f9388e4cac22c4621ce/sortedcontainers-2.4.0-py2.py3-none-any.whl", hash = "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0", size = 29575, upload-time = "2021-05-16T22:03:41.177Z" },
@@ -927,10 +927,10 @@ fn extra_config_change_ignore_lockfile() -> Result<()> {
 
         [package.optional-dependencies]
         extra1 = [
-            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         extra2 = [
-            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -943,7 +943,7 @@ fn extra_config_change_ignore_lockfile() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/14/10/6a9481890bae97da9edd6e737c9c3dec6aea3fc2fa53b0934037b35c89ea/sortedcontainers-2.3.0.tar.gz", hash = "sha256:59cc937650cf60d677c16775597c89a960658a09cf7c1a668f86e1e4464b10a1", size = 30509, upload-time = "2020-11-09T00:03:52.258Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/20/4d/a7046ae1a1a4cc4e9bbed194c387086f06b25038be596543d026946330c9/sortedcontainers-2.3.0-py2.py3-none-any.whl", hash = "sha256:37257a32add0a3ee490bb170b599e93095eed89a55da91fa9f48753ea12fd73f", size = 29479, upload-time = "2020-11-09T00:03:50.723Z" },
@@ -952,7 +952,7 @@ fn extra_config_change_ignore_lockfile() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e8/c4/ba2f8066cceb6f23394729afe52f3bf7adec04bf9ed2c820b39e19299111/sortedcontainers-2.4.0.tar.gz", hash = "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88", size = 30594, upload-time = "2021-05-16T22:03:42.897Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/32/46/9cb0e58b2deb7f82b84065f37f3bffeb12413f947f9388e4cac22c4621ce/sortedcontainers-2.4.0-py2.py3-none-any.whl", hash = "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0", size = 29575, upload-time = "2021-05-16T22:03:41.177Z" },
@@ -1810,11 +1810,11 @@ fn extra_depends_on_conflicting_extra_transitive() -> Result<()> {
 
         [package.optional-dependencies]
         bar = [
-            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         foo = [
             { name = "indirection" },
-            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -1840,7 +1840,7 @@ fn extra_depends_on_conflicting_extra_transitive() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/14/10/6a9481890bae97da9edd6e737c9c3dec6aea3fc2fa53b0934037b35c89ea/sortedcontainers-2.3.0.tar.gz", hash = "sha256:59cc937650cf60d677c16775597c89a960658a09cf7c1a668f86e1e4464b10a1", size = 30509, upload-time = "2020-11-09T00:03:52.258Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/20/4d/a7046ae1a1a4cc4e9bbed194c387086f06b25038be596543d026946330c9/sortedcontainers-2.3.0-py2.py3-none-any.whl", hash = "sha256:37257a32add0a3ee490bb170b599e93095eed89a55da91fa9f48753ea12fd73f", size = 29479, upload-time = "2020-11-09T00:03:50.723Z" },
@@ -1849,7 +1849,7 @@ fn extra_depends_on_conflicting_extra_transitive() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e8/c4/ba2f8066cceb6f23394729afe52f3bf7adec04bf9ed2c820b39e19299111/sortedcontainers-2.4.0.tar.gz", hash = "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88", size = 30594, upload-time = "2021-05-16T22:03:42.897Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/32/46/9cb0e58b2deb7f82b84065f37f3bffeb12413f947f9388e4cac22c4621ce/sortedcontainers-2.4.0-py2.py3-none-any.whl", hash = "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0", size = 29575, upload-time = "2021-05-16T22:03:41.177Z" },
@@ -1989,10 +1989,10 @@ fn group_basic() -> Result<()> {
 
         [package.dev-dependencies]
         group1 = [
-            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         group2 = [
-            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -2004,7 +2004,7 @@ fn group_basic() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/14/10/6a9481890bae97da9edd6e737c9c3dec6aea3fc2fa53b0934037b35c89ea/sortedcontainers-2.3.0.tar.gz", hash = "sha256:59cc937650cf60d677c16775597c89a960658a09cf7c1a668f86e1e4464b10a1", size = 30509, upload-time = "2020-11-09T00:03:52.258Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/20/4d/a7046ae1a1a4cc4e9bbed194c387086f06b25038be596543d026946330c9/sortedcontainers-2.3.0-py2.py3-none-any.whl", hash = "sha256:37257a32add0a3ee490bb170b599e93095eed89a55da91fa9f48753ea12fd73f", size = 29479, upload-time = "2020-11-09T00:03:50.723Z" },
@@ -2013,7 +2013,7 @@ fn group_basic() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e8/c4/ba2f8066cceb6f23394729afe52f3bf7adec04bf9ed2c820b39e19299111/sortedcontainers-2.4.0.tar.gz", hash = "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88", size = 30594, upload-time = "2021-05-16T22:03:42.897Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/32/46/9cb0e58b2deb7f82b84065f37f3bffeb12413f947f9388e4cac22c4621ce/sortedcontainers-2.4.0-py2.py3-none-any.whl", hash = "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0", size = 29575, upload-time = "2021-05-16T22:03:41.177Z" },
@@ -2144,10 +2144,10 @@ fn group_default() -> Result<()> {
 
         [package.dev-dependencies]
         group1 = [
-            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         group2 = [
-            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -2159,7 +2159,7 @@ fn group_default() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/14/10/6a9481890bae97da9edd6e737c9c3dec6aea3fc2fa53b0934037b35c89ea/sortedcontainers-2.3.0.tar.gz", hash = "sha256:59cc937650cf60d677c16775597c89a960658a09cf7c1a668f86e1e4464b10a1", size = 30509, upload-time = "2020-11-09T00:03:52.258Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/20/4d/a7046ae1a1a4cc4e9bbed194c387086f06b25038be596543d026946330c9/sortedcontainers-2.3.0-py2.py3-none-any.whl", hash = "sha256:37257a32add0a3ee490bb170b599e93095eed89a55da91fa9f48753ea12fd73f", size = 29479, upload-time = "2020-11-09T00:03:50.723Z" },
@@ -2168,7 +2168,7 @@ fn group_default() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e8/c4/ba2f8066cceb6f23394729afe52f3bf7adec04bf9ed2c820b39e19299111/sortedcontainers-2.4.0.tar.gz", hash = "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88", size = 30594, upload-time = "2021-05-16T22:03:42.897Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/32/46/9cb0e58b2deb7f82b84065f37f3bffeb12413f947f9388e4cac22c4621ce/sortedcontainers-2.4.0-py2.py3-none-any.whl", hash = "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0", size = 29575, upload-time = "2021-05-16T22:03:41.177Z" },
@@ -2356,12 +2356,12 @@ fn mixed() -> Result<()> {
 
         [package.optional-dependencies]
         extra1 = [
-            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.4.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.dev-dependencies]
         group1 = [
-            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "sortedcontainers", version = "2.3.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -2374,7 +2374,7 @@ fn mixed() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/14/10/6a9481890bae97da9edd6e737c9c3dec6aea3fc2fa53b0934037b35c89ea/sortedcontainers-2.3.0.tar.gz", hash = "sha256:59cc937650cf60d677c16775597c89a960658a09cf7c1a668f86e1e4464b10a1", size = 30509, upload-time = "2020-11-09T00:03:52.258Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/20/4d/a7046ae1a1a4cc4e9bbed194c387086f06b25038be596543d026946330c9/sortedcontainers-2.3.0-py2.py3-none-any.whl", hash = "sha256:37257a32add0a3ee490bb170b599e93095eed89a55da91fa9f48753ea12fd73f", size = 29479, upload-time = "2020-11-09T00:03:50.723Z" },
@@ -2383,7 +2383,7 @@ fn mixed() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e8/c4/ba2f8066cceb6f23394729afe52f3bf7adec04bf9ed2c820b39e19299111/sortedcontainers-2.4.0.tar.gz", hash = "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88", size = 30594, upload-time = "2021-05-16T22:03:42.897Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/32/46/9cb0e58b2deb7f82b84065f37f3bffeb12413f947f9388e4cac22c4621ce/sortedcontainers-2.4.0-py2.py3-none-any.whl", hash = "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0", size = 29575, upload-time = "2021-05-16T22:03:41.177Z" },
@@ -2547,7 +2547,7 @@ fn multiple_sources_index_disjoint_extras() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "2.1.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/87/5b/aae44c6655f3801e81aa3eef09dbbf012431987ba564d7231722f68df02d/MarkupSafe-2.1.5.tar.gz", hash = "sha256:d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b", size = 19384, upload-time = "2024-02-02T16:31:22.863Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/53/bd/583bf3e4c8d6a321938c13f49d44024dbe5ed63e0a7ba127e454a66da974/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:8dec4936e9c3100156f8a2dc89c4b88d5c435175ff03413b443469c7c8c5f4d1", size = 18215, upload-time = "2024-02-02T16:30:33.081Z" },
@@ -2697,7 +2697,7 @@ fn multiple_sources_index_disjoint_groups() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "2.1.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/87/5b/aae44c6655f3801e81aa3eef09dbbf012431987ba564d7231722f68df02d/MarkupSafe-2.1.5.tar.gz", hash = "sha256:d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b", size = 19384, upload-time = "2024-02-02T16:31:22.863Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/53/bd/583bf3e4c8d6a321938c13f49d44024dbe5ed63e0a7ba127e454a66da974/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:8dec4936e9c3100156f8a2dc89c4b88d5c435175ff03413b443469c7c8c5f4d1", size = 18215, upload-time = "2024-02-02T16:30:33.081Z" },
@@ -2824,7 +2824,7 @@ fn multiple_sources_index_disjoint_extras_with_extra() -> Result<()> {
         [[package]]
         name = "babel"
         version = "2.16.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/2a/74/f1bc80f23eeba13393b7222b11d95ca3af2c1e28edca18af487137eefed9/babel-2.16.0.tar.gz", hash = "sha256:d1f3554ca26605fe173f3de0c65f750f5a42f924499bf134de6423582298e316", size = 9348104, upload-time = "2024-08-08T14:25:45.459Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ed/20/bc79bc575ba2e2a7f70e8a1155618bb1301eaa5132a8271373a6903f73f8/babel-2.16.0-py3-none-any.whl", hash = "sha256:368b5b98b37c06b7daf6696391c3240c938b37767d4584413e8438c5c435fa8b", size = 9587599, upload-time = "2024-08-08T14:25:42.686Z" },
@@ -2865,7 +2865,7 @@ fn multiple_sources_index_disjoint_extras_with_extra() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "2.1.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/87/5b/aae44c6655f3801e81aa3eef09dbbf012431987ba564d7231722f68df02d/MarkupSafe-2.1.5.tar.gz", hash = "sha256:d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b", size = 19384, upload-time = "2024-02-02T16:31:22.863Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/53/bd/583bf3e4c8d6a321938c13f49d44024dbe5ed63e0a7ba127e454a66da974/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:8dec4936e9c3100156f8a2dc89c4b88d5c435175ff03413b443469c7c8c5f4d1", size = 18215, upload-time = "2024-02-02T16:30:33.081Z" },
@@ -3013,7 +3013,7 @@ fn multiple_sources_index_disjoint_extras_with_marker() -> Result<()> {
         [[package]]
         name = "jinja2"
         version = "3.1.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "sys_platform != 'darwin'",
         ]
@@ -3039,7 +3039,7 @@ fn multiple_sources_index_disjoint_extras_with_marker() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "2.1.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/87/5b/aae44c6655f3801e81aa3eef09dbbf012431987ba564d7231722f68df02d/MarkupSafe-2.1.5.tar.gz", hash = "sha256:d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b", size = 19384, upload-time = "2024-02-02T16:31:22.863Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/53/bd/583bf3e4c8d6a321938c13f49d44024dbe5ed63e0a7ba127e454a66da974/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:8dec4936e9c3100156f8a2dc89c4b88d5c435175ff03413b443469c7c8c5f4d1", size = 18215, upload-time = "2024-02-02T16:30:33.081Z" },
@@ -3062,7 +3062,7 @@ fn multiple_sources_index_disjoint_extras_with_marker() -> Result<()> {
         [package.optional-dependencies]
         cu118 = [
             { name = "jinja2", version = "3.1.2", source = { registry = "https://astral-sh.github.io/pytorch-mirror/whl/cu118" }, marker = "(sys_platform == 'darwin' and extra == 'extra-7-project-cu118') or (extra == 'extra-7-project-cu118' and extra == 'extra-7-project-cu124')" },
-            { name = "jinja2", version = "3.1.2", source = { registry = "https://pypi.org/simple" }, marker = "(sys_platform != 'darwin' and extra == 'extra-7-project-cu118') or (extra == 'extra-7-project-cu118' and extra == 'extra-7-project-cu124')" },
+            { name = "jinja2", version = "3.1.2", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(sys_platform != 'darwin' and extra == 'extra-7-project-cu118') or (extra == 'extra-7-project-cu118' and extra == 'extra-7-project-cu124')" },
         ]
         cu124 = [
             { name = "jinja2", version = "3.1.3", source = { registry = "https://astral-sh.github.io/pytorch-mirror/whl/cu124" } },
@@ -3316,10 +3316,10 @@ fn shared_optional_dependency_extra1() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-7-project-foo'" },
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-7-project-bar' or extra != 'extra-7-project-foo'" },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-7-project-foo'" },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-7-project-bar' or extra != 'extra-7-project-foo'" },
             { name = "sniffio" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz", hash = "sha256:f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6", size = 159642, upload-time = "2024-02-19T08:36:28.641Z" }
@@ -3330,7 +3330,7 @@ fn shared_optional_dependency_extra1() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/9b/c4/db3e4b22ebc18ee797dae8e14b5db68e5826ae6337334c276f1cb4ff84fb/idna-3.5.tar.gz", hash = "sha256:27009fe2735bf8723353582d48575b23c533cc2c2de7b5a68908d91b5eb18d08", size = 64640, upload-time = "2023-11-24T18:07:06.343Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ea/65/9c7a31be86861d43da3d4f8661f677b38120320540773a04979ad6fa9ecd/idna-3.5-py3-none-any.whl", hash = "sha256:79b8f0ac92d2351be5f6122356c9a592c96d81c9a79e4b488bf2a6a15f88057a", size = 61566, upload-time = "2023-11-24T18:07:03.851Z" },
@@ -3339,7 +3339,7 @@ fn shared_optional_dependency_extra1() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -3352,13 +3352,13 @@ fn shared_optional_dependency_extra1() -> Result<()> {
 
         [package.optional-dependencies]
         bar = [
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         baz = [
             { name = "anyio" },
         ]
         foo = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -3372,7 +3372,7 @@ fn shared_optional_dependency_extra1() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -3456,10 +3456,10 @@ fn shared_optional_dependency_group1() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'group-7-project-foo'" },
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'group-7-project-bar' or extra != 'group-7-project-foo'" },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'group-7-project-foo'" },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'group-7-project-bar' or extra != 'group-7-project-foo'" },
             { name = "sniffio" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz", hash = "sha256:f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6", size = 159642, upload-time = "2024-02-19T08:36:28.641Z" }
@@ -3470,7 +3470,7 @@ fn shared_optional_dependency_group1() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/9b/c4/db3e4b22ebc18ee797dae8e14b5db68e5826ae6337334c276f1cb4ff84fb/idna-3.5.tar.gz", hash = "sha256:27009fe2735bf8723353582d48575b23c533cc2c2de7b5a68908d91b5eb18d08", size = 64640, upload-time = "2023-11-24T18:07:06.343Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ea/65/9c7a31be86861d43da3d4f8661f677b38120320540773a04979ad6fa9ecd/idna-3.5-py3-none-any.whl", hash = "sha256:79b8f0ac92d2351be5f6122356c9a592c96d81c9a79e4b488bf2a6a15f88057a", size = 61566, upload-time = "2023-11-24T18:07:03.851Z" },
@@ -3479,7 +3479,7 @@ fn shared_optional_dependency_group1() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -3492,13 +3492,13 @@ fn shared_optional_dependency_group1() -> Result<()> {
 
         [package.dev-dependencies]
         bar = [
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         baz = [
             { name = "anyio" },
         ]
         foo = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -3511,7 +3511,7 @@ fn shared_optional_dependency_group1() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -3597,10 +3597,10 @@ fn shared_optional_dependency_mixed1() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-7-project-foo'" },
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'group-7-project-bar' or extra != 'extra-7-project-foo'" },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-7-project-foo'" },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'group-7-project-bar' or extra != 'extra-7-project-foo'" },
             { name = "sniffio" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz", hash = "sha256:f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6", size = 159642, upload-time = "2024-02-19T08:36:28.641Z" }
@@ -3611,7 +3611,7 @@ fn shared_optional_dependency_mixed1() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/9b/c4/db3e4b22ebc18ee797dae8e14b5db68e5826ae6337334c276f1cb4ff84fb/idna-3.5.tar.gz", hash = "sha256:27009fe2735bf8723353582d48575b23c533cc2c2de7b5a68908d91b5eb18d08", size = 64640, upload-time = "2023-11-24T18:07:06.343Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ea/65/9c7a31be86861d43da3d4f8661f677b38120320540773a04979ad6fa9ecd/idna-3.5-py3-none-any.whl", hash = "sha256:79b8f0ac92d2351be5f6122356c9a592c96d81c9a79e4b488bf2a6a15f88057a", size = 61566, upload-time = "2023-11-24T18:07:03.851Z" },
@@ -3620,7 +3620,7 @@ fn shared_optional_dependency_mixed1() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -3633,12 +3633,12 @@ fn shared_optional_dependency_mixed1() -> Result<()> {
 
         [package.optional-dependencies]
         foo = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.dev-dependencies]
         bar = [
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         baz = [
             { name = "anyio" },
@@ -3655,7 +3655,7 @@ fn shared_optional_dependency_mixed1() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -3742,10 +3742,10 @@ fn shared_optional_dependency_extra2() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-7-project-foo'" },
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-7-project-bar'" },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-7-project-foo'" },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-7-project-bar'" },
             { name = "sniffio" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz", hash = "sha256:f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6", size = 159642, upload-time = "2024-02-19T08:36:28.641Z" }
@@ -3756,7 +3756,7 @@ fn shared_optional_dependency_extra2() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/9b/c4/db3e4b22ebc18ee797dae8e14b5db68e5826ae6337334c276f1cb4ff84fb/idna-3.5.tar.gz", hash = "sha256:27009fe2735bf8723353582d48575b23c533cc2c2de7b5a68908d91b5eb18d08", size = 64640, upload-time = "2023-11-24T18:07:06.343Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ea/65/9c7a31be86861d43da3d4f8661f677b38120320540773a04979ad6fa9ecd/idna-3.5-py3-none-any.whl", hash = "sha256:79b8f0ac92d2351be5f6122356c9a592c96d81c9a79e4b488bf2a6a15f88057a", size = 61566, upload-time = "2023-11-24T18:07:03.851Z" },
@@ -3765,7 +3765,7 @@ fn shared_optional_dependency_extra2() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -3779,11 +3779,11 @@ fn shared_optional_dependency_extra2() -> Result<()> {
         [package.optional-dependencies]
         bar = [
             { name = "anyio" },
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         foo = [
             { name = "anyio" },
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -3798,7 +3798,7 @@ fn shared_optional_dependency_extra2() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -3883,10 +3883,10 @@ fn shared_optional_dependency_group2() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'group-7-project-foo'" },
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'group-7-project-bar'" },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'group-7-project-foo'" },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'group-7-project-bar'" },
             { name = "sniffio" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz", hash = "sha256:f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6", size = 159642, upload-time = "2024-02-19T08:36:28.641Z" }
@@ -3897,7 +3897,7 @@ fn shared_optional_dependency_group2() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/9b/c4/db3e4b22ebc18ee797dae8e14b5db68e5826ae6337334c276f1cb4ff84fb/idna-3.5.tar.gz", hash = "sha256:27009fe2735bf8723353582d48575b23c533cc2c2de7b5a68908d91b5eb18d08", size = 64640, upload-time = "2023-11-24T18:07:06.343Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ea/65/9c7a31be86861d43da3d4f8661f677b38120320540773a04979ad6fa9ecd/idna-3.5-py3-none-any.whl", hash = "sha256:79b8f0ac92d2351be5f6122356c9a592c96d81c9a79e4b488bf2a6a15f88057a", size = 61566, upload-time = "2023-11-24T18:07:03.851Z" },
@@ -3906,7 +3906,7 @@ fn shared_optional_dependency_group2() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -3920,11 +3920,11 @@ fn shared_optional_dependency_group2() -> Result<()> {
         [package.dev-dependencies]
         bar = [
             { name = "anyio" },
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         foo = [
             { name = "anyio" },
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -3942,7 +3942,7 @@ fn shared_optional_dependency_group2() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -4029,10 +4029,10 @@ fn shared_optional_dependency_mixed2() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-7-project-foo'" },
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'group-7-project-bar'" },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-7-project-foo'" },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'group-7-project-bar'" },
             { name = "sniffio" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz", hash = "sha256:f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6", size = 159642, upload-time = "2024-02-19T08:36:28.641Z" }
@@ -4043,7 +4043,7 @@ fn shared_optional_dependency_mixed2() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/9b/c4/db3e4b22ebc18ee797dae8e14b5db68e5826ae6337334c276f1cb4ff84fb/idna-3.5.tar.gz", hash = "sha256:27009fe2735bf8723353582d48575b23c533cc2c2de7b5a68908d91b5eb18d08", size = 64640, upload-time = "2023-11-24T18:07:06.343Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ea/65/9c7a31be86861d43da3d4f8661f677b38120320540773a04979ad6fa9ecd/idna-3.5-py3-none-any.whl", hash = "sha256:79b8f0ac92d2351be5f6122356c9a592c96d81c9a79e4b488bf2a6a15f88057a", size = 61566, upload-time = "2023-11-24T18:07:03.851Z" },
@@ -4052,7 +4052,7 @@ fn shared_optional_dependency_mixed2() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -4066,13 +4066,13 @@ fn shared_optional_dependency_mixed2() -> Result<()> {
         [package.optional-dependencies]
         foo = [
             { name = "anyio" },
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.dev-dependencies]
         bar = [
             { name = "anyio" },
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -4091,7 +4091,7 @@ fn shared_optional_dependency_mixed2() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -4173,10 +4173,10 @@ fn shared_dependency_extra() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-7-project-foo'" },
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-7-project-bar' or extra != 'extra-7-project-foo'" },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-7-project-foo'" },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-7-project-bar' or extra != 'extra-7-project-foo'" },
             { name = "sniffio" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz", hash = "sha256:f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6", size = 159642, upload-time = "2024-02-19T08:36:28.641Z" }
@@ -4187,7 +4187,7 @@ fn shared_dependency_extra() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/9b/c4/db3e4b22ebc18ee797dae8e14b5db68e5826ae6337334c276f1cb4ff84fb/idna-3.5.tar.gz", hash = "sha256:27009fe2735bf8723353582d48575b23c533cc2c2de7b5a68908d91b5eb18d08", size = 64640, upload-time = "2023-11-24T18:07:06.343Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ea/65/9c7a31be86861d43da3d4f8661f677b38120320540773a04979ad6fa9ecd/idna-3.5-py3-none-any.whl", hash = "sha256:79b8f0ac92d2351be5f6122356c9a592c96d81c9a79e4b488bf2a6a15f88057a", size = 61566, upload-time = "2023-11-24T18:07:03.851Z" },
@@ -4196,7 +4196,7 @@ fn shared_dependency_extra() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -4212,10 +4212,10 @@ fn shared_dependency_extra() -> Result<()> {
 
         [package.optional-dependencies]
         bar = [
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         foo = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -4229,7 +4229,7 @@ fn shared_dependency_extra() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -4348,10 +4348,10 @@ fn shared_dependency_group() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'group-7-project-foo'" },
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'group-7-project-bar' or extra != 'group-7-project-foo'" },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'group-7-project-foo'" },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'group-7-project-bar' or extra != 'group-7-project-foo'" },
             { name = "sniffio" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz", hash = "sha256:f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6", size = 159642, upload-time = "2024-02-19T08:36:28.641Z" }
@@ -4362,7 +4362,7 @@ fn shared_dependency_group() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/9b/c4/db3e4b22ebc18ee797dae8e14b5db68e5826ae6337334c276f1cb4ff84fb/idna-3.5.tar.gz", hash = "sha256:27009fe2735bf8723353582d48575b23c533cc2c2de7b5a68908d91b5eb18d08", size = 64640, upload-time = "2023-11-24T18:07:06.343Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ea/65/9c7a31be86861d43da3d4f8661f677b38120320540773a04979ad6fa9ecd/idna-3.5-py3-none-any.whl", hash = "sha256:79b8f0ac92d2351be5f6122356c9a592c96d81c9a79e4b488bf2a6a15f88057a", size = 61566, upload-time = "2023-11-24T18:07:03.851Z" },
@@ -4371,7 +4371,7 @@ fn shared_dependency_group() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -4387,10 +4387,10 @@ fn shared_dependency_group() -> Result<()> {
 
         [package.dev-dependencies]
         bar = [
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         foo = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -4403,7 +4403,7 @@ fn shared_dependency_group() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -4524,10 +4524,10 @@ fn shared_dependency_mixed() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-7-project-foo'" },
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'group-7-project-bar' or extra != 'extra-7-project-foo'" },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-7-project-foo'" },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'group-7-project-bar' or extra != 'extra-7-project-foo'" },
             { name = "sniffio" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz", hash = "sha256:f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6", size = 159642, upload-time = "2024-02-19T08:36:28.641Z" }
@@ -4538,7 +4538,7 @@ fn shared_dependency_mixed() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/9b/c4/db3e4b22ebc18ee797dae8e14b5db68e5826ae6337334c276f1cb4ff84fb/idna-3.5.tar.gz", hash = "sha256:27009fe2735bf8723353582d48575b23c533cc2c2de7b5a68908d91b5eb18d08", size = 64640, upload-time = "2023-11-24T18:07:06.343Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ea/65/9c7a31be86861d43da3d4f8661f677b38120320540773a04979ad6fa9ecd/idna-3.5-py3-none-any.whl", hash = "sha256:79b8f0ac92d2351be5f6122356c9a592c96d81c9a79e4b488bf2a6a15f88057a", size = 61566, upload-time = "2023-11-24T18:07:03.851Z" },
@@ -4547,7 +4547,7 @@ fn shared_dependency_mixed() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -4563,12 +4563,12 @@ fn shared_dependency_mixed() -> Result<()> {
 
         [package.optional-dependencies]
         foo = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.dev-dependencies]
         bar = [
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -4584,7 +4584,7 @@ fn shared_dependency_mixed() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -4749,11 +4749,11 @@ conflicts = [
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "idna", version = "3.4", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-6-proxy1-x2' or (extra == 'extra-6-proxy1-x3' and extra == 'extra-7-project-x1')" },
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-6-proxy1-x3' or (extra == 'extra-6-proxy1-x2' and extra == 'extra-7-project-x1')" },
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-7-project-x1' or (extra == 'extra-6-proxy1-x2' and extra == 'extra-6-proxy1-x3') or (extra != 'extra-6-proxy1-x2' and extra != 'extra-6-proxy1-x3')" },
+            { name = "idna", version = "3.4", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-6-proxy1-x2' or (extra == 'extra-6-proxy1-x3' and extra == 'extra-7-project-x1')" },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-6-proxy1-x3' or (extra == 'extra-6-proxy1-x2' and extra == 'extra-7-project-x1')" },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-7-project-x1' or (extra == 'extra-6-proxy1-x2' and extra == 'extra-6-proxy1-x3') or (extra != 'extra-6-proxy1-x2' and extra != 'extra-6-proxy1-x3')" },
             { name = "sniffio" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz", hash = "sha256:f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6", size = 159642, upload-time = "2024-02-19T08:36:28.641Z" }
@@ -4764,7 +4764,7 @@ conflicts = [
         [[package]]
         name = "idna"
         version = "3.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/8b/e1/43beb3d38dba6cb420cefa297822eac205a277ab43e5ba5d5c46faf96438/idna-3.4.tar.gz", hash = "sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4", size = 183077, upload-time = "2022-09-14T00:24:27.719Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/fc/34/3030de6f1370931b9dbb4dad48f6ab1015ab1d32447850b9fc94e60097be/idna-3.4-py3-none-any.whl", hash = "sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2", size = 61538, upload-time = "2022-09-14T00:24:23.22Z" },
@@ -4773,7 +4773,7 @@ conflicts = [
         [[package]]
         name = "idna"
         version = "3.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/9b/c4/db3e4b22ebc18ee797dae8e14b5db68e5826ae6337334c276f1cb4ff84fb/idna-3.5.tar.gz", hash = "sha256:27009fe2735bf8723353582d48575b23c533cc2c2de7b5a68908d91b5eb18d08", size = 64640, upload-time = "2023-11-24T18:07:06.343Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ea/65/9c7a31be86861d43da3d4f8661f677b38120320540773a04979ad6fa9ecd/idna-3.5-py3-none-any.whl", hash = "sha256:79b8f0ac92d2351be5f6122356c9a592c96d81c9a79e4b488bf2a6a15f88057a", size = 61566, upload-time = "2023-11-24T18:07:03.851Z" },
@@ -4782,7 +4782,7 @@ conflicts = [
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -4799,7 +4799,7 @@ conflicts = [
 
         [package.optional-dependencies]
         x1 = [
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -4817,10 +4817,10 @@ conflicts = [
 
         [package.optional-dependencies]
         x2 = [
-            { name = "idna", version = "3.4", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.4", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         x3 = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -4833,7 +4833,7 @@ conflicts = [
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -4931,7 +4931,7 @@ fn jinja_no_conflict_markers1() -> Result<()> {
         [[package]]
         name = "babel"
         version = "2.16.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/2a/74/f1bc80f23eeba13393b7222b11d95ca3af2c1e28edca18af487137eefed9/babel-2.16.0.tar.gz", hash = "sha256:d1f3554ca26605fe173f3de0c65f750f5a42f924499bf134de6423582298e316", size = 9348104, upload-time = "2024-08-08T14:25:45.459Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ed/20/bc79bc575ba2e2a7f70e8a1155618bb1301eaa5132a8271373a6903f73f8/babel-2.16.0-py3-none-any.whl", hash = "sha256:368b5b98b37c06b7daf6696391c3240c938b37767d4584413e8438c5c435fa8b", size = 9587599, upload-time = "2024-08-08T14:25:42.686Z" },
@@ -4972,7 +4972,7 @@ fn jinja_no_conflict_markers1() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "2.1.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/87/5b/aae44c6655f3801e81aa3eef09dbbf012431987ba564d7231722f68df02d/MarkupSafe-2.1.5.tar.gz", hash = "sha256:d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b", size = 19384, upload-time = "2024-02-02T16:31:22.863Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/53/bd/583bf3e4c8d6a321938c13f49d44024dbe5ed63e0a7ba127e454a66da974/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:8dec4936e9c3100156f8a2dc89c4b88d5c435175ff03413b443469c7c8c5f4d1", size = 18215, upload-time = "2024-02-02T16:30:33.081Z" },
@@ -5113,7 +5113,7 @@ fn jinja_no_conflict_markers2() -> Result<()> {
         [[package]]
         name = "jinja2"
         version = "3.1.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "sys_platform != 'darwin'",
         ]
@@ -5139,7 +5139,7 @@ fn jinja_no_conflict_markers2() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "2.1.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/87/5b/aae44c6655f3801e81aa3eef09dbbf012431987ba564d7231722f68df02d/MarkupSafe-2.1.5.tar.gz", hash = "sha256:d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b", size = 19384, upload-time = "2024-02-02T16:31:22.863Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/53/bd/583bf3e4c8d6a321938c13f49d44024dbe5ed63e0a7ba127e454a66da974/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:8dec4936e9c3100156f8a2dc89c4b88d5c435175ff03413b443469c7c8c5f4d1", size = 18215, upload-time = "2024-02-02T16:30:33.081Z" },
@@ -5162,7 +5162,7 @@ fn jinja_no_conflict_markers2() -> Result<()> {
         [package.optional-dependencies]
         cu118 = [
             { name = "jinja2", version = "3.1.2", source = { registry = "https://astral-sh.github.io/pytorch-mirror/whl/cu118" }, marker = "(sys_platform == 'darwin' and extra == 'extra-7-project-cu118') or (extra == 'extra-7-project-cu118' and extra == 'extra-7-project-cu124')" },
-            { name = "jinja2", version = "3.1.2", source = { registry = "https://pypi.org/simple" }, marker = "(sys_platform != 'darwin' and extra == 'extra-7-project-cu118') or (extra == 'extra-7-project-cu118' and extra == 'extra-7-project-cu124')" },
+            { name = "jinja2", version = "3.1.2", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(sys_platform != 'darwin' and extra == 'extra-7-project-cu118') or (extra == 'extra-7-project-cu118' and extra == 'extra-7-project-cu124')" },
         ]
         cu124 = [
             { name = "jinja2", version = "3.1.3", source = { registry = "https://astral-sh.github.io/pytorch-mirror/whl/cu124" } },
@@ -5251,10 +5251,10 @@ fn collision_extra() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-foo'" },
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-bar' or extra != 'extra-3-pkg-foo'" },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-foo'" },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-bar' or extra != 'extra-3-pkg-foo'" },
             { name = "sniffio" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz", hash = "sha256:f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6", size = 159642, upload-time = "2024-02-19T08:36:28.641Z" }
@@ -5265,7 +5265,7 @@ fn collision_extra() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/9b/c4/db3e4b22ebc18ee797dae8e14b5db68e5826ae6337334c276f1cb4ff84fb/idna-3.5.tar.gz", hash = "sha256:27009fe2735bf8723353582d48575b23c533cc2c2de7b5a68908d91b5eb18d08", size = 64640, upload-time = "2023-11-24T18:07:06.343Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ea/65/9c7a31be86861d43da3d4f8661f677b38120320540773a04979ad6fa9ecd/idna-3.5-py3-none-any.whl", hash = "sha256:79b8f0ac92d2351be5f6122356c9a592c96d81c9a79e4b488bf2a6a15f88057a", size = 61566, upload-time = "2023-11-24T18:07:03.851Z" },
@@ -5274,7 +5274,7 @@ fn collision_extra() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -5290,13 +5290,13 @@ fn collision_extra() -> Result<()> {
 
         [package.optional-dependencies]
         bar = [
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         extra-3-pkg-foo = [
             { name = "sortedcontainers" },
         ]
         foo = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" } },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -5311,7 +5311,7 @@ fn collision_extra() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -5320,7 +5320,7 @@ fn collision_extra() -> Result<()> {
         [[package]]
         name = "sortedcontainers"
         version = "2.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e8/c4/ba2f8066cceb6f23394729afe52f3bf7adec04bf9ed2c820b39e19299111/sortedcontainers-2.4.0.tar.gz", hash = "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88", size = 30594, upload-time = "2021-05-16T22:03:42.897Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/32/46/9cb0e58b2deb7f82b84065f37f3bffeb12413f947f9388e4cac22c4621ce/sortedcontainers-2.4.0-py2.py3-none-any.whl", hash = "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0", size = 29575, upload-time = "2021-05-16T22:03:41.177Z" },
@@ -5491,7 +5491,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "a2wsgi"
         version = "1.10.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/94/1c/07d91da0c8618ecc146a811ab01985ca95ad07221483625dc00a024ea5cb/a2wsgi-1.10.4.tar.gz", hash = "sha256:50e81ac55aa609fa2c666e42bacc25c424c8884ce6072f1a7e902114b7ee5d63", size = 18186, upload-time = "2024-03-13T08:55:23.988Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c4/a6/73b02f52206f7bc3600a702726bd75b0cda229a23c4a7ea6189bbd9ae528/a2wsgi-1.10.4-py3-none-any.whl", hash = "sha256:f17da93bf5952e0b0938c87f261c52b7305ddfab1ff3c70dd10b4b76db3851d3", size = 16812, upload-time = "2024-03-13T08:55:22.237Z" },
@@ -5500,7 +5500,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "aiohttp"
         version = "3.9.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "aiosignal" },
             { name = "attrs" },
@@ -5530,7 +5530,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "aiosignal"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "frozenlist" },
         ]
@@ -5542,7 +5542,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "alembic"
         version = "1.13.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "mako" },
             { name = "sqlalchemy" },
@@ -5556,7 +5556,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "annotated-types"
         version = "0.6.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/67/fe/8c7b275824c6d2cd17c93ee85d0ee81c090285b6d52f4876ccc47cf9c3c4/annotated_types-0.6.0.tar.gz", hash = "sha256:563339e807e53ffd9c267e99fc6d9ea23eb8443c08f112651963e24e22f84a5d", size = 14670, upload-time = "2023-10-06T18:53:19.389Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/28/78/d31230046e58c207284c6b2c4e8d96e6d3cb4e52354721b944d3e1ee4aa5/annotated_types-0.6.0-py3-none-any.whl", hash = "sha256:0641064de18ba7a25dee8f96403ebc39113d0cb953a01429249d5c7564666a43", size = 12360, upload-time = "2023-10-06T18:53:18.027Z" },
@@ -5565,7 +5565,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -5578,14 +5578,14 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "apache-airflow"
         version = "2.5.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "alembic", marker = "extra == 'extra-3-pkg-x1'" },
-            { name = "apache-airflow-providers-common-sql", version = "1.8.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
-            { name = "apache-airflow-providers-ftp", version = "3.6.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
-            { name = "apache-airflow-providers-http", version = "4.7.0", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
-            { name = "apache-airflow-providers-imap", version = "3.4.0", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
-            { name = "apache-airflow-providers-sqlite", version = "3.5.0", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
+            { name = "apache-airflow-providers-common-sql", version = "1.8.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
+            { name = "apache-airflow-providers-ftp", version = "3.6.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
+            { name = "apache-airflow-providers-http", version = "4.7.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
+            { name = "apache-airflow-providers-imap", version = "3.4.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
+            { name = "apache-airflow-providers-sqlite", version = "3.5.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
             { name = "argcomplete", marker = "extra == 'extra-3-pkg-x1'" },
             { name = "attrs", marker = "extra == 'extra-3-pkg-x1'" },
             { name = "blinker", marker = "extra == 'extra-3-pkg-x1'" },
@@ -5599,7 +5599,7 @@ fn extra_inferences() -> Result<()> {
             { name = "deprecated", marker = "extra == 'extra-3-pkg-x1'" },
             { name = "dill", marker = "extra == 'extra-3-pkg-x1'" },
             { name = "flask", marker = "extra == 'extra-3-pkg-x1'" },
-            { name = "flask-appbuilder", version = "4.1.4", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
+            { name = "flask-appbuilder", version = "4.1.4", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
             { name = "flask-caching", marker = "extra == 'extra-3-pkg-x1'" },
             { name = "flask-login", marker = "extra == 'extra-3-pkg-x1'" },
             { name = "flask-session", marker = "extra == 'extra-3-pkg-x1'" },
@@ -5648,14 +5648,14 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "apache-airflow"
         version = "2.6.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "alembic" },
-            { name = "apache-airflow-providers-common-sql", version = "1.11.1", source = { registry = "https://pypi.org/simple" } },
-            { name = "apache-airflow-providers-ftp", version = "3.7.0", source = { registry = "https://pypi.org/simple" } },
-            { name = "apache-airflow-providers-http", version = "4.10.0", source = { registry = "https://pypi.org/simple" } },
-            { name = "apache-airflow-providers-imap", version = "3.5.0", source = { registry = "https://pypi.org/simple" } },
-            { name = "apache-airflow-providers-sqlite", version = "3.7.1", source = { registry = "https://pypi.org/simple" } },
+            { name = "apache-airflow-providers-common-sql", version = "1.11.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
+            { name = "apache-airflow-providers-ftp", version = "3.7.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
+            { name = "apache-airflow-providers-http", version = "4.10.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
+            { name = "apache-airflow-providers-imap", version = "3.5.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
+            { name = "apache-airflow-providers-sqlite", version = "3.7.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "argcomplete" },
             { name = "asgiref" },
             { name = "attrs" },
@@ -5670,7 +5670,7 @@ fn extra_inferences() -> Result<()> {
             { name = "deprecated" },
             { name = "dill" },
             { name = "flask" },
-            { name = "flask-appbuilder", version = "4.3.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "flask-appbuilder", version = "4.3.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "flask-caching" },
             { name = "flask-login" },
             { name = "flask-session" },
@@ -5722,9 +5722,9 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "apache-airflow-providers-common-sql"
         version = "1.8.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "apache-airflow", version = "2.5.0", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
+            { name = "apache-airflow", version = "2.5.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
             { name = "sqlparse", marker = "extra == 'extra-3-pkg-x1'" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/97/4c/7360977c53952ed7b5ab4e13f1c433c6bbf00ab13e3221dc72e57ef668b5/apache_airflow_providers_common_sql-1.8.1.tar.gz", hash = "sha256:1cd2fdfc7ce7a8a7475943672bdf1cdf424a0a355e47d0a2fb56046fec473050", size = 29503, upload-time = "2023-11-29T07:15:59.133Z" }
@@ -5735,9 +5735,9 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "apache-airflow-providers-common-sql"
         version = "1.11.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "apache-airflow", version = "2.6.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "apache-airflow", version = "2.6.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "more-itertools" },
             { name = "sqlparse" },
         ]
@@ -5749,9 +5749,9 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "apache-airflow-providers-ftp"
         version = "3.6.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "apache-airflow", version = "2.5.0", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
+            { name = "apache-airflow", version = "2.5.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/5f/db/8ba81e6f25b726ee3bc971bcd20c344d8ce0a4dea3d0524096115daf92e5/apache-airflow-providers-ftp-3.6.1.tar.gz", hash = "sha256:a3c8659d1455f6e8a0a3f6a960b15cb6d69e7572f8826037a4002c397d26ac12", size = 16778, upload-time = "2023-11-12T18:49:11.561Z" }
         wheels = [
@@ -5761,9 +5761,9 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "apache-airflow-providers-ftp"
         version = "3.7.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "apache-airflow", version = "2.6.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "apache-airflow", version = "2.6.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/04/be/15ed8d2752ceb9c1af2598e701cf0f1a3574a6740d547edadd3e5f8ad1a0/apache_airflow_providers_ftp-3.7.0.tar.gz", hash = "sha256:cc6e7602fb9b92255b83343673923339c8fe7d22c8c738ba372ce38a70cce1cc", size = 13020, upload-time = "2023-12-12T07:15:02.262Z" }
         wheels = [
@@ -5773,10 +5773,10 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "apache-airflow-providers-http"
         version = "4.7.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "aiohttp", marker = "extra == 'extra-3-pkg-x1'" },
-            { name = "apache-airflow", version = "2.5.0", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
+            { name = "apache-airflow", version = "2.5.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
             { name = "asgiref", marker = "extra == 'extra-3-pkg-x1'" },
             { name = "requests", marker = "extra == 'extra-3-pkg-x1'" },
             { name = "requests-toolbelt", marker = "extra == 'extra-3-pkg-x1'" },
@@ -5789,10 +5789,10 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "apache-airflow-providers-http"
         version = "4.10.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "aiohttp" },
-            { name = "apache-airflow", version = "2.6.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "apache-airflow", version = "2.6.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "asgiref" },
             { name = "requests" },
             { name = "requests-toolbelt" },
@@ -5805,9 +5805,9 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "apache-airflow-providers-imap"
         version = "3.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "apache-airflow", version = "2.5.0", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
+            { name = "apache-airflow", version = "2.5.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/f6/d1/524c13c4c98040d2139305530a0c4acb773dc37bb578c41ec135ca438bae/apache-airflow-providers-imap-3.4.0.tar.gz", hash = "sha256:347f78efa0e1353f90be78244fad0136d7c0cb1af25b9a3ba296d4e31fb53f6c", size = 15806, upload-time = "2023-10-17T07:46:59.647Z" }
         wheels = [
@@ -5817,9 +5817,9 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "apache-airflow-providers-imap"
         version = "3.5.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "apache-airflow", version = "2.6.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "apache-airflow", version = "2.6.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/9f/cf/c138f68f83b874824f4c225a2985acf8b5e2f1d6f521d2b94ac615774eee/apache_airflow_providers_imap-3.5.0.tar.gz", hash = "sha256:d50929801cb9b7abcea33799e8b3cd64b756bd42530a44281febaffcdb30998f", size = 12231, upload-time = "2023-12-12T07:15:09.417Z" }
         wheels = [
@@ -5829,10 +5829,10 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "apache-airflow-providers-sqlite"
         version = "3.5.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "apache-airflow", version = "2.5.0", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
-            { name = "apache-airflow-providers-common-sql", version = "1.8.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
+            { name = "apache-airflow", version = "2.5.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
+            { name = "apache-airflow-providers-common-sql", version = "1.8.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/62/4a/ba727087ef486e16e028ba169c198007a1dcbde569179bfbec6b57602054/apache-airflow-providers-sqlite-3.5.0.tar.gz", hash = "sha256:6f47c25d7fb026fa8b8b4dc8edfee1491998255048255625716fceaae2c67024", size = 12946, upload-time = "2023-10-17T07:47:35.68Z" }
         wheels = [
@@ -5842,10 +5842,10 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "apache-airflow-providers-sqlite"
         version = "3.7.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "apache-airflow", version = "2.6.0", source = { registry = "https://pypi.org/simple" } },
-            { name = "apache-airflow-providers-common-sql", version = "1.11.1", source = { registry = "https://pypi.org/simple" } },
+            { name = "apache-airflow", version = "2.6.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
+            { name = "apache-airflow-providers-common-sql", version = "1.11.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/77/32/f8c8edc5e071d2d9d92d3711cea0089a3fd2e22d619deb5174a55228bc3e/apache_airflow_providers_sqlite-3.7.1.tar.gz", hash = "sha256:0dd8967ac1f3fb518cef278611a2f8bbae19421e215e0bf4ede01542d4af86cf", size = 9454, upload-time = "2024-02-15T15:46:24.702Z" }
         wheels = [
@@ -5855,7 +5855,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "apispec"
         version = "3.3.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/1f/41/55fcfb7f5e8ac178a32875f55dfd0f5568c3cd1022724d34d0434e32b47b/apispec-3.3.2.tar.gz", hash = "sha256:d23ebd5b71e541e031b02a19db10b5e6d5ef8452c552833e3e1afc836b40b1ad", size = 67794, upload-time = "2020-08-29T20:23:17.63Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/35/a2/80a82b22296c942a5298bb760e8e21c86ace3342de840ff3df8938af4272/apispec-3.3.2-py2.py3-none-any.whl", hash = "sha256:a1df9ec6b2cd0edf45039ef025abd7f0660808fa2edf737d3ba1cf5ef1a4625b", size = 27146, upload-time = "2020-08-29T20:23:16.072Z" },
@@ -5869,7 +5869,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "apispec"
         version = "5.2.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/39/bb/2910f46ecba16334c19e4f02906b1fdb0e69f9c3fd9a21afcf86c45ba89e/apispec-5.2.2.tar.gz", hash = "sha256:6ea6542e1ebffe9fd95ba01ef3f51351eac6c200a974562c7473059b9cd20aa7", size = 75729, upload-time = "2022-05-12T22:18:20.648Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/7b/bf/8ab9b532c9a22e9cc4920ed7436fde5f207807346564b95d9782f1e2aa5e/apispec-5.2.2-py3-none-any.whl", hash = "sha256:f5f0d6b452c3e4a0e0922dce8815fac89dc4dbc758acef21fb9e01584d6602a5", size = 29618, upload-time = "2022-05-12T22:18:19.235Z" },
@@ -5883,7 +5883,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "argcomplete"
         version = "3.2.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/3c/c0/031c507227ce3b715274c1cd1f3f9baf7a0f7cec075e22c7c8b5d4e468a9/argcomplete-3.2.3.tar.gz", hash = "sha256:bf7900329262e481be5a15f56f19736b376df6f82ed27576fa893652c5de6c23", size = 81130, upload-time = "2024-03-08T01:30:12.749Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/88/8c/61021c45428ad2ef6131c6068d14f7f0968767e972e427cd87bd25c9ea7b/argcomplete-3.2.3-py3-none-any.whl", hash = "sha256:c12355e0494c76a2a7b73e3a59b09024ca0ba1e279fb9ed6c1b82d5b74b6a70c", size = 42580, upload-time = "2024-03-08T01:30:10.23Z" },
@@ -5892,7 +5892,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "asgiref"
         version = "3.8.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/29/38/b3395cc9ad1b56d2ddac9970bc8f4141312dbaec28bc7c218b0dfafd0f42/asgiref-3.8.1.tar.gz", hash = "sha256:c343bd80a0bec947a9860adb4c432ffa7db769836c64238fc34bdc3fec84d590", size = 35186, upload-time = "2024-03-22T14:39:36.863Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/39/e3/893e8757be2612e6c266d9bb58ad2e3651524b5b40cf56761e985a28b13e/asgiref-3.8.1-py3-none-any.whl", hash = "sha256:3e1e3ecc849832fe52ccf2cb6686b7a55f82bb1d6aee72a58826471390335e47", size = 23828, upload-time = "2024-03-22T14:39:34.521Z" },
@@ -5901,7 +5901,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "attrs"
         version = "23.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e3/fc/f800d51204003fa8ae392c4e8278f256206e7a919b708eef054f5f4b650d/attrs-23.2.0.tar.gz", hash = "sha256:935dc3b529c262f6cf76e50877d35a4bd3c1de194fd41f47a2b7ae8f19971f30", size = 780820, upload-time = "2023-12-31T06:30:32.926Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e0/44/827b2a91a5816512fcaf3cc4ebc465ccd5d598c45cefa6703fcf4a79018f/attrs-23.2.0-py3-none-any.whl", hash = "sha256:99b87a485a5820b23b879f04c2305b44b951b502fd64be915879d77a7e8fc6f1", size = 60752, upload-time = "2023-12-31T06:30:30.772Z" },
@@ -5910,7 +5910,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "babel"
         version = "2.14.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e2/80/cfbe44a9085d112e983282ee7ca4c00429bc4d1ce86ee5f4e60259ddff7f/Babel-2.14.0.tar.gz", hash = "sha256:6919867db036398ba21eb5c7a0f6b28ab8cbc3ae7a73a44ebe34ae74a4e7d363", size = 10795622, upload-time = "2023-12-12T13:33:16.473Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/0d/35/4196b21041e29a42dc4f05866d0c94fa26c9da88ce12c38c2265e42c82fb/Babel-2.14.0-py3-none-any.whl", hash = "sha256:efb1a25b7118e67ce3a259bed20545c29cb68be8ad2c784c83689981b7a57287", size = 11034798, upload-time = "2023-12-12T13:33:13.288Z" },
@@ -5919,7 +5919,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "blinker"
         version = "1.7.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a1/13/6df5fc090ff4e5d246baf1f45fe9e5623aa8565757dfa5bd243f6a545f9e/blinker-1.7.0.tar.gz", hash = "sha256:e6820ff6fa4e4d1d8e2747c2283749c3f547e4fee112b98555cdcdae32996182", size = 28134, upload-time = "2023-11-01T22:06:01.588Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/fa/2a/7f3714cbc6356a0efec525ce7a0613d581072ed6eb53eb7b9754f33db807/blinker-1.7.0-py3-none-any.whl", hash = "sha256:c3f865d4d54db7abc53758a01601cf343fe55b84c1de4e3fa910e420b438d5b9", size = 13068, upload-time = "2023-11-01T22:06:00.162Z" },
@@ -5928,7 +5928,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "cachelib"
         version = "0.9.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/79/f2/1c76df4d295789bbc836eea50b813d64f86e640c29fe8f0a3686e9c4e3e9/cachelib-0.9.0.tar.gz", hash = "sha256:38222cc7c1b79a23606de5c2607f4925779e37cdcea1c2ad21b8bae94b5425a5", size = 21007, upload-time = "2022-06-26T17:56:58.916Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/93/70/58e525451478055b0fd2859b22226888a6985d404fe65e014fc4893d3b75/cachelib-0.9.0-py3-none-any.whl", hash = "sha256:811ceeb1209d2fe51cd2b62810bd1eccf70feba5c52641532498be5c675493b3", size = 15716, upload-time = "2022-06-26T17:56:57.055Z" },
@@ -5937,7 +5937,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "cattrs"
         version = "23.2.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "attrs" },
         ]
@@ -5949,7 +5949,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "certifi"
         version = "2024.2.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/71/da/e94e26401b62acd6d91df2b52954aceb7f561743aa5ccc32152886c76c96/certifi-2024.2.2.tar.gz", hash = "sha256:0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f", size = 164886, upload-time = "2024-02-02T01:22:17.364Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl", hash = "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1", size = 163774, upload-time = "2024-02-02T01:22:14.86Z" },
@@ -5958,7 +5958,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "cffi"
         version = "1.16.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "pycparser" },
         ]
@@ -5979,7 +5979,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "charset-normalizer"
         version = "3.3.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset-normalizer-3.3.2.tar.gz", hash = "sha256:f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5", size = 104809, upload-time = "2023-11-01T04:04:59.997Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/d1/b2/fcedc8255ec42afee97f9e6f0145c734bbe104aac28300214593eb326f1d/charset_normalizer-3.3.2-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:0b2b64d2bb6d3fb9112bafa732def486049e63de9618b5843bcdd081d8144cd8", size = 192892, upload-time = "2023-11-01T04:03:24.135Z" },
@@ -6003,7 +6003,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "click"
         version = "8.1.7"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "colorama", marker = "sys_platform == 'win32' or (extra == 'extra-3-pkg-x1' and extra == 'extra-3-pkg-x2')" },
         ]
@@ -6015,7 +6015,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "colorama"
         version = "0.4.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44", size = 27697, upload-time = "2022-10-25T02:36:22.414Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6", size = 25335, upload-time = "2022-10-25T02:36:20.889Z" },
@@ -6024,7 +6024,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "colorlog"
         version = "4.8.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "colorama", marker = "sys_platform == 'win32' or (extra == 'extra-3-pkg-x1' and extra == 'extra-3-pkg-x2')" },
         ]
@@ -6036,7 +6036,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "configupdater"
         version = "3.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/2b/f4/603bd8a65e040b23d25b5843836297b0f4e430f509d8ed2ef8f072fb4127/ConfigUpdater-3.2.tar.gz", hash = "sha256:9fdac53831c1b062929bf398b649b87ca30e7f1a735f3fbf482072804106306b", size = 140603, upload-time = "2023-11-27T17:16:45.434Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e7/f0/b59cb7613d9d0f866b6ff247c5953ad78363c27ff5d684a2a98899ab8220/ConfigUpdater-3.2-py2.py3-none-any.whl", hash = "sha256:0f65a041627d7693840b4dd743581db4c441c97195298a29d075f91b79539df2", size = 34688, upload-time = "2023-11-27T17:16:43.53Z" },
@@ -6045,7 +6045,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "connexion"
         version = "3.0.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "asgiref" },
             { name = "httpx" },
@@ -6076,7 +6076,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "cron-descriptor"
         version = "1.4.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/28/be/bb2c93b445fdd341ec057e0920c5b2b35c910db6f0d76dca8ea123504107/cron_descriptor-1.4.3.tar.gz", hash = "sha256:7b1a00d7d25d6ae6896c0da4457e790b98cba778398a3d48e341e5e0d33f0488", size = 30289, upload-time = "2024-01-29T22:11:33.985Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e0/18/136b0073305038d1317f3442f614a698ce686830a2810bbe7e875311e09f/cron_descriptor-1.4.3-py3-none-any.whl", hash = "sha256:a67ba21804983b1427ed7f3e1ec27ee77bf24c652b0430239c268c5ddfbf9dc0", size = 49799, upload-time = "2024-01-29T22:11:31.662Z" },
@@ -6085,7 +6085,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "croniter"
         version = "2.0.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "python-dateutil" },
             { name = "pytz" },
@@ -6098,7 +6098,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "cryptography"
         version = "42.0.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "cffi", marker = "platform_python_implementation != 'PyPy' or (extra == 'extra-3-pkg-x1' and extra == 'extra-3-pkg-x2')" },
         ]
@@ -6132,7 +6132,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "deprecated"
         version = "1.2.14"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "wrapt" },
         ]
@@ -6144,7 +6144,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "dill"
         version = "0.3.8"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/17/4d/ac7ffa80c69ea1df30a8aa11b3578692a5118e7cd1aa157e3ef73b092d15/dill-0.3.8.tar.gz", hash = "sha256:3ebe3c479ad625c4553aca177444d89b486b1d84982eeacded644afc0cf797ca", size = 184847, upload-time = "2024-01-27T23:42:16.145Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c9/7a/cef76fd8438a42f96db64ddaa85280485a9c395e7df3db8158cfec1eee34/dill-0.3.8-py3-none-any.whl", hash = "sha256:c36ca9ffb54365bdd2f8eb3eff7d2a21237f8452b57ace88b1ac615b7e815bd7", size = 116252, upload-time = "2024-01-27T23:42:14.239Z" },
@@ -6153,7 +6153,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "dnspython"
         version = "2.6.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/37/7d/c871f55054e403fdfd6b8f65fd6d1c4e147ed100d3e9f9ba1fe695403939/dnspython-2.6.1.tar.gz", hash = "sha256:e8f0f9c23a7b7cb99ded64e6c3a6f3e701d78f50c55e002b839dea7225cff7cc", size = 332727, upload-time = "2024-02-18T18:48:48.952Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/87/a1/8c5287991ddb8d3e4662f71356d9656d91ab3a36618c3dd11b280df0d255/dnspython-2.6.1-py3-none-any.whl", hash = "sha256:5ef3b9680161f6fa89daf8ad451b5f1a33b18ae8a1c6778cdf4b43f08c0a6e50", size = 307696, upload-time = "2024-02-18T18:48:46.786Z" },
@@ -6162,7 +6162,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "docutils"
         version = "0.20.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/1f/53/a5da4f2c5739cf66290fac1431ee52aff6851c7c8ffd8264f13affd7bcdd/docutils-0.20.1.tar.gz", hash = "sha256:f08a4e276c3a1583a86dce3e34aba3fe04d02bba2dd51ed16106244e8a923e3b", size = 2058365, upload-time = "2023-05-16T23:39:19.748Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/26/87/f238c0670b94533ac0353a4e2a1a771a0cc73277b88bff23d3ae35a256c1/docutils-0.20.1-py3-none-any.whl", hash = "sha256:96f387a2c5562db4476f09f13bbab2192e764cac08ebbf3a34a95d9b1e4a59d6", size = 572666, upload-time = "2023-05-16T23:39:15.976Z" },
@@ -6171,7 +6171,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "email-validator"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "dnspython" },
             { name = "idna" },
@@ -6184,7 +6184,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "flask"
         version = "2.2.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "click" },
             { name = "itsdangerous" },
@@ -6204,9 +6204,9 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "flask-appbuilder"
         version = "4.1.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "apispec", version = "3.3.2", source = { registry = "https://pypi.org/simple" }, extra = ["yaml"], marker = "extra == 'extra-3-pkg-x1'" },
+            { name = "apispec", version = "3.3.2", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, extra = ["yaml"], marker = "extra == 'extra-3-pkg-x1'" },
             { name = "click", marker = "extra == 'extra-3-pkg-x1'" },
             { name = "colorama", marker = "extra == 'extra-3-pkg-x1'" },
             { name = "email-validator", marker = "extra == 'extra-3-pkg-x1'" },
@@ -6235,9 +6235,9 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "flask-appbuilder"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "apispec", version = "5.2.2", source = { registry = "https://pypi.org/simple" }, extra = ["yaml"], marker = "extra == 'extra-3-pkg-x2' or extra != 'extra-3-pkg-x1'" },
+            { name = "apispec", version = "5.2.2", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, extra = ["yaml"], marker = "extra == 'extra-3-pkg-x2' or extra != 'extra-3-pkg-x1'" },
             { name = "click" },
             { name = "colorama" },
             { name = "email-validator" },
@@ -6267,7 +6267,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "flask-babel"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "babel" },
             { name = "flask" },
@@ -6282,7 +6282,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "flask-caching"
         version = "2.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "cachelib" },
             { name = "flask" },
@@ -6295,7 +6295,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "flask-jwt-extended"
         version = "4.6.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "flask" },
             { name = "pyjwt" },
@@ -6309,7 +6309,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "flask-limiter"
         version = "3.5.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "flask" },
             { name = "limits" },
@@ -6325,7 +6325,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "flask-login"
         version = "0.6.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "flask" },
             { name = "werkzeug" },
@@ -6338,7 +6338,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "flask-session"
         version = "0.7.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "flask" },
             { name = "msgspec" },
@@ -6351,7 +6351,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "flask-sqlalchemy"
         version = "2.5.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "flask" },
             { name = "sqlalchemy" },
@@ -6364,7 +6364,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "flask-wtf"
         version = "1.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "flask" },
             { name = "itsdangerous" },
@@ -6378,7 +6378,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "frozenlist"
         version = "1.4.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/cf/3d/2102257e7acad73efc4a0c306ad3953f68c504c16982bbdfee3ad75d8085/frozenlist-1.4.1.tar.gz", hash = "sha256:c037a86e8513059a2613aaba4d817bb90b9d9b6b69aace3ce9c877e8c8ed402b", size = 37820, upload-time = "2023-12-15T08:42:23.355Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b4/db/4cf37556a735bcdb2582f2c3fa286aefde2322f92d3141e087b8aeb27177/frozenlist-1.4.1-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:1979bc0aeb89b33b588c51c54ab0161791149f2461ea7c7c946d95d5f93b56ae", size = 93937, upload-time = "2023-12-15T08:41:16.085Z" },
@@ -6402,7 +6402,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "graphviz"
         version = "0.20.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/fa/83/5a40d19b8347f017e417710907f824915fba411a9befd092e52746b63e9f/graphviz-0.20.3.zip", hash = "sha256:09d6bc81e6a9fa392e7ba52135a9d49f1ed62526f96499325930e87ca1b5925d", size = 256455, upload-time = "2024-03-21T07:50:45.772Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/00/be/d59db2d1d52697c6adc9eacaf50e8965b6345cc143f671e1ed068818d5cf/graphviz-0.20.3-py3-none-any.whl", hash = "sha256:81f848f2904515d8cd359cc611faba817598d2feaac4027b266aa3eda7b3dde5", size = 47126, upload-time = "2024-03-21T07:50:43.091Z" },
@@ -6411,7 +6411,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "greenlet"
         version = "3.0.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/17/14/3bddb1298b9a6786539ac609ba4b7c9c0842e12aa73aaa4d8d73ec8f8185/greenlet-3.0.3.tar.gz", hash = "sha256:43374442353259554ce33599da8b692d5aa96f8976d567d4badf263371fbe491", size = 182013, upload-time = "2023-12-21T22:02:54.659Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a2/2f/461615adc53ba81e99471303b15ac6b2a6daa8d2a0f7f77fd15605e16d5b/greenlet-3.0.3-cp312-cp312-macosx_11_0_universal2.whl", hash = "sha256:70fb482fdf2c707765ab5f0b6655e9cfcf3780d8d87355a063547b41177599be", size = 273085, upload-time = "2023-12-21T22:03:01.176Z" },
@@ -6428,7 +6428,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "gunicorn"
         version = "21.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "packaging" },
         ]
@@ -6440,7 +6440,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "h11"
         version = "0.14.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/f5/38/3af3d3633a34a3316095b39c8e8fb4853a28a536e55d347bd8d8e9a14b03/h11-0.14.0.tar.gz", hash = "sha256:8f19fbbe99e72420ff35c00b27a34cb9937e902a8b810e2c88300c6f0a3b699d", size = 100418, upload-time = "2022-09-25T15:40:01.519Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/95/04/ff642e65ad6b90db43e668d70ffb6736436c7ce41fcc549f4e9472234127/h11-0.14.0-py3-none-any.whl", hash = "sha256:e3fe4ac4b851c468cc8363d500db52c2ead036020723024a109d37346efaa761", size = 58259, upload-time = "2022-09-25T15:39:59.68Z" },
@@ -6449,7 +6449,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "httpcore"
         version = "1.0.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "certifi" },
             { name = "h11" },
@@ -6462,7 +6462,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "httpx"
         version = "0.27.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "anyio" },
             { name = "certifi" },
@@ -6478,7 +6478,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -6487,7 +6487,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "importlib-resources"
         version = "6.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/c8/9d/6ee73859d6be81c6ea7ebac89655e92740296419bd37e5c8abdb5b62fd55/importlib_resources-6.4.0.tar.gz", hash = "sha256:cdb2b453b8046ca4e3798eb1d84f3cce1446a0e8e7b5ef4efb600f19fc398145", size = 42040, upload-time = "2024-03-21T13:42:34.888Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/75/06/4df55e1b7b112d183f65db9503bff189e97179b256e1ea450a3c365241e0/importlib_resources-6.4.0-py3-none-any.whl", hash = "sha256:50d10f043df931902d4194ea07ec57960f66a80449ff867bfe782b4c486ba78c", size = 38168, upload-time = "2024-03-21T13:42:33.243Z" },
@@ -6496,7 +6496,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "inflection"
         version = "0.5.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e1/7e/691d061b7329bc8d54edbf0ec22fbfb2afe61facb681f9aaa9bff7a27d04/inflection-0.5.1.tar.gz", hash = "sha256:1a29730d366e996aaacffb2f1f1cb9593dc38e2ddd30c91250c6dde09ea9b417", size = 15091, upload-time = "2020-08-22T08:16:29.139Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/59/91/aa6bde563e0085a02a435aa99b49ef75b0a4b062635e606dab23ce18d720/inflection-0.5.1-py2.py3-none-any.whl", hash = "sha256:f38b2b640938a4f35ade69ac3d053042959b62a0f1076a5bbaa1b9526605a8a2", size = 9454, upload-time = "2020-08-22T08:16:27.816Z" },
@@ -6505,7 +6505,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "itsdangerous"
         version = "2.1.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/7f/a1/d3fb83e7a61fa0c0d3d08ad0a94ddbeff3731c05212617dff3a94e097f08/itsdangerous-2.1.2.tar.gz", hash = "sha256:5dbbc68b317e5e42f327f9021763545dc3fc3bfe22e6deb96aaf1fc38874156a", size = 56143, upload-time = "2022-03-24T15:12:15.102Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/68/5f/447e04e828f47465eeab35b5d408b7ebaaaee207f48b7136c5a7267a30ae/itsdangerous-2.1.2-py3-none-any.whl", hash = "sha256:2c2349112351b88699d8d4b6b075022c0808887cb7ad10069318a8b0bc88db44", size = 15749, upload-time = "2022-03-24T15:12:13.2Z" },
@@ -6514,7 +6514,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "jinja2"
         version = "3.1.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markupsafe" },
         ]
@@ -6526,7 +6526,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "jsonschema"
         version = "4.21.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "attrs" },
             { name = "jsonschema-specifications" },
@@ -6541,7 +6541,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "jsonschema-specifications"
         version = "2023.12.[X]"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "referencing" },
         ]
@@ -6553,7 +6553,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "lazy-object-proxy"
         version = "1.10.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/2c/f0/f02e2d150d581a294efded4020094a371bbab42423fe78625ac18854d89b/lazy-object-proxy-1.10.0.tar.gz", hash = "sha256:78247b6d45f43a52ef35c25b5581459e85117225408a4128a3daf8bf9648ac69", size = 43271, upload-time = "2023-12-15T15:11:41.75Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/d0/5d/768a7f2ccebb29604def61842fd54f6f5f75c79e366ee8748dda84de0b13/lazy_object_proxy-1.10.0-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:e98c8af98d5707dcdecc9ab0863c0ea6e88545d42ca7c3feffb6b4d1e370c7ba", size = 27560, upload-time = "2023-12-15T15:11:07.122Z" },
@@ -6569,7 +6569,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "limits"
         version = "3.10.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "deprecated" },
             { name = "importlib-resources" },
@@ -6584,7 +6584,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "linkify-it-py"
         version = "2.0.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "uc-micro-py" },
         ]
@@ -6596,7 +6596,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "lockfile"
         version = "0.12.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/17/47/72cb04a58a35ec495f96984dddb48232b551aafb95bde614605b754fe6f7/lockfile-0.12.2.tar.gz", hash = "sha256:6aed02de03cba24efabcd600b30540140634fc06cfa603822d508d5361e9f799", size = 20874, upload-time = "2015-11-25T18:29:58.279Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c8/22/9460e311f340cb62d26a38c419b1381b8593b0bb6b5d1f056938b086d362/lockfile-0.12.2-py2.py3-none-any.whl", hash = "sha256:6c3cb24f344923d30b2785d5ad75182c8ea7ac1b6171b08657258ec7429d50fa", size = 13564, upload-time = "2015-11-25T18:29:51.462Z" },
@@ -6605,7 +6605,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "mako"
         version = "1.3.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markupsafe" },
         ]
@@ -6617,7 +6617,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "markdown"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/22/02/4785861427848cc11e452cc62bb541006a1087cf04a1de83aedd5530b948/Markdown-3.6.tar.gz", hash = "sha256:ed4f41f6daecbeeb96e576ce414c41d2d876daa9a16cb35fa8ed8c2ddfad0224", size = 354715, upload-time = "2024-03-14T15:37:59.775Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/fc/b3/0c0c994fe49cd661084f8d5dc06562af53818cc0abefaca35bdc894577c3/Markdown-3.6-py3-none-any.whl", hash = "sha256:48f276f4d8cfb8ce6527c8f79e2ee29708508bf4d40aa410fbc3b4ee832c850f", size = 105381, upload-time = "2024-03-14T15:37:57.457Z" },
@@ -6626,7 +6626,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "markdown-it-py"
         version = "3.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "mdurl" },
         ]
@@ -6638,7 +6638,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "2.1.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/87/5b/aae44c6655f3801e81aa3eef09dbbf012431987ba564d7231722f68df02d/MarkupSafe-2.1.5.tar.gz", hash = "sha256:d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b", size = 19384, upload-time = "2024-02-02T16:31:22.863Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/53/bd/583bf3e4c8d6a321938c13f49d44024dbe5ed63e0a7ba127e454a66da974/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:8dec4936e9c3100156f8a2dc89c4b88d5c435175ff03413b443469c7c8c5f4d1", size = 18215, upload-time = "2024-02-02T16:30:33.081Z" },
@@ -6656,7 +6656,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "marshmallow"
         version = "3.21.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "packaging" },
         ]
@@ -6668,7 +6668,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "marshmallow-enum"
         version = "1.5.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "marshmallow" },
         ]
@@ -6680,7 +6680,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "marshmallow-oneofschema"
         version = "3.1.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "marshmallow" },
         ]
@@ -6692,7 +6692,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "marshmallow-sqlalchemy"
         version = "0.26.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "marshmallow" },
             { name = "sqlalchemy" },
@@ -6705,7 +6705,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "mdit-py-plugins"
         version = "0.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markdown-it-py" },
         ]
@@ -6717,7 +6717,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "mdurl"
         version = "0.1.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba", size = 8729, upload-time = "2022-08-14T12:40:10.846Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8", size = 9979, upload-time = "2022-08-14T12:40:09.779Z" },
@@ -6726,7 +6726,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "more-itertools"
         version = "10.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/df/ad/7905a7fd46ffb61d976133a4f47799388209e73cbc8c1253593335da88b4/more-itertools-10.2.0.tar.gz", hash = "sha256:8fccb480c43d3e99a00087634c06dd02b0d50fbf088b380de5a41a015ec239e1", size = 114449, upload-time = "2024-01-08T15:47:22.007Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/50/e2/8e10e465ee3987bb7c9ab69efb91d867d93959095f4807db102d07995d94/more_itertools-10.2.0-py3-none-any.whl", hash = "sha256:686b06abe565edfab151cb8fd385a05651e1fdf8f0a14191e4439283421f8684", size = 57015, upload-time = "2024-01-08T15:47:19.877Z" },
@@ -6735,7 +6735,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "msgspec"
         version = "0.18.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/5e/fb/42b1865063fddb14dbcbb6e74e0a366ecf1ba371c4948664dde0b0e10f95/msgspec-0.18.6.tar.gz", hash = "sha256:a59fc3b4fcdb972d09138cb516dbde600c99d07c38fd9372a6ef500d2d031b4e", size = 216757, upload-time = "2024-01-22T04:34:59.365Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/1d/b5/c8fbf1db814eb29eda402952374b594b2559419ba7ec6d0997a9e5687530/msgspec-0.18.6-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:d86f5071fe33e19500920333c11e2267a31942d18fed4d9de5bc2fbab267d28c", size = 202109, upload-time = "2024-01-22T04:34:29.794Z" },
@@ -6750,7 +6750,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "multidict"
         version = "6.0.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/f9/79/722ca999a3a09a63b35aac12ec27dfa8e5bb3a38b0f857f7a1a209a88836/multidict-6.0.5.tar.gz", hash = "sha256:f7e301075edaf50500f0b341543c41194d8df3ae5caf4702f2095f3ca73dd8da", size = 59867, upload-time = "2024-02-01T20:46:01.455Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/90/9c/7fda9c0defa09538c97b1f195394be82a1f53238536f70b32eb5399dfd4e/multidict-6.0.5-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:51d035609b86722963404f711db441cf7134f1889107fb171a970c9701f92e1e", size = 49575, upload-time = "2024-02-01T20:44:11.928Z" },
@@ -6774,7 +6774,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "ordered-set"
         version = "4.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/4c/ca/bfac8bc689799bcca4157e0e0ced07e70ce125193fc2e166d2e685b7e2fe/ordered-set-4.1.0.tar.gz", hash = "sha256:694a8e44c87657c59292ede72891eb91d34131f6531463aab3009191c77364a8", size = 12826, upload-time = "2022-01-26T14:38:56.6Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/33/55/af02708f230eb77084a299d7b08175cff006dea4f2721074b92cdb0296c0/ordered_set-4.1.0-py3-none-any.whl", hash = "sha256:046e1132c71fcf3330438a539928932caf51ddbc582496833e23de611de14562", size = 7634, upload-time = "2022-01-26T14:38:48.677Z" },
@@ -6783,7 +6783,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "packaging"
         version = "24.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/ee/b5/b43a27ac7472e1818c4bafd44430e69605baefe1f34440593e0332ec8b4d/packaging-24.0.tar.gz", hash = "sha256:eb82c5e3e56209074766e6885bb04b8c38a0c015d0a30036ebe7ece34c9989e9", size = 147882, upload-time = "2024-03-10T09:39:28.33Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/49/df/1fceb2f8900f8639e278b056416d49134fb8d84c5942ffaa01ad34782422/packaging-24.0-py3-none-any.whl", hash = "sha256:2ddfb553fdf02fb784c234c7ba6ccc288296ceabec964ad2eae3777778130bc5", size = 53488, upload-time = "2024-03-10T09:39:25.947Z" },
@@ -6792,7 +6792,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "pathspec"
         version = "0.9.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/f6/33/436c5cb94e9f8902e59d1d544eb298b83c84b9ec37b5b769c5a0ad6edb19/pathspec-0.9.0.tar.gz", hash = "sha256:e564499435a2673d586f6b2130bb5b95f04a3ba06f81b8f895b651a3c76aabb1", size = 29483, upload-time = "2021-07-18T00:27:56.81Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/42/ba/a9d64c7bcbc7e3e8e5f93a52721b377e994c22d16196e2b0f1236774353a/pathspec-0.9.0-py2.py3-none-any.whl", hash = "sha256:7d15c4ddb0b5c802d161efc417ec1a2558ea2653c2e8ad9c19098201dc1c993a", size = 31165, upload-time = "2021-07-18T00:27:58.275Z" },
@@ -6801,7 +6801,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "pendulum"
         version = "3.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "python-dateutil" },
             { name = "time-machine", marker = "implementation_name != 'pypy' or (extra == 'extra-3-pkg-x1' and extra == 'extra-3-pkg-x2')" },
@@ -6831,10 +6831,10 @@ fn extra_inferences() -> Result<()> {
 
         [package.optional-dependencies]
         x1 = [
-            { name = "apache-airflow", version = "2.5.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "apache-airflow", version = "2.5.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         x2 = [
-            { name = "apache-airflow", version = "2.6.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "apache-airflow", version = "2.6.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -6848,7 +6848,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "pluggy"
         version = "1.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/54/c6/43f9d44d92aed815e781ca25ba8c174257e27253a94630d21be8725a2b59/pluggy-1.4.0.tar.gz", hash = "sha256:8c85c2876142a764e5b7548e7d9a0e0ddb46f5185161049a79b7e974454223be", size = 65812, upload-time = "2024-01-24T13:45:15.875Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a5/5b/0cc789b59e8cc1bf288b38111d002d8c5917123194d45b29dcdac64723cc/pluggy-1.4.0-py3-none-any.whl", hash = "sha256:7db9f7b503d67d1c5b95f59773ebb58a8c1c288129a88665838012cfb07b8981", size = 20120, upload-time = "2024-01-24T13:45:14.227Z" },
@@ -6857,7 +6857,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "prison"
         version = "0.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "six" },
         ]
@@ -6869,7 +6869,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "psutil"
         version = "5.9.8"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/90/c7/6dc0a455d111f68ee43f27793971cf03fe29b6ef972042549db29eec39a2/psutil-5.9.8.tar.gz", hash = "sha256:6be126e3225486dff286a8fb9a06246a5253f4c7c53b475ea5f5ac934e64194c", size = 503247, upload-time = "2024-01-19T20:47:09.517Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e7/e3/07ae864a636d70a8a6f58da27cb1179192f1140d5d1da10886ade9405797/psutil-5.9.8-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:aee678c8720623dc456fa20659af736241f575d79429a0e5e9cf88ae0605cc81", size = 248702, upload-time = "2024-01-19T20:47:36.303Z" },
@@ -6883,7 +6883,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "pycparser"
         version = "2.21"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/5e/0b/95d387f5f4433cb0f53ff7ad859bd2c6051051cebbb564f139a999ab46de/pycparser-2.21.tar.gz", hash = "sha256:e644fdec12f7872f86c58ff790da456218b10f863970249516d60a5eaca77206", size = 170877, upload-time = "2021-11-06T12:48:46.095Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/62/d5/5f610ebe421e85889f2e55e33b7f9a6795bd982198517d912eb1c76e1a53/pycparser-2.21-py2.py3-none-any.whl", hash = "sha256:8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9", size = 118697, upload-time = "2021-11-06T12:50:13.61Z" },
@@ -6892,7 +6892,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "pydantic"
         version = "2.6.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "annotated-types" },
             { name = "pydantic-core" },
@@ -6906,7 +6906,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "pydantic-core"
         version = "2.16.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "typing-extensions" },
         ]
@@ -6930,7 +6930,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "pygments"
         version = "2.17.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz", hash = "sha256:da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367", size = 4827772, upload-time = "2023-11-21T20:43:53.875Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/97/9c/372fef8377a6e340b1704768d20daaded98bf13282b5327beb2e2fe2c7ef/pygments-2.17.2-py3-none-any.whl", hash = "sha256:b27c2826c47d0f3219f29554824c30c5e8945175d888647acd804ddd04af846c", size = 1179756, upload-time = "2023-11-21T20:43:49.423Z" },
@@ -6939,7 +6939,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "pyjwt"
         version = "2.8.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/30/72/8259b2bccfe4673330cea843ab23f86858a419d8f1493f66d413a76c7e3b/PyJWT-2.8.0.tar.gz", hash = "sha256:57e28d156e3d5c10088e0c68abb90bfac3df82b40a71bd0daa20c65ccd5c23de", size = 78313, upload-time = "2023-07-18T20:02:22.594Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/2b/4f/e04a8067c7c96c364cef7ef73906504e2f40d690811c021e1a1901473a19/PyJWT-2.8.0-py3-none-any.whl", hash = "sha256:59127c392cc44c2da5bb3192169a91f429924e17aff6534d70fdc02ab3e04320", size = 22591, upload-time = "2023-07-18T20:02:21.561Z" },
@@ -6948,7 +6948,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "python-daemon"
         version = "3.0.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "docutils" },
             { name = "lockfile" },
@@ -6962,7 +6962,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "python-dateutil"
         version = "2.9.0.post0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "six" },
         ]
@@ -6974,7 +6974,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "python-multipart"
         version = "0.0.9"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/5c/0f/9c55ac6c84c0336e22a26fa84ca6c51d58d7ac3a2d78b0dfa8748826c883/python_multipart-0.0.9.tar.gz", hash = "sha256:03f54688c663f1b7977105f021043b0793151e4cb1c1a9d4a11fc13d622c4026", size = 31516, upload-time = "2024-02-10T13:32:04.684Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/3d/47/444768600d9e0ebc82f8e347775d24aef8f6348cf00e9fa0e81910814e6d/python_multipart-0.0.9-py3-none-any.whl", hash = "sha256:97ca7b8ea7b05f977dc3849c3ba99d51689822fab725c3703af7c866a0c2b215", size = 22299, upload-time = "2024-02-10T13:32:02.969Z" },
@@ -6983,7 +6983,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "python-nvd3"
         version = "0.15.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "jinja2" },
             { name = "python-slugify" },
@@ -6993,7 +6993,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "python-slugify"
         version = "8.0.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "text-unidecode" },
         ]
@@ -7005,7 +7005,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "pytz"
         version = "2024.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/90/26/9f1f00a5d021fff16dee3de13d43e5e978f3d58928e129c3a62cf7eb9738/pytz-2024.1.tar.gz", hash = "sha256:2a29735ea9c18baf14b448846bde5a48030ed267578472d8955cd0e7443a9812", size = 316214, upload-time = "2024-02-02T01:18:41.693Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/9c/3d/a121f284241f08268b21359bd425f7d4825cffc5ac5cd0e1b3d82ffd2b10/pytz-2024.1-py2.py3-none-any.whl", hash = "sha256:328171f4e3623139da4983451950b28e95ac706e13f3f2630a879749e7a8b319", size = 505474, upload-time = "2024-02-02T01:18:37.283Z" },
@@ -7014,7 +7014,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "pyyaml"
         version = "6.0.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/cd/e5/af35f7ea75cf72f2cd079c95ee16797de7cd71f29ea7c68ae5ce7be1eda0/PyYAML-6.0.1.tar.gz", hash = "sha256:bfdf460b1736c775f2ba9f6a92bca30bc2095067b8a9d77876d1fad6cc3b4a43", size = 125201, upload-time = "2023-07-18T00:00:23.308Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/bc/06/1b305bf6aa704343be85444c9d011f626c763abb40c0edc1cad13bfd7f86/PyYAML-6.0.1-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:855fb52b0dc35af121542a76b9a84f8d1cd886ea97c84703eaa6d88e37a2ad28", size = 178692, upload-time = "2023-08-28T18:43:24.924Z" },
@@ -7029,10 +7029,10 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "quickpath-airflow-operator"
         version = "1.0.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "apache-airflow", version = "2.5.0", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
-            { name = "apache-airflow", version = "2.6.0", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-3-pkg-x2' or extra != 'extra-3-pkg-x1'" },
+            { name = "apache-airflow", version = "2.5.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-x1'" },
+            { name = "apache-airflow", version = "2.6.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-3-pkg-x2' or extra != 'extra-3-pkg-x1'" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/d0/df/a0954234d18c9903a6c1a8991a6702230ceb9a1e1b7221fa02b57a4a7de4/quickpath-airflow-operator-1.0.2.tar.gz", hash = "sha256:c678424ee7f2802aacb281336ad78b2315f73f32307be99fdc3a3a8b1724a86b", size = 4696, upload-time = "2022-10-24T16:51:19.11Z" }
         wheels = [
@@ -7042,7 +7042,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "referencing"
         version = "0.34.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "attrs" },
             { name = "rpds-py" },
@@ -7055,7 +7055,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "requests"
         version = "2.31.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "certifi" },
             { name = "charset-normalizer" },
@@ -7070,7 +7070,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "requests-toolbelt"
         version = "1.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "requests" },
         ]
@@ -7082,7 +7082,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "rfc3339-validator"
         version = "0.1.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "six" },
         ]
@@ -7094,7 +7094,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "rich"
         version = "13.7.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markdown-it-py" },
             { name = "pygments" },
@@ -7107,7 +7107,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "rich-argparse"
         version = "1.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "rich" },
         ]
@@ -7119,7 +7119,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "rpds-py"
         version = "0.18.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/55/ba/ce7b9f0fc5323f20ffdf85f682e51bee8dc03e9b54503939ebb63d1d0d5e/rpds_py-0.18.0.tar.gz", hash = "sha256:42821446ee7a76f5d9f71f9e33a4fb2ffd724bb3e7f93386150b61a43115788d", size = 25313, upload-time = "2024-02-13T21:56:08.401Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/09/b6/45690f5d3f8c551bb462e063a2f336d72c8884ed26aa19beb53a374d3854/rpds_py-0.18.0-cp312-cp312-macosx_10_12_x86_64.whl", hash = "sha256:7f2facbd386dd60cbbf1a794181e6aa0bd429bd78bfdf775436020172e2a23f0", size = 338820, upload-time = "2024-02-13T21:52:42.159Z" },
@@ -7140,7 +7140,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "setproctitle"
         version = "1.3.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/ff/e1/b16b16a1aa12174349d15b73fd4b87e641a8ae3fb1163e80938dbbf6ae98/setproctitle-1.3.3.tar.gz", hash = "sha256:c913e151e7ea01567837ff037a23ca8740192880198b7fbb90b16d181607caae", size = 27253, upload-time = "2023-10-03T17:14:17.724Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/32/22/9672612b194e4ac5d9fb67922ad9d30232b4b66129b0381ab5efeb6ae88f/setproctitle-1.3.3-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:d4460795a8a7a391e3567b902ec5bdf6c60a47d791c3b1d27080fc203d11c9dc", size = 16917, upload-time = "2023-10-03T17:12:29.281Z" },
@@ -7160,7 +7160,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "setuptools"
         version = "69.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/4d/5b/dc575711b6b8f2f866131a40d053e30e962e633b332acf7cd2c24843d83d/setuptools-69.2.0.tar.gz", hash = "sha256:0ff4183f8f42cd8fa3acea16c45205521a4ef28f73c6391d8a25e92893134f2e", size = 2222950, upload-time = "2024-03-13T11:20:59.219Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/92/e1/1c8bb3420105e70bdf357d57dd5567202b4ef8d27f810e98bb962d950834/setuptools-69.2.0-py3-none-any.whl", hash = "sha256:c21c49fb1042386df081cb5d86759792ab89efca84cf114889191cd09aacc80c", size = 821485, upload-time = "2024-03-13T11:20:54.103Z" },
@@ -7169,7 +7169,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "six"
         version = "1.16.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926", size = 34041, upload-time = "2021-05-05T14:18:18.379Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254", size = 11053, upload-time = "2021-05-05T14:18:17.237Z" },
@@ -7178,7 +7178,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -7187,7 +7187,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "sqlalchemy"
         version = "1.4.52"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "greenlet", marker = "platform_machine == 'AMD64' or platform_machine == 'WIN32' or platform_machine == 'aarch64' or platform_machine == 'amd64' or platform_machine == 'ppc64le' or platform_machine == 'win32' or platform_machine == 'x86_64' or (extra == 'extra-3-pkg-x1' and extra == 'extra-3-pkg-x2')" },
         ]
@@ -7203,7 +7203,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "sqlalchemy-jsonfield"
         version = "1.0.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "sqlalchemy" },
         ]
@@ -7215,7 +7215,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "sqlalchemy-utils"
         version = "0.41.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "sqlalchemy" },
         ]
@@ -7227,7 +7227,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "sqlparse"
         version = "0.4.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/65/16/10f170ec641ed852611b6c9441b23d10b5702ab5288371feab3d36de2574/sqlparse-0.4.4.tar.gz", hash = "sha256:d446183e84b8349fa3061f0fe7f06ca94ba65b426946ffebe6e3e8295332420c", size = 72383, upload-time = "2023-04-18T08:30:41.994Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/98/5a/66d7c9305baa9f11857f247d4ba761402cea75db6058ff850ed7128957b7/sqlparse-0.4.4-py3-none-any.whl", hash = "sha256:5430a4fe2ac7d0f93e66f1efc6e1338a41884b7ddf2a350cedd20ccc4d9d28f3", size = 41183, upload-time = "2023-04-18T08:30:36.96Z" },
@@ -7236,7 +7236,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "starlette"
         version = "0.37.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "anyio" },
         ]
@@ -7248,7 +7248,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "swagger-ui-bundle"
         version = "1.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "jinja2", marker = "extra == 'extra-3-pkg-x1'" },
         ]
@@ -7260,7 +7260,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "tabulate"
         version = "0.9.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/ec/fe/802052aecb21e3797b8f7902564ab6ea0d60ff8ca23952079064155d1ae1/tabulate-0.9.0.tar.gz", hash = "sha256:0095b12bf5966de529c0feb1fa08671671b3368eec77d7ef7ab114be2c068b3c", size = 81090, upload-time = "2022-10-06T17:21:48.54Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/40/44/4a5f08c96eb108af5cb50b41f76142f0afa346dfa99d5296fe7202a11854/tabulate-0.9.0-py3-none-any.whl", hash = "sha256:024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f", size = 35252, upload-time = "2022-10-06T17:21:44.262Z" },
@@ -7269,7 +7269,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "tenacity"
         version = "8.2.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/89/3c/253e1627262373784bf9355db9d6f20d2d8831d79f91e9cca48050cddcc2/tenacity-8.2.3.tar.gz", hash = "sha256:5398ef0d78e63f40007c1fb4c0bff96e1911394d2fa8d194f77619c05ff6cc8a", size = 40651, upload-time = "2023-08-14T13:22:50.869Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/f4/f1/990741d5bb2487d529d20a433210ffa136a367751e454214013b441c4575/tenacity-8.2.3-py3-none-any.whl", hash = "sha256:ce510e327a630c9e1beaf17d42e6ffacc88185044ad85cf74c0a8887c6a0f88c", size = 24401, upload-time = "2023-08-14T13:22:49.265Z" },
@@ -7278,7 +7278,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "termcolor"
         version = "2.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/10/56/d7d66a84f96d804155f6ff2873d065368b25a07222a6fd51c4f24ef6d764/termcolor-2.4.0.tar.gz", hash = "sha256:aab9e56047c8ac41ed798fa36d892a37aca6b3e9159f3e0c24bc64a9b3ac7b7a", size = 12664, upload-time = "2023-12-01T11:04:51.66Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/d9/5f/8c716e47b3a50cbd7c146f45881e11d9414def768b7cd9c5e6650ec2a80a/termcolor-2.4.0-py3-none-any.whl", hash = "sha256:9297c0df9c99445c2412e832e882a7884038a25617c60cea2ad69488d4040d63", size = 7719, upload-time = "2023-12-01T11:04:50.019Z" },
@@ -7287,7 +7287,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "text-unidecode"
         version = "1.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/ab/e2/e9a00f0ccb71718418230718b3d900e71a5d16e701a3dae079a21e9cd8f8/text-unidecode-1.3.tar.gz", hash = "sha256:bad6603bb14d279193107714b288be206cac565dfa49aa5b105294dd5c4aab93", size = 76885, upload-time = "2019-08-30T21:36:45.405Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a6/a5/c0b6468d3824fe3fde30dbb5e1f687b291608f9473681bbf7dabbf5a87d7/text_unidecode-1.3-py2.py3-none-any.whl", hash = "sha256:1311f10e8b895935241623731c2ba64f4c455287888b18189350b67134a822e8", size = 78154, upload-time = "2019-08-30T21:37:03.543Z" },
@@ -7296,7 +7296,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "time-machine"
         version = "2.14.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "python-dateutil" },
         ]
@@ -7319,7 +7319,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "typing-extensions"
         version = "4.10.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz", hash = "sha256:b0abd7c89e8fb96f98db18d86106ff1d90ab692004eb746cf6eda2682f91b3cb", size = 77558, upload-time = "2024-02-25T22:12:49.693Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/f9/de/dc04a3ea60b22624b51c703a84bbe0184abcd1d0b9bc8074b5d6b7ab90bb/typing_extensions-4.10.0-py3-none-any.whl", hash = "sha256:69b1a937c3a517342112fb4c6df7e72fc39a38e7891a5730ed4985b5214b5475", size = 33926, upload-time = "2024-02-25T22:12:47.72Z" },
@@ -7328,7 +7328,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "tzdata"
         version = "2024.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/74/5b/e025d02cb3b66b7b76093404392d4b44343c69101cc85f4d180dd5784717/tzdata-2024.1.tar.gz", hash = "sha256:2674120f8d891909751c38abcdfd386ac0a5a1127954fbc332af6b5ceae07efd", size = 190559, upload-time = "2024-02-11T23:22:40.2Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/65/58/f9c9e6be752e9fcb8b6a0ee9fb87e6e7a1f6bcab2cdc73f02bb7ba91ada0/tzdata-2024.1-py2.py3-none-any.whl", hash = "sha256:9068bc196136463f5245e51efda838afa15aaeca9903f49050dfa2679db4d252", size = 345370, upload-time = "2024-02-11T23:22:38.223Z" },
@@ -7337,7 +7337,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "uc-micro-py"
         version = "1.0.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/91/7a/146a99696aee0609e3712f2b44c6274566bc368dfe8375191278045186b8/uc-micro-py-1.0.3.tar.gz", hash = "sha256:d321b92cff673ec58027c04015fcaa8bb1e005478643ff4a500882eaab88c48a", size = 6043, upload-time = "2024-02-09T16:52:01.654Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/37/87/1f677586e8ac487e29672e4b17455758fce261de06a0d086167bb760361a/uc_micro_py-1.0.3-py3-none-any.whl", hash = "sha256:db1dffff340817673d7b466ec86114a9dc0e9d4d9b5ba229d9d60e5c12600cd5", size = 6229, upload-time = "2024-02-09T16:52:00.371Z" },
@@ -7346,13 +7346,13 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "unicodecsv"
         version = "0.14.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/6f/a4/691ab63b17505a26096608cc309960b5a6bdf39e4ba1a793d5f9b1a53270/unicodecsv-0.14.1.tar.gz", hash = "sha256:018c08037d48649a0412063ff4eda26eaa81eff1546dbffa51fa5293276ff7fc", size = 10267, upload-time = "2015-09-22T22:00:19.516Z" }
 
         [[package]]
         name = "urllib3"
         version = "2.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/7a/50/7fd50a27caa0652cd4caf224aa87741ea41d3265ad13f010886167cfcc79/urllib3-2.2.1.tar.gz", hash = "sha256:d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19", size = 291020, upload-time = "2024-02-18T03:55:57.539Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a2/73/a68704750a7679d0b6d3ad7aa8d4da8e14e151ae82e6fee774e6e0d05ec8/urllib3-2.2.1-py3-none-any.whl", hash = "sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d", size = 121067, upload-time = "2024-02-18T03:55:54.704Z" },
@@ -7361,7 +7361,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "werkzeug"
         version = "3.0.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markupsafe" },
         ]
@@ -7373,7 +7373,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "wrapt"
         version = "1.16.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/95/4c/063a912e20bcef7124e0df97282a8af3ff3e4b603ce84c481d6d7346be0a/wrapt-1.16.0.tar.gz", hash = "sha256:5f370f952971e7d17c7d1ead40e49f32345a7f7a5373571ef44d800d06b1899d", size = 53972, upload-time = "2023-11-09T06:33:30.191Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/92/17/224132494c1e23521868cdd57cd1e903f3b6a7ba6996b7b8f077ff8ac7fe/wrapt-1.16.0-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:5eb404d89131ec9b4f748fa5cfb5346802e5ee8836f57d516576e61f304f3b7b", size = 37614, upload-time = "2023-11-09T06:32:08.859Z" },
@@ -7392,7 +7392,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "wtforms"
         version = "3.1.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markupsafe" },
         ]
@@ -7404,7 +7404,7 @@ fn extra_inferences() -> Result<()> {
         [[package]]
         name = "yarl"
         version = "1.9.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "multidict" },
@@ -7523,7 +7523,7 @@ fn deduplicate_resolution_markers() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "sys_platform != 'linux'",
         ]
@@ -7535,7 +7535,7 @@ fn deduplicate_resolution_markers() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "sys_platform == 'linux'",
         ]
@@ -7547,7 +7547,7 @@ fn deduplicate_resolution_markers() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "sys_platform != 'linux'",
         ]
@@ -7556,7 +7556,7 @@ fn deduplicate_resolution_markers() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "2.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "sys_platform == 'linux'",
         ]
@@ -7569,12 +7569,12 @@ fn deduplicate_resolution_markers() -> Result<()> {
 
         [package.optional-dependencies]
         x1 = [
-            { name = "idna", version = "3.5", source = { registry = "https://pypi.org/simple" }, marker = "(sys_platform != 'linux' and extra == 'extra-3-pkg-x1') or (extra == 'extra-3-pkg-x1' and extra == 'extra-3-pkg-x2')" },
-            { name = "idna", version = "3.6", source = { registry = "https://pypi.org/simple" }, marker = "(sys_platform == 'linux' and extra == 'extra-3-pkg-x1') or (extra == 'extra-3-pkg-x1' and extra == 'extra-3-pkg-x2')" },
+            { name = "idna", version = "3.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(sys_platform != 'linux' and extra == 'extra-3-pkg-x1') or (extra == 'extra-3-pkg-x1' and extra == 'extra-3-pkg-x2')" },
+            { name = "idna", version = "3.6", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(sys_platform == 'linux' and extra == 'extra-3-pkg-x1') or (extra == 'extra-3-pkg-x1' and extra == 'extra-3-pkg-x2')" },
         ]
         x2 = [
-            { name = "markupsafe", version = "2.0.0", source = { registry = "https://pypi.org/simple" }, marker = "(sys_platform != 'linux' and extra == 'extra-3-pkg-x2') or (extra == 'extra-3-pkg-x1' and extra == 'extra-3-pkg-x2')" },
-            { name = "markupsafe", version = "2.1.0", source = { registry = "https://pypi.org/simple" }, marker = "(sys_platform == 'linux' and extra == 'extra-3-pkg-x2') or (extra == 'extra-3-pkg-x1' and extra == 'extra-3-pkg-x2')" },
+            { name = "markupsafe", version = "2.0.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(sys_platform != 'linux' and extra == 'extra-3-pkg-x2') or (extra == 'extra-3-pkg-x1' and extra == 'extra-3-pkg-x2')" },
+            { name = "markupsafe", version = "2.1.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(sys_platform == 'linux' and extra == 'extra-3-pkg-x2') or (extra == 'extra-3-pkg-x1' and extra == 'extra-3-pkg-x2')" },
         ]
 
         [package.metadata]
@@ -7693,7 +7693,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "aiohappyeyeballs"
         version = "2.4.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/7f/55/e4373e888fdacb15563ef6fa9fa8c8252476ea071e96fb46defac9f18bf2/aiohappyeyeballs-2.4.4.tar.gz", hash = "sha256:5fdd7d87889c63183afc18ce9271f9b0a7d32c2303e394468dd45d514a757745", size = 21977, upload-time = "2024-11-30T18:44:00.701Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b9/74/fbb6559de3607b3300b9be3cc64e97548d55678e44623db17820dbd20002/aiohappyeyeballs-2.4.4-py3-none-any.whl", hash = "sha256:a980909d50efcd44795c4afeca523296716d50cd756ddca6af8c65b996e27de8", size = 14756, upload-time = "2024-11-30T18:43:39.849Z" },
@@ -7702,7 +7702,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "aiohttp"
         version = "3.11.12"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "aiohappyeyeballs" },
             { name = "aiosignal" },
@@ -7784,7 +7784,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "aiosignal"
         version = "1.3.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "frozenlist" },
         ]
@@ -7796,7 +7796,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "annotated-types"
         version = "0.7.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/ee/67/531ea369ba64dcff5ec9c3402f9f51bf748cec26dde048a2f973a4eea7f5/annotated_types-0.7.0.tar.gz", hash = "sha256:aff07c09a53a08bc8cfccb9c85b05f1aa9a2a6f23728d790723543408344ce89", size = 16081, upload-time = "2024-05-20T21:33:25.928Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/78/b6/6307fbef88d9b5ee7421e68d78a9f162e0da4900bc5f5793f6d3d0e34fb8/annotated_types-0.7.0-py3-none-any.whl", hash = "sha256:1f02e8b43a8fbbc3f3e0d4f0f4bfc8131bcb4eebe8849b8e5c773f3a1c582a53", size = 13643, upload-time = "2024-05-20T21:33:24.1Z" },
@@ -7805,7 +7805,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "ase"
         version = "3.24.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "matplotlib" },
             { name = "numpy" },
@@ -7819,7 +7819,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "async-timeout"
         version = "5.0.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a5/ae/136395dfbfe00dfc94da3f3e136d0b13f394cba8f4841120e34226265780/async_timeout-5.0.1.tar.gz", hash = "sha256:d9321a7a3d5a6a5e187e824d2fa0793ce379a202935782d555d6e9d2735677d3", size = 9274, upload-time = "2024-11-06T16:41:39.6Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/fe/ba/e2081de779ca30d473f21f5b30e0e737c438205440784c7dfc81efc2b029/async_timeout-5.0.1-py3-none-any.whl", hash = "sha256:39e3809566ff85354557ec2398b55e096c8364bacac9405a7a1fa429e77fe76c", size = 6233, upload-time = "2024-11-06T16:41:37.9Z" },
@@ -7828,7 +7828,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "attrs"
         version = "25.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/49/7c/fdf464bcc51d23881d110abd74b512a42b3d5d376a55a831b44c603ae17f/attrs-25.1.0.tar.gz", hash = "sha256:1c97078a80c814273a76b2a298a932eb681c87415c11dee0a6921de7f1b02c3e", size = 810562, upload-time = "2025-01-25T11:30:12.508Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/fc/30/d4986a882011f9df997a55e6becd864812ccfcd821d64aac8570ee39f719/attrs-25.1.0-py3-none-any.whl", hash = "sha256:c75a69e28a550a7e93789579c22aa26b0f5b83b75dc4e08fe092980051e1090a", size = 63152, upload-time = "2025-01-25T11:30:10.164Z" },
@@ -7837,7 +7837,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "certifi"
         version = "2025.1.31"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/1c/ab/c9f1e32b7b1bf505bf26f0ef697775960db7932abeb7b516de930ba2705f/certifi-2025.1.31.tar.gz", hash = "sha256:3d5da6925056f6f18f119200434a4780a94263f10d1c21d032a6f6b2baa20651", size = 167577, upload-time = "2025-01-31T02:16:47.166Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/38/fc/bce832fd4fd99766c04d1ee0eead6b0ec6486fb100ae5e74c1d91292b982/certifi-2025.1.31-py3-none-any.whl", hash = "sha256:ca78db4565a652026a4db2bcdf68f2fb589ea80d0be70e03929ed730746b84fe", size = 166393, upload-time = "2025-01-31T02:16:45.015Z" },
@@ -7846,7 +7846,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "charset-normalizer"
         version = "3.4.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/16/b0/572805e227f01586461c80e0fd25d65a2115599cc9dad142fee4b747c357/charset_normalizer-3.4.1.tar.gz", hash = "sha256:44251f18cd68a75b56585dd00dae26183e102cd5e0f9f1466e6df5da2ed64ea3", size = 123188, upload-time = "2024-12-24T18:12:35.43Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/0d/58/5580c1716040bc89206c77d8f74418caf82ce519aae06450393ca73475d1/charset_normalizer-3.4.1-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:91b36a978b5ae0ee86c394f5a54d6ef44db1de0815eb43de826d41d21e4af3de", size = 198013, upload-time = "2024-12-24T18:09:43.671Z" },
@@ -7907,14 +7907,14 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "chgnet"
         version = "0.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "ase" },
             { name = "cython" },
             { name = "numpy" },
             { name = "nvidia-ml-py3" },
             { name = "pymatgen" },
-            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.org/simple" } },
+            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "typing-extensions" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/f6/05/1aaaecfaf9567dc93f33cd94a6deda0cc8ca0e665484636d8522978658d6/chgnet-0.4.0.tar.gz", hash = "sha256:1683fd61dbbf2ccb6540b6967589f25b239951b94c4b616f1dbbc3bce8313785", size = 8756128, upload-time = "2024-09-16T22:19:48.12Z" }
@@ -7945,7 +7945,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "colorama"
         version = "0.4.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44", size = 27697, upload-time = "2022-10-25T02:36:22.414Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6", size = 25335, upload-time = "2022-10-25T02:36:20.889Z" },
@@ -7954,7 +7954,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "configargparse"
         version = "1.5.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/16/05/385451bc8d20a3aa1d8934b32bd65847c100849ebba397dbf6c74566b237/ConfigArgParse-1.5.3.tar.gz", hash = "sha256:1b0b3cbf664ab59dada57123c81eff3d9737e0d11d8cf79e3d6eb10823f1739f", size = 39175, upload-time = "2021-10-03T00:17:24.663Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/af/cb/2a6620656f029b7b49c302853b433fac2c8eda9cbb5a3bc70b186b1b5b90/ConfigArgParse-1.5.3-py3-none-any.whl", hash = "sha256:18f6535a2db9f6e02bd5626cc7455eac3e96b9ab3d969d366f9aafd5c5c00fe7", size = 20505, upload-time = "2021-10-03T00:17:22.974Z" },
@@ -7963,7 +7963,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "contourpy"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "numpy" },
         ]
@@ -8027,14 +8027,14 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "cuequivariance"
         version = "0.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "networkx" },
             { name = "numpy" },
             { name = "opt-einsum" },
             { name = "scipy" },
-            { name = "sympy", version = "1.13.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
-            { name = "sympy", version = "1.13.3", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
+            { name = "sympy", version = "1.13.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
+            { name = "sympy", version = "1.13.3", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/70/91/c37b2ad1c8534b183eeacb97d2096f50cd2d0a180d1830f235c06aa94bbd/cuequivariance-0.2.0.tar.gz", hash = "sha256:e75999ef436f281e3f5cded9f1353055a599fedae55eea861bdc840cffaf63eb", size = 76738, upload-time = "2025-01-24T13:39:34.149Z" }
         wheels = [
@@ -8044,7 +8044,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "cuequivariance-torch"
         version = "0.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "cuequivariance" },
         ]
@@ -8056,7 +8056,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "cycler"
         version = "0.12.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a9/95/a3dbbb5028f35eafb79008e7522a75244477d2838f38cbb722248dabc2a8/cycler-0.12.1.tar.gz", hash = "sha256:88bb128f02ba341da8ef447245a9e138fae777f6a23943da4540077d3601eb1c", size = 7615, upload-time = "2023-10-07T05:32:18.335Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl", hash = "sha256:85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30", size = 8321, upload-time = "2023-10-07T05:32:16.783Z" },
@@ -8065,7 +8065,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "cython"
         version = "3.0.11"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/84/4d/b720d6000f4ca77f030bd70f12550820f0766b568e43f11af7f7ad9061aa/cython-3.0.11.tar.gz", hash = "sha256:7146dd2af8682b4ca61331851e6aebce9fe5158e75300343f80c07ca80b1faff", size = 2755544, upload-time = "2024-08-05T15:03:02.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/13/7f/ab5796a0951328d7818b771c36fe7e1a2077cffa28c917d9fa4a642728c3/Cython-3.0.11-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:44292aae17524abb4b70a25111fe7dec1a0ad718711d47e3786a211d5408fdaa", size = 3100879, upload-time = "2024-08-05T15:03:18.806Z" },
@@ -8106,7 +8106,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "dgl"
         version = "2.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "networkx" },
             { name = "numpy" },
@@ -8134,14 +8134,14 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "e3nn"
         version = "0.4.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "opt-einsum-fx" },
             { name = "scipy" },
-            { name = "sympy", version = "1.13.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
-            { name = "sympy", version = "1.13.3", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
-            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
-            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
+            { name = "sympy", version = "1.13.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
+            { name = "sympy", version = "1.13.3", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
+            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
+            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/aa/98/8e7102dea93106603383fda23bf96649c397a37b910e7c76086e584cd92d/e3nn-0.4.4.tar.gz", hash = "sha256:51c91a84c1fb72e7e3600000958fa8caad48f8270937090fb8d0f8bfffbb3525", size = 361661, upload-time = "2021-12-16T08:49:23.382Z" }
         wheels = [
@@ -8151,7 +8151,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "filelock"
         version = "3.17.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/dc/9c/0b15fb47b464e1b663b1acd1253a062aa5feecb07d4e597daea542ebd2b5/filelock-3.17.0.tar.gz", hash = "sha256:ee4e77401ef576ebb38cd7f13b9b28893194acc20a8e68e18730ba9c0e54660e", size = 18027, upload-time = "2025-01-21T20:04:49.099Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/89/ec/00d68c4ddfedfe64159999e5f8a98fb8442729a63e2077eb9dcd89623d27/filelock-3.17.0-py3-none-any.whl", hash = "sha256:533dc2f7ba78dc2f0f531fc6c4940addf7b70a481e269a5a3b93be94ffbe8338", size = 16164, upload-time = "2025-01-21T20:04:47.734Z" },
@@ -8160,7 +8160,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "fonttools"
         version = "4.55.8"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/f1/24/de7e40adc99be2aa5adc6321bbdf3cf58dbe751b87343da658dd3fc7d946/fonttools-4.55.8.tar.gz", hash = "sha256:54d481d456dcd59af25d4a9c56b2c4c3f20e9620b261b84144e5950f33e8df17", size = 3458915, upload-time = "2025-01-29T18:25:34.687Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/54/b8/82b3444cb081798eabb8397452ddf73680e623d7fdf9c575594a2240b8a2/fonttools-4.55.8-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:d11600f5343092697d7434f3bf77a393c7ae74be206fe30e577b9a195fd53165", size = 2752288, upload-time = "2025-01-29T18:22:59.822Z" },
@@ -8201,7 +8201,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "frozenlist"
         version = "1.5.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/8f/ed/0f4cec13a93c02c47ec32d81d11c0c1efbadf4a471e3f3ce7cad366cbbd3/frozenlist-1.5.0.tar.gz", hash = "sha256:81d5af29e61b9c8348e876d442253723928dce6433e0e76cd925cd83f1b4b817", size = 39930, upload-time = "2024-10-23T09:48:29.903Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/54/79/29d44c4af36b2b240725dce566b20f63f9b36ef267aaaa64ee7466f4f2f8/frozenlist-1.5.0-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:5b6a66c18b5b9dd261ca98dffcb826a525334b2f29e7caa54e182255c5f6a65a", size = 94451, upload-time = "2024-10-23T09:46:20.558Z" },
@@ -8270,7 +8270,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "fsspec"
         version = "2025.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/b5/79/68612ed99700e6413de42895aa725463e821a6b3be75c87fcce1b4af4c70/fsspec-2025.2.0.tar.gz", hash = "sha256:1c24b16eaa0a1798afa0337aa0db9b256718ab2a89c425371f5628d22c3b6afd", size = 292283, upload-time = "2025-02-01T18:30:26.893Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e2/94/758680531a00d06e471ef649e4ec2ed6bf185356a7f9fbfbb7368a40bd49/fsspec-2025.2.0-py3-none-any.whl", hash = "sha256:9de2ad9ce1f85e1931858535bc882543171d197001a0a5eb2ddc04f1781ab95b", size = 184484, upload-time = "2025-02-01T18:30:19.802Z" },
@@ -8284,7 +8284,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "gitdb"
         version = "4.0.12"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "smmap" },
         ]
@@ -8296,7 +8296,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "gitpython"
         version = "3.1.44"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "gitdb" },
         ]
@@ -8308,7 +8308,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "h5py"
         version = "3.12.[X]"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "numpy" },
         ]
@@ -8339,7 +8339,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "idna"
         version = "3.10"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz", hash = "sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9", size = 190490, upload-time = "2024-09-15T18:07:39.745Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl", hash = "sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3", size = 70442, upload-time = "2024-09-15T18:07:37.964Z" },
@@ -8348,7 +8348,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "jinja2"
         version = "3.1.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markupsafe" },
         ]
@@ -8360,7 +8360,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "joblib"
         version = "1.4.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/64/33/60135848598c076ce4b231e1b1895170f45fbcaeaa2c9d5e38b04db70c35/joblib-1.4.2.tar.gz", hash = "sha256:2382c5816b2636fbd20a09e0f4e9dad4736765fdfb7dca582943b9c1366b3f0e", size = 2116621, upload-time = "2024-05-02T12:15:05.765Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/91/29/df4b9b42f2be0b623cbd5e2140cafcaa2bef0759a00b7b70104dcfe2fb51/joblib-1.4.2-py3-none-any.whl", hash = "sha256:06d478d5674cbc267e7496a410ee875abd68e4340feff4490bcb7afb88060ae6", size = 301817, upload-time = "2024-05-02T12:15:00.765Z" },
@@ -8369,7 +8369,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "kiwisolver"
         version = "1.4.8"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/82/59/7c91426a8ac292e1cdd53a63b6d9439abd573c875c3f92c146767dd33faf/kiwisolver-1.4.8.tar.gz", hash = "sha256:23d5f023bdc8c7e54eb65f03ca5d5bb25b601eac4d7f1a042888a1f45237987e", size = 97538, upload-time = "2024-12-24T18:30:51.519Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/47/5f/4d8e9e852d98ecd26cdf8eaf7ed8bc33174033bba5e07001b289f07308fd/kiwisolver-1.4.8-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:88c6f252f6816a73b1f8c904f7bbe02fd67c09a69f7cb8a0eecdbf5ce78e63db", size = 124623, upload-time = "2024-12-24T18:28:17.687Z" },
@@ -8456,7 +8456,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "latexcodec"
         version = "3.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/98/e7/ed339caf3662976949e4fdbfdf4a6db818b8d2aa1cf2b5f73af89e936bba/latexcodec-3.0.0.tar.gz", hash = "sha256:917dc5fe242762cc19d963e6548b42d63a118028cdd3361d62397e3b638b6bc5", size = 31023, upload-time = "2024-03-06T14:51:39.283Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b0/bf/ea8887e9f31a8f93ca306699d11909c6140151393a4216f0d9f85a004077/latexcodec-3.0.0-py3-none-any.whl", hash = "sha256:6f3477ad5e61a0a99bd31a6a370c34e88733a6bad9c921a3ffcfacada12f41a7", size = 18150, upload-time = "2024-03-06T14:51:37.872Z" },
@@ -8465,14 +8465,14 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "lightning"
         version = "2.5.0.post0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "fsspec", extra = ["http"], marker = "extra == 'extra-4-test-m3gnet'" },
             { name = "lightning-utilities" },
             { name = "packaging" },
             { name = "pytorch-lightning" },
             { name = "pyyaml" },
-            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.org/simple" } },
+            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "torchmetrics" },
             { name = "tqdm" },
             { name = "typing-extensions" },
@@ -8485,7 +8485,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "lightning-utilities"
         version = "0.12.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "packaging" },
             { name = "setuptools" },
@@ -8499,7 +8499,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "mace-torch"
         version = "0.3.9"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "ase" },
             { name = "configargparse" },
@@ -8515,8 +8515,8 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
             { name = "prettytable" },
             { name = "python-hostlist" },
             { name = "pyyaml" },
-            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
-            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
+            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
+            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
             { name = "torch-ema" },
             { name = "torchmetrics" },
             { name = "tqdm" },
@@ -8529,7 +8529,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "markupsafe"
         version = "3.0.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/b2/97/5d42485e71dfc078108a86d6de8fa46db44a1a9295e89c5d6d4a06e23a62/markupsafe-3.0.2.tar.gz", hash = "sha256:ee55d3edf80167e48ea11a923c7386f4669df67d7994554387f84e7d8b0a2bf0", size = 20537, upload-time = "2024-10-18T15:21:54.129Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/04/90/d08277ce111dd22f77149fd1a5d4653eeb3b3eaacbdfcbae5afb2600eebd/MarkupSafe-3.0.2-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:7e94c425039cde14257288fd61dcfb01963e658efbc0ff54f5306b06054700f8", size = 14357, upload-time = "2024-10-18T15:20:51.44Z" },
@@ -8587,14 +8587,14 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "matgl"
         version = "1.1.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "ase" },
             { name = "dgl" },
             { name = "lightning" },
             { name = "pydantic" },
             { name = "pymatgen" },
-            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.org/simple" } },
+            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "torchdata" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/64/d6/0ad42a2efe7bc799df0bf4805cc90866f35aba2bc366de7372c2202d8e37/matgl-1.1.3.tar.gz", hash = "sha256:6b09b3a7a68a1f6fe47bed8c7408540353e46371e32c1a1ac2bde347a6885a14", size = 215012, upload-time = "2024-08-07T12:39:58.714Z" }
@@ -8605,7 +8605,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "matplotlib"
         version = "3.10.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "contourpy" },
             { name = "cycler" },
@@ -8657,7 +8657,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "matscipy"
         version = "1.1.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "ase" },
             { name = "numpy" },
@@ -8686,7 +8686,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "monty"
         version = "2025.1.9"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "numpy" },
             { name = "ruamel-yaml" },
@@ -8699,7 +8699,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "mpmath"
         version = "1.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e0/47/dd32fa426cc72114383ac549964eecb20ecfd886d1e5ccf5340b55b02f57/mpmath-1.3.0.tar.gz", hash = "sha256:7a28eb2a9774d00c7bc92411c19a89209d5da7c4c9a9e227be8330a23a25b91f", size = 508106, upload-time = "2023-03-07T16:47:11.061Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl", hash = "sha256:a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c", size = 536198, upload-time = "2023-03-07T16:47:09.197Z" },
@@ -8708,7 +8708,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "multidict"
         version = "6.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "typing-extensions", marker = "python_full_version < '3.11'" },
         ]
@@ -8780,7 +8780,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "narwhals"
         version = "1.25.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/59/9f/6fa2646cdab958abd89d1b2804be2cdee54c931a308cff95d282d63d437e/narwhals-1.25.2.tar.gz", hash = "sha256:37594746fc06fe4a588967a34a2974b1f3a7ad6ff1571b6e31ac5e58c9591000", size = 247191, upload-time = "2025-02-06T10:52:48.686Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/7f/0c/66a308d86c5607a2538401602875c146ae967d69e0118f579be07386cc40/narwhals-1.25.2-py3-none-any.whl", hash = "sha256:e645f7fc1f8c0a3563a6cdcd0191586cdf88470ad90f0818abba7ceb6c181b00", size = 305490, upload-time = "2025-02-06T10:52:45.304Z" },
@@ -8789,7 +8789,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "networkx"
         version = "3.4.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/fd/1d/06475e1cd5264c0b870ea2cc6fdb3e37177c1e565c43f56ff17a10e3937f/networkx-3.4.2.tar.gz", hash = "sha256:307c3669428c5362aab27c8a1260aa8f47c4e91d3891f48be0141738d8d053e1", size = 2151368, upload-time = "2024-10-21T12:39:38.695Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl", hash = "sha256:df5d4365b724cf81b8c6a7312509d0c22386097011ad1abe274afd5e9d3bbc5f", size = 1723263, upload-time = "2024-10-21T12:39:36.247Z" },
@@ -8798,7 +8798,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "numpy"
         version = "1.26.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/65/6e/09db70a523a96d25e115e71cc56a6f9031e7b8cd166c1ac8438307c14058/numpy-1.26.4.tar.gz", hash = "sha256:2a02aba9ed12e4ac4eb3ea9421c420301a0c6460d9830d74a9df87efa4912010", size = 15786129, upload-time = "2024-02-06T00:26:44.495Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a7/94/ace0fdea5241a27d13543ee117cbc65868e82213fb31a8eb7fe9ff23f313/numpy-1.26.4-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:9ff0f4f29c51e2803569d7a51c2304de5554655a60c5d776e35b4a41413830d0", size = 20631468, upload-time = "2024-02-05T23:48:01.194Z" },
@@ -8830,7 +8830,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cublas-cu12"
         version = "12.1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32'",
             "python_full_version == '3.11.*' and sys_platform != 'win32'",
@@ -8844,7 +8844,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cublas-cu12"
         version = "12.4.5.8"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -8862,7 +8862,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cuda-cupti-cu12"
         version = "12.1.105"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32'",
             "python_full_version == '3.11.*' and sys_platform != 'win32'",
@@ -8876,7 +8876,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cuda-cupti-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -8894,7 +8894,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cuda-nvrtc-cu12"
         version = "12.1.105"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32'",
             "python_full_version == '3.11.*' and sys_platform != 'win32'",
@@ -8908,7 +8908,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cuda-nvrtc-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -8926,7 +8926,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cuda-runtime-cu12"
         version = "12.1.105"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32'",
             "python_full_version == '3.11.*' and sys_platform != 'win32'",
@@ -8940,7 +8940,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cuda-runtime-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -8958,14 +8958,14 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cudnn-cu12"
         version = "8.9.2.26"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32'",
             "python_full_version == '3.11.*' and sys_platform != 'win32'",
             "python_full_version < '3.11' and sys_platform != 'win32'",
         ]
         dependencies = [
-            { name = "nvidia-cublas-cu12", version = "12.1.3.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
+            { name = "nvidia-cublas-cu12", version = "12.1.3.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
         ]
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ff/74/a2e2be7fb83aaedec84f391f082cf765dfb635e7caa9b49065f73e4835d8/nvidia_cudnn_cu12-8.9.2.26-py3-none-manylinux1_x86_64.whl", hash = "sha256:5ccb288774fdfb07a7e7025ffec286971c06d8d7b4fb162525334616d7629ff9", size = 731725872, upload-time = "2023-06-01T19:24:57.328Z" },
@@ -8974,7 +8974,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cudnn-cu12"
         version = "9.1.0.70"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -8984,7 +8984,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
             "python_full_version < '3.11' and extra != 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
         ]
         dependencies = [
-            { name = "nvidia-cublas-cu12", version = "12.4.5.8", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
+            { name = "nvidia-cublas-cu12", version = "12.4.5.8", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
         ]
         wheels = [
             { url = "https://files.pythonhosted.org/packages/9f/fd/713452cd72343f682b1c7b9321e23829f00b842ceaedcda96e742ea0b0b3/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl", hash = "sha256:165764f44ef8c61fcdfdfdbe769d687e06374059fbb388b6c89ecb0e28793a6f", size = 664752741, upload-time = "2024-04-22T15:24:15.253Z" },
@@ -8994,7 +8994,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cufft-cu12"
         version = "11.0.2.54"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32'",
             "python_full_version == '3.11.*' and sys_platform != 'win32'",
@@ -9008,7 +9008,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cufft-cu12"
         version = "11.2.1.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -9018,7 +9018,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
             "python_full_version < '3.11' and extra != 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
         ]
         dependencies = [
-            { name = "nvidia-nvjitlink-cu12", version = "12.4.127", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
+            { name = "nvidia-nvjitlink-cu12", version = "12.4.127", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
         ]
         wheels = [
             { url = "https://files.pythonhosted.org/packages/7a/8a/0e728f749baca3fbeffad762738276e5df60851958be7783af121a7221e7/nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_aarch64.whl", hash = "sha256:5dad8008fc7f92f5ddfa2101430917ce2ffacd86824914c82e28990ad7f00399", size = 211422548, upload-time = "2024-06-18T19:33:39.396Z" },
@@ -9029,7 +9029,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-curand-cu12"
         version = "10.3.2.106"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32'",
             "python_full_version == '3.11.*' and sys_platform != 'win32'",
@@ -9043,7 +9043,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-curand-cu12"
         version = "10.3.5.147"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -9061,16 +9061,16 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cusolver-cu12"
         version = "11.4.5.107"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32'",
             "python_full_version == '3.11.*' and sys_platform != 'win32'",
             "python_full_version < '3.11' and sys_platform != 'win32'",
         ]
         dependencies = [
-            { name = "nvidia-cublas-cu12", version = "12.1.3.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
-            { name = "nvidia-cusparse-cu12", version = "12.1.0.106", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
-            { name = "nvidia-nvjitlink-cu12", version = "12.8.61", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
+            { name = "nvidia-cublas-cu12", version = "12.1.3.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
+            { name = "nvidia-cusparse-cu12", version = "12.1.0.106", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
+            { name = "nvidia-nvjitlink-cu12", version = "12.8.61", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
         ]
         wheels = [
             { url = "https://files.pythonhosted.org/packages/bc/1d/8de1e5c67099015c834315e333911273a8c6aaba78923dd1d1e25fc5f217/nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl", hash = "sha256:8a7ec542f0412294b15072fa7dab71d31334014a69f953004ea7a118206fe0dd", size = 124161928, upload-time = "2023-04-19T15:51:25.781Z" },
@@ -9080,7 +9080,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cusolver-cu12"
         version = "11.6.1.9"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -9090,9 +9090,9 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
             "python_full_version < '3.11' and extra != 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
         ]
         dependencies = [
-            { name = "nvidia-cublas-cu12", version = "12.4.5.8", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
-            { name = "nvidia-cusparse-cu12", version = "12.3.1.170", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
-            { name = "nvidia-nvjitlink-cu12", version = "12.4.127", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
+            { name = "nvidia-cublas-cu12", version = "12.4.5.8", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
+            { name = "nvidia-cusparse-cu12", version = "12.3.1.170", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
+            { name = "nvidia-nvjitlink-cu12", version = "12.4.127", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
         ]
         wheels = [
             { url = "https://files.pythonhosted.org/packages/46/6b/a5c33cf16af09166845345275c34ad2190944bcc6026797a39f8e0a282e0/nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_aarch64.whl", hash = "sha256:d338f155f174f90724bbde3758b7ac375a70ce8e706d70b018dd3375545fc84e", size = 127634111, upload-time = "2024-06-18T19:35:01.793Z" },
@@ -9103,14 +9103,14 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cusparse-cu12"
         version = "12.1.0.106"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32'",
             "python_full_version == '3.11.*' and sys_platform != 'win32'",
             "python_full_version < '3.11' and sys_platform != 'win32'",
         ]
         dependencies = [
-            { name = "nvidia-nvjitlink-cu12", version = "12.8.61", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
+            { name = "nvidia-nvjitlink-cu12", version = "12.8.61", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
         ]
         wheels = [
             { url = "https://files.pythonhosted.org/packages/65/5b/cfaeebf25cd9fdec14338ccb16f6b2c4c7fa9163aefcf057d86b9cc248bb/nvidia_cusparse_cu12-12.1.0.106-py3-none-manylinux1_x86_64.whl", hash = "sha256:f3b50f42cf363f86ab21f720998517a659a48131e8d538dc02f8768237bd884c", size = 195958278, upload-time = "2023-04-19T15:51:49.939Z" },
@@ -9120,7 +9120,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-cusparse-cu12"
         version = "12.3.1.170"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -9130,7 +9130,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
             "python_full_version < '3.11' and extra != 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
         ]
         dependencies = [
-            { name = "nvidia-nvjitlink-cu12", version = "12.4.127", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
+            { name = "nvidia-nvjitlink-cu12", version = "12.4.127", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
         ]
         wheels = [
             { url = "https://files.pythonhosted.org/packages/96/a9/c0d2f83a53d40a4a41be14cea6a0bf9e668ffcf8b004bd65633f433050c0/nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_aarch64.whl", hash = "sha256:9d32f62896231ebe0480efd8a7f702e143c98cfaa0e8a76df3386c1ba2b54df3", size = 207381987, upload-time = "2024-06-18T19:35:32.989Z" },
@@ -9141,13 +9141,13 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-ml-py3"
         version = "7.352.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/6d/64/cce82bddb80c0b0f5c703bbdafa94bfb69a1c5ad7a79cff00b482468f0d3/nvidia-ml-py3-7.352.0.tar.gz", hash = "sha256:390f02919ee9d73fe63a98c73101061a6b37fa694a793abf56673320f1f51277", size = 19494, upload-time = "2017-06-03T07:43:46.299Z" }
 
         [[package]]
         name = "nvidia-nccl-cu12"
         version = "2.19.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32'",
             "python_full_version == '3.11.*' and sys_platform != 'win32'",
@@ -9160,7 +9160,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-nccl-cu12"
         version = "2.21.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -9176,7 +9176,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-nvjitlink-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -9194,7 +9194,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-nvjitlink-cu12"
         version = "12.8.61"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32'",
             "python_full_version == '3.11.*' and sys_platform != 'win32'",
@@ -9209,7 +9209,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-nvtx-cu12"
         version = "12.1.105"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32'",
             "python_full_version == '3.11.*' and sys_platform != 'win32'",
@@ -9223,7 +9223,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "nvidia-nvtx-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -9241,7 +9241,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "opt-einsum"
         version = "3.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/8c/b9/2ac072041e899a52f20cf9510850ff58295003aa75525e58343591b0cbfb/opt_einsum-3.4.0.tar.gz", hash = "sha256:96ca72f1b886d148241348783498194c577fa30a8faac108586b14f1ba4473ac", size = 63004, upload-time = "2024-09-26T14:33:24.483Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/23/cd/066e86230ae37ed0be70aae89aabf03ca8d9f39c8aea0dec8029455b5540/opt_einsum-3.4.0-py3-none-any.whl", hash = "sha256:69bb92469f86a1565195ece4ac0323943e83477171b91d24c35afe028a90d7cd", size = 71932, upload-time = "2024-09-26T14:33:23.039Z" },
@@ -9250,12 +9250,12 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "opt-einsum-fx"
         version = "0.1.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "opt-einsum" },
             { name = "packaging" },
-            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
-            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
+            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
+            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/93/de/856dab99be0360c7275fee075eb0450a2ec82a54c4c33689606f62e9615b/opt_einsum_fx-0.1.4.tar.gz", hash = "sha256:7eeb7f91ecb70be65e6179c106ea7f64fc1db6319e3d1289a4518b384f81e74f", size = 12969, upload-time = "2021-11-07T20:49:33.811Z" }
         wheels = [
@@ -9265,7 +9265,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "packaging"
         version = "24.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d0/63/68dbb6eb2de9cb10ee4c9c14a0148804425e13c4fb20d61cce69f53106da/packaging-24.2.tar.gz", hash = "sha256:c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f", size = 163950, upload-time = "2024-11-08T09:47:47.202Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/88/ef/eb23f262cca3c0c4eb7ab1933c3b1f03d021f2c48f54763065b6f0e321be/packaging-24.2-py3-none-any.whl", hash = "sha256:09abb1bccd265c01f4a3aa3f7a7db064b36514d2cba19a2f694fe6150451a759", size = 65451, upload-time = "2024-11-08T09:47:44.722Z" },
@@ -9274,7 +9274,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "palettable"
         version = "3.3.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/dc/3d/a5854d60850485bff12f28abfe0e17f503e866763bed61aed4990b604530/palettable-3.3.3.tar.gz", hash = "sha256:094dd7d9a5fc1cca4854773e5c1fc6a315b33bd5b3a8f47064928facaf0490a8", size = 106639, upload-time = "2023-04-19T23:13:35.864Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/cf/f7/3367feadd4ab56783b0971c9b7edfbdd68e0c70ce877949a5dd2117ed4a0/palettable-3.3.3-py2.py3-none-any.whl", hash = "sha256:74e9e7d7fe5a9be065e02397558ed1777b2df0b793a6f4ce1a5ee74f74fb0caa", size = 332251, upload-time = "2023-04-19T23:13:33.996Z" },
@@ -9283,7 +9283,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "pandas"
         version = "2.2.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "numpy" },
             { name = "python-dateutil" },
@@ -9331,7 +9331,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "pillow"
         version = "11.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/f3/af/c097e544e7bd278333db77933e535098c259609c4eb3b85381109602fb5b/pillow-11.1.0.tar.gz", hash = "sha256:368da70808b36d73b4b390a8ffac11069f8a5c85f29eff1f1b01bcf3ef5b2a20", size = 46742715, upload-time = "2025-01-02T08:13:58.407Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/50/1c/2dcea34ac3d7bc96a1fd1bd0a6e06a57c67167fec2cff8d95d88229a8817/pillow-11.1.0-cp310-cp310-macosx_10_10_x86_64.whl", hash = "sha256:e1abe69aca89514737465752b4bcaf8016de61b3be1397a8fc260ba33321b3a8", size = 3229983, upload-time = "2025-01-02T08:10:16.008Z" },
@@ -9398,7 +9398,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "plotly"
         version = "6.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "narwhals" },
             { name = "packaging" },
@@ -9411,7 +9411,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "prettytable"
         version = "3.14.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "wcwidth" },
         ]
@@ -9423,7 +9423,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "propcache"
         version = "0.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/20/c8/2a13f78d82211490855b2fb303b6721348d0787fdd9a12ac46d99d3acde1/propcache-0.2.1.tar.gz", hash = "sha256:3f77ce728b19cb537714499928fe800c3dda29e8d9428778fc7c186da4c09a64", size = 41735, upload-time = "2024-12-01T18:29:16.437Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a7/a5/0ea64c9426959ef145a938e38c832fc551843481d356713ececa9a8a64e8/propcache-0.2.1-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:6b3f39a85d671436ee3d12c017f8fdea38509e4f25b28eb25877293c98c243f6", size = 79296, upload-time = "2024-12-01T18:27:02.052Z" },
@@ -9496,7 +9496,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "psutil"
         version = "6.1.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/1f/5a/07871137bb752428aa4b659f910b399ba6f291156bdea939be3e96cae7cb/psutil-6.1.1.tar.gz", hash = "sha256:cf8496728c18f2d0b45198f06895be52f36611711746b7f30c464b422b50e2f5", size = 508502, upload-time = "2024-12-19T18:21:20.568Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/61/99/ca79d302be46f7bdd8321089762dd4476ee725fce16fc2b2e1dbba8cac17/psutil-6.1.1-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:fc0ed7fe2231a444fc219b9c42d0376e0a9a1a72f16c5cfa0f68d19f1a0663e8", size = 247511, upload-time = "2024-12-19T18:21:45.163Z" },
@@ -9511,7 +9511,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "pybtex"
         version = "0.24.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "latexcodec" },
             { name = "pyyaml" },
@@ -9525,7 +9525,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "pydantic"
         version = "2.10.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "annotated-types" },
             { name = "pydantic-core" },
@@ -9539,7 +9539,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "pydantic-core"
         version = "2.27.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "typing-extensions" },
         ]
@@ -9614,7 +9614,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "pymatgen"
         version = "2025.1.24"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "joblib" },
             { name = "matplotlib" },
@@ -9629,8 +9629,8 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
             { name = "ruamel-yaml" },
             { name = "scipy" },
             { name = "spglib" },
-            { name = "sympy", version = "1.13.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-chgnet'" },
-            { name = "sympy", version = "1.13.3", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
+            { name = "sympy", version = "1.13.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-chgnet'" },
+            { name = "sympy", version = "1.13.3", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
             { name = "tabulate" },
             { name = "tqdm" },
             { name = "uncertainties" },
@@ -9657,7 +9657,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "pyparsing"
         version = "3.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/8b/1a/3544f4f299a47911c2ab3710f534e52fea62a633c96806995da5d25be4b2/pyparsing-3.2.1.tar.gz", hash = "sha256:61980854fd66de3a90028d679a954d5f2623e83144b5afe5ee86f43d762e5f0a", size = 1067694, upload-time = "2024-12-31T20:59:46.157Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/1c/a7/c8a2d361bf89c0d9577c934ebb7421b25dc84bf3a8e3ac0a40aed9acc547/pyparsing-3.2.1-py3-none-any.whl", hash = "sha256:506ff4f4386c4cec0590ec19e6302d3aedb992fdc02c761e90416f158dacf8e1", size = 107716, upload-time = "2024-12-31T20:59:42.738Z" },
@@ -9666,7 +9666,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "python-dateutil"
         version = "2.9.0.post0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "six" },
         ]
@@ -9678,19 +9678,19 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "python-hostlist"
         version = "2.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/2e/dd/c9ef1591ca0d0b4f2197751ecfbdf5c718cf4381bc4d7199eeba2dc90c42/python-hostlist-2.2.1.tar.gz", hash = "sha256:bbf7ca58835f84c6991084a661b409bc9cb3359c9f71be9b752442ba9225a0a5", size = 37216, upload-time = "2024-12-03T12:06:07.641Z" }
 
         [[package]]
         name = "pytorch-lightning"
         version = "2.5.0.post0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "fsspec", extra = ["http"], marker = "extra == 'extra-4-test-m3gnet'" },
             { name = "lightning-utilities" },
             { name = "packaging" },
             { name = "pyyaml" },
-            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.org/simple" } },
+            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "torchmetrics" },
             { name = "tqdm" },
             { name = "typing-extensions" },
@@ -9703,7 +9703,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "pytz"
         version = "2025.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/5f/57/df1c9157c8d5a05117e455d66fd7cf6dbc46974f832b1058ed4856785d8a/pytz-2025.1.tar.gz", hash = "sha256:c2db42be2a2518b28e65f9207c4d05e6ff547d1efa4086469ef855e4ab70178e", size = 319617, upload-time = "2025-01-31T01:54:48.615Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/eb/38/ac33370d784287baa1c3d538978b5e2ea064d4c1b93ffbd12826c190dd10/pytz-2025.1-py2.py3-none-any.whl", hash = "sha256:89dd22dca55b46eac6eda23b2d72721bf1bdfef212645d81513ef5d03038de57", size = 507930, upload-time = "2025-01-31T01:54:45.634Z" },
@@ -9712,7 +9712,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "pyyaml"
         version = "6.0.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/54/ed/79a089b6be93607fa5cdaedf301d7dfb23af5f25c398d5ead2525b063e17/pyyaml-6.0.2.tar.gz", hash = "sha256:d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e", size = 130631, upload-time = "2024-08-06T20:33:50.674Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/9b/95/a3fac87cb7158e231b5a6012e438c647e1a87f09f8e0d123acec8ab8bf71/PyYAML-6.0.2-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:0a9a2848a5b7feac301353437eb7d5957887edbf81d56e903999a75a3d743086", size = 184199, upload-time = "2024-08-06T20:31:40.178Z" },
@@ -9756,7 +9756,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "requests"
         version = "2.32.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "certifi" },
             { name = "charset-normalizer" },
@@ -9771,7 +9771,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "ruamel-yaml"
         version = "0.18.10"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "ruamel-yaml-clib", marker = "python_full_version < '3.13' and platform_python_implementation == 'CPython'" },
         ]
@@ -9783,7 +9783,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "ruamel-yaml-clib"
         version = "0.2.12"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/20/84/80203abff8ea4993a87d823a5f632e4d92831ef75d404c9fc78d0176d2b5/ruamel.yaml.clib-0.2.12.tar.gz", hash = "sha256:6c8fbb13ec503f99a91901ab46e0b07ae7941cd527393187039aec586fdfd36f", size = 225315, upload-time = "2024-10-20T10:10:56.22Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/70/57/40a958e863e299f0c74ef32a3bde9f2d1ea8d69669368c0c502a0997f57f/ruamel.yaml.clib-0.2.12-cp310-cp310-macosx_13_0_arm64.whl", hash = "sha256:11f891336688faf5156a36293a9c362bdc7c88f03a8a027c2c1d8e0bcde998e5", size = 131301, upload-time = "2024-10-20T10:12:35.876Z" },
@@ -9827,7 +9827,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "scipy"
         version = "1.15.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "numpy" },
         ]
@@ -9877,7 +9877,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "setuptools"
         version = "75.8.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/92/ec/089608b791d210aec4e7f97488e67ab0d33add3efccb83a056cbafe3a2a6/setuptools-75.8.0.tar.gz", hash = "sha256:c5afc8f407c626b8313a86e10311dd3f661c6cd9c09d4bf8c15c0e11f9f2b0e6", size = 1343222, upload-time = "2025-01-08T18:28:23.98Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/69/8a/b9dc7678803429e4a3bc9ba462fa3dd9066824d3c607490235c6a796be5a/setuptools-75.8.0-py3-none-any.whl", hash = "sha256:e3982f444617239225d675215d51f6ba05f845d4eec313da4418fdbb56fb27e3", size = 1228782, upload-time = "2025-01-08T18:28:20.912Z" },
@@ -9886,7 +9886,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "six"
         version = "1.17.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81", size = 34031, upload-time = "2024-12-04T17:35:28.174Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274", size = 11050, upload-time = "2024-12-04T17:35:26.475Z" },
@@ -9895,7 +9895,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "smmap"
         version = "5.0.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/44/cd/a040c4b3119bbe532e5b0732286f805445375489fceaec1f48306068ee3b/smmap-5.0.2.tar.gz", hash = "sha256:26ea65a03958fa0c8a1c7e8c7a58fdc77221b8910f6be2131affade476898ad5", size = 22329, upload-time = "2025-01-02T07:14:40.909Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/04/be/d09147ad1ec7934636ad912901c5fd7667e1c858e19d355237db0d0cd5e4/smmap-5.0.2-py3-none-any.whl", hash = "sha256:b30115f0def7d7531d22a0fb6502488d879e75b260a9db4d0819cfb25403af5e", size = 24303, upload-time = "2025-01-02T07:14:38.724Z" },
@@ -9904,7 +9904,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "spglib"
         version = "2.5.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "numpy" },
         ]
@@ -9930,7 +9930,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "sympy"
         version = "1.13.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform == 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -9953,7 +9953,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "sympy"
         version = "1.13.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform == 'win32'",
             "python_full_version >= '3.12' and sys_platform != 'win32'",
@@ -9973,7 +9973,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "tabulate"
         version = "0.9.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/ec/fe/802052aecb21e3797b8f7902564ab6ea0d60ff8ca23952079064155d1ae1/tabulate-0.9.0.tar.gz", hash = "sha256:0095b12bf5966de529c0feb1fa08671671b3368eec77d7ef7ab114be2c068b3c", size = 81090, upload-time = "2022-10-06T17:21:48.54Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/40/44/4a5f08c96eb108af5cb50b41f76142f0afa346dfa99d5296fe7202a11854/tabulate-0.9.0-py3-none-any.whl", hash = "sha256:024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f", size = 35252, upload-time = "2022-10-06T17:21:44.262Z" },
@@ -9993,7 +9993,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         ]
         m3gnet = [
             { name = "matgl" },
-            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.org/simple" } },
+            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "torchdata" },
         ]
 
@@ -10010,7 +10010,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "torch"
         version = "2.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform == 'win32'",
             "python_full_version >= '3.12' and sys_platform != 'win32'",
@@ -10024,19 +10024,19 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
             { name = "fsspec", marker = "extra == 'extra-4-test-m3gnet'" },
             { name = "jinja2", marker = "extra == 'extra-4-test-m3gnet'" },
             { name = "networkx", marker = "extra == 'extra-4-test-m3gnet'" },
-            { name = "nvidia-cublas-cu12", version = "12.1.3.1", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cuda-cupti-cu12", version = "12.1.105", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cuda-nvrtc-cu12", version = "12.1.105", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cuda-runtime-cu12", version = "12.1.105", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cudnn-cu12", version = "8.9.2.26", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cufft-cu12", version = "11.0.2.54", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-curand-cu12", version = "10.3.2.106", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cusolver-cu12", version = "11.4.5.107", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cusparse-cu12", version = "12.1.0.106", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-nccl-cu12", version = "2.19.3", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-nvtx-cu12", version = "12.1.105", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "sympy", version = "1.13.3", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
-            { name = "triton", version = "2.2.0", source = { registry = "https://pypi.org/simple" }, marker = "(python_full_version < '3.12' and platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (python_full_version >= '3.12' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cublas-cu12", version = "12.1.3.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cuda-cupti-cu12", version = "12.1.105", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cuda-nvrtc-cu12", version = "12.1.105", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cuda-runtime-cu12", version = "12.1.105", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cudnn-cu12", version = "8.9.2.26", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cufft-cu12", version = "11.0.2.54", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-curand-cu12", version = "10.3.2.106", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cusolver-cu12", version = "11.4.5.107", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cusparse-cu12", version = "12.1.0.106", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-nccl-cu12", version = "2.19.3", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-nvtx-cu12", version = "12.1.105", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "sympy", version = "1.13.3", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
+            { name = "triton", version = "2.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(python_full_version < '3.12' and platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (python_full_version >= '3.12' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
             { name = "typing-extensions", marker = "extra == 'extra-4-test-m3gnet'" },
         ]
         wheels = [
@@ -10060,7 +10060,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "torch"
         version = "2.5.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform == 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -10077,21 +10077,21 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
             { name = "fsspec", marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
             { name = "jinja2", marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
             { name = "networkx", marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
-            { name = "nvidia-cublas-cu12", version = "12.4.5.8", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cuda-cupti-cu12", version = "12.4.127", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cuda-nvrtc-cu12", version = "12.4.127", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cuda-runtime-cu12", version = "12.4.127", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cudnn-cu12", version = "9.1.0.70", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cufft-cu12", version = "11.2.1.3", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-curand-cu12", version = "10.3.5.147", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cusolver-cu12", version = "11.6.1.9", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cusparse-cu12", version = "12.3.1.170", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-nccl-cu12", version = "2.21.5", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-nvjitlink-cu12", version = "12.4.127", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-nvtx-cu12", version = "12.4.127", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cublas-cu12", version = "12.4.5.8", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cuda-cupti-cu12", version = "12.4.127", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cuda-nvrtc-cu12", version = "12.4.127", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cuda-runtime-cu12", version = "12.4.127", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cudnn-cu12", version = "9.1.0.70", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cufft-cu12", version = "11.2.1.3", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-curand-cu12", version = "10.3.5.147", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cusolver-cu12", version = "11.6.1.9", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cusparse-cu12", version = "12.3.1.170", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-nccl-cu12", version = "2.21.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-nvjitlink-cu12", version = "12.4.127", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-nvtx-cu12", version = "12.4.127", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
             { name = "setuptools", marker = "(python_full_version >= '3.12' and extra == 'extra-4-test-chgnet') or (python_full_version >= '3.12' and extra != 'extra-4-test-m3gnet') or (extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "sympy", version = "1.13.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
-            { name = "triton", version = "3.1.0", source = { registry = "https://pypi.org/simple" }, marker = "(python_full_version < '3.13' and platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (python_full_version < '3.13' and platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (python_full_version >= '3.13' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "sympy", version = "1.13.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
+            { name = "triton", version = "3.1.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(python_full_version < '3.13' and platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (python_full_version < '3.13' and platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-m3gnet') or (python_full_version >= '3.13' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
             { name = "typing-extensions", marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
         ]
         wheels = [
@@ -10113,10 +10113,10 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "torch-ema"
         version = "0.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
-            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
+            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
+            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/45/af/db7d0c8b26a13062d9b85bdcf8d977acd8a51057fb6edca9eb30613ef5ef/torch_ema-0.3.tar.gz", hash = "sha256:5a3595405fa311995f01291a1d4a9242d6be08a0fc9db29152ec6cfd586ea414", size = 5486, upload-time = "2021-11-17T20:59:16.265Z" }
         wheels = [
@@ -10126,10 +10126,10 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "torchdata"
         version = "0.7.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "requests" },
-            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.org/simple" } },
+            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "urllib3" },
         ]
         wheels = [
@@ -10147,13 +10147,13 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "torchmetrics"
         version = "1.6.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "lightning-utilities" },
             { name = "numpy" },
             { name = "packaging" },
-            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
-            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
+            { name = "torch", version = "2.2.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-m3gnet'" },
+            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-m3gnet'" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/14/c5/8d916585d4d6eb158105c21b28cd4b0ed296d74e499bf8f104368de16619/torchmetrics-1.6.1.tar.gz", hash = "sha256:a5dc236694b392180949fdd0a0fcf2b57135c8b600e557c725e077eb41e53e64", size = 540022, upload-time = "2024-12-25T23:56:42.146Z" }
         wheels = [
@@ -10163,7 +10163,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "tqdm"
         version = "4.67.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "colorama", marker = "sys_platform == 'win32' or (extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
         ]
@@ -10175,7 +10175,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "triton"
         version = "2.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version == '3.11.*' and sys_platform != 'win32'",
             "python_full_version < '3.11' and sys_platform != 'win32'",
@@ -10192,7 +10192,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "triton"
         version = "3.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -10213,7 +10213,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "typing-extensions"
         version = "4.12.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz", hash = "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8", size = 85321, upload-time = "2024-06-07T18:52:15.995Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl", hash = "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d", size = 37438, upload-time = "2024-06-07T18:52:13.582Z" },
@@ -10222,7 +10222,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "tzdata"
         version = "2025.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/43/0f/fa4723f22942480be4ca9527bbde8d43f6c3f2fe8412f00e7f5f6746bc8b/tzdata-2025.1.tar.gz", hash = "sha256:24894909e88cdb28bd1636c6887801df64cb485bd593f2fd83ef29075a81d694", size = 194950, upload-time = "2025-01-21T19:49:38.686Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/0f/dd/84f10e23edd882c6f968c21c2434fe67bd4a528967067515feca9e611e5e/tzdata-2025.1-py2.py3-none-any.whl", hash = "sha256:7e127113816800496f027041c570f50bcd464a020098a3b6b199517772303639", size = 346762, upload-time = "2025-01-21T19:49:37.187Z" },
@@ -10231,7 +10231,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "uncertainties"
         version = "3.2.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a0/b0/f926a3faf468b9784bdecb8d9328b531743937ead284b2e8d406d96e8b0f/uncertainties-3.2.2.tar.gz", hash = "sha256:e62c86fdc64429828229de6ab4e11466f114907e6bd343c077858994cc12e00b", size = 143865, upload-time = "2024-07-07T22:37:06.567Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/fa/fc/97711d2a502881d871e3cf2d2645e21e7f8e4d4fd9a56937557790cade6a/uncertainties-3.2.2-py3-none-any.whl", hash = "sha256:fd8543355952f4052786ed4150acaf12e23117bd0f5bd03ea07de466bce646e7", size = 58266, upload-time = "2024-07-07T22:37:03.942Z" },
@@ -10240,7 +10240,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "urllib3"
         version = "2.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/aa/63/e53da845320b757bf29ef6a9062f5c669fe997973f966045cb019c3f4b66/urllib3-2.3.0.tar.gz", hash = "sha256:f8c5449b3cf0861679ce7e0503c7b44b5ec981bec0d1d3795a07f1ba96f0204d", size = 307268, upload-time = "2024-12-22T07:47:30.032Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c8/19/4ec628951a74043532ca2cf5d97b7b14863931476d117c471e8e2b1eb39f/urllib3-2.3.0-py3-none-any.whl", hash = "sha256:1cee9ad369867bfdbbb48b7dd50374c0967a0bb7710050facf0dd6911440e3df", size = 128369, upload-time = "2024-12-22T07:47:28.074Z" },
@@ -10249,7 +10249,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "wcwidth"
         version = "0.2.13"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/6c/63/53559446a878410fc5a5974feb13d31d78d752eb18aeba59c7fef1af7598/wcwidth-0.2.13.tar.gz", hash = "sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5", size = 101301, upload-time = "2024-01-06T02:10:57.829Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/fd/84/fd2ba7aafacbad3c4201d395674fc6348826569da3c0937e75505ead3528/wcwidth-0.2.13-py2.py3-none-any.whl", hash = "sha256:3da69048e4540d84af32131829ff948f1e022c1c6bdb8d6102117aac784f6859", size = 34166, upload-time = "2024-01-06T02:10:55.763Z" },
@@ -10258,7 +10258,7 @@ fn incorrect_extra_simplification_leads_to_multiple_torch_packages() -> Result<(
         [[package]]
         name = "yarl"
         version = "1.18.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "multidict" },
@@ -10498,7 +10498,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "aiohappyeyeballs"
         version = "2.4.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/08/07/508f9ebba367fc3370162e53a3cfd12f5652ad79f0e0bfdf9f9847c6f159/aiohappyeyeballs-2.4.6.tar.gz", hash = "sha256:9b05052f9042985d32ecbe4b59a77ae19c006a78f1344d7fdad69d28ded3d0b0", size = 21726, upload-time = "2025-02-07T17:53:12.277Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/44/4c/03fb05f56551828ec67ceb3665e5dc51638042d204983a03b0a1541475b6/aiohappyeyeballs-2.4.6-py3-none-any.whl", hash = "sha256:147ec992cf873d74f5062644332c539fcd42956dc69453fe5204195e560517e1", size = 14543, upload-time = "2025-02-07T17:53:10.304Z" },
@@ -10507,7 +10507,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "aiohttp"
         version = "3.11.12"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "aiohappyeyeballs" },
             { name = "aiosignal" },
@@ -10589,7 +10589,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "aiosignal"
         version = "1.3.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "frozenlist" },
         ]
@@ -10601,7 +10601,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "alignn"
         version = "2024.5.27"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "ase" },
             { name = "dgl" },
@@ -10616,11 +10616,11 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
             { name = "pydantic" },
             { name = "pydantic-settings" },
             { name = "pydocstyle" },
-            { name = "pyparsing", version = "2.4.7", source = { registry = "https://pypi.org/simple" } },
+            { name = "pyparsing", version = "2.4.7", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "scikit-learn" },
             { name = "scipy" },
             { name = "spglib" },
-            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "tqdm" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/a7/04/a7be1b478d24d0cf66255ade99ce51921758821e52191ae8553157f2e971/alignn-2024.5.27.tar.gz", hash = "sha256:3e65657d79c294669b606bd5a3b5480d6c72e4c1b3e8b0ffe15a187166cecace", size = 84468, upload-time = "2024-06-28T03:31:03.078Z" }
@@ -10631,7 +10631,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "annotated-types"
         version = "0.7.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/ee/67/531ea369ba64dcff5ec9c3402f9f51bf748cec26dde048a2f973a4eea7f5/annotated_types-0.7.0.tar.gz", hash = "sha256:aff07c09a53a08bc8cfccb9c85b05f1aa9a2a6f23728d790723543408344ce89", size = 16081, upload-time = "2024-05-20T21:33:25.928Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/78/b6/6307fbef88d9b5ee7421e68d78a9f162e0da4900bc5f5793f6d3d0e34fb8/annotated_types-0.7.0-py3-none-any.whl", hash = "sha256:1f02e8b43a8fbbc3f3e0d4f0f4bfc8131bcb4eebe8849b8e5c773f3a1c582a53", size = 13643, upload-time = "2024-05-20T21:33:24.1Z" },
@@ -10640,7 +10640,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "ase"
         version = "3.24.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "matplotlib" },
             { name = "numpy" },
@@ -10654,7 +10654,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "async-timeout"
         version = "5.0.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a5/ae/136395dfbfe00dfc94da3f3e136d0b13f394cba8f4841120e34226265780/async_timeout-5.0.1.tar.gz", hash = "sha256:d9321a7a3d5a6a5e187e824d2fa0793ce379a202935782d555d6e9d2735677d3", size = 9274, upload-time = "2024-11-06T16:41:39.6Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/fe/ba/e2081de779ca30d473f21f5b30e0e737c438205440784c7dfc81efc2b029/async_timeout-5.0.1-py3-none-any.whl", hash = "sha256:39e3809566ff85354557ec2398b55e096c8364bacac9405a7a1fa429e77fe76c", size = 6233, upload-time = "2024-11-06T16:41:37.9Z" },
@@ -10663,7 +10663,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "attrs"
         version = "25.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/49/7c/fdf464bcc51d23881d110abd74b512a42b3d5d376a55a831b44c603ae17f/attrs-25.1.0.tar.gz", hash = "sha256:1c97078a80c814273a76b2a298a932eb681c87415c11dee0a6921de7f1b02c3e", size = 810562, upload-time = "2025-01-25T11:30:12.508Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/fc/30/d4986a882011f9df997a55e6becd864812ccfcd821d64aac8570ee39f719/attrs-25.1.0-py3-none-any.whl", hash = "sha256:c75a69e28a550a7e93789579c22aa26b0f5b83b75dc4e08fe092980051e1090a", size = 63152, upload-time = "2025-01-25T11:30:10.164Z" },
@@ -10672,7 +10672,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "braceexpand"
         version = "0.1.7"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/54/93/badd4f5ccf25209f3fef2573073da9fe4a45a3da99fca2f800f942130c0f/braceexpand-0.1.7.tar.gz", hash = "sha256:e6e539bd20eaea53547472ff94f4fb5c3d3bf9d0a89388c4b56663aba765f705", size = 7777, upload-time = "2021-05-07T13:49:07.323Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/fa/93/e8c04e80e82391a6e51f218ca49720f64236bc824e92152a2633b74cf7ab/braceexpand-0.1.7-py2.py3-none-any.whl", hash = "sha256:91332d53de7828103dcae5773fb43bc34950b0c8160e35e0f44c4427a3b85014", size = 5923, upload-time = "2021-05-07T13:49:05.146Z" },
@@ -10681,7 +10681,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "certifi"
         version = "2025.1.31"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/1c/ab/c9f1e32b7b1bf505bf26f0ef697775960db7932abeb7b516de930ba2705f/certifi-2025.1.31.tar.gz", hash = "sha256:3d5da6925056f6f18f119200434a4780a94263f10d1c21d032a6f6b2baa20651", size = 167577, upload-time = "2025-01-31T02:16:47.166Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/38/fc/bce832fd4fd99766c04d1ee0eead6b0ec6486fb100ae5e74c1d91292b982/certifi-2025.1.31-py3-none-any.whl", hash = "sha256:ca78db4565a652026a4db2bcdf68f2fb589ea80d0be70e03929ed730746b84fe", size = 166393, upload-time = "2025-01-31T02:16:45.015Z" },
@@ -10690,7 +10690,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "charset-normalizer"
         version = "3.4.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/16/b0/572805e227f01586461c80e0fd25d65a2115599cc9dad142fee4b747c357/charset_normalizer-3.4.1.tar.gz", hash = "sha256:44251f18cd68a75b56585dd00dae26183e102cd5e0f9f1466e6df5da2ed64ea3", size = 123188, upload-time = "2024-12-24T18:12:35.43Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/0d/58/5580c1716040bc89206c77d8f74418caf82ce519aae06450393ca73475d1/charset_normalizer-3.4.1-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:91b36a978b5ae0ee86c394f5a54d6ef44db1de0815eb43de826d41d21e4af3de", size = 198013, upload-time = "2024-12-24T18:09:43.671Z" },
@@ -10751,14 +10751,14 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "chgnet"
         version = "0.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "ase" },
             { name = "cython" },
             { name = "numpy" },
             { name = "nvidia-ml-py3" },
             { name = "pymatgen" },
-            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.org/simple" } },
+            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "typing-extensions" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/f6/05/1aaaecfaf9567dc93f33cd94a6deda0cc8ca0e665484636d8522978658d6/chgnet-0.4.0.tar.gz", hash = "sha256:1683fd61dbbf2ccb6540b6967589f25b239951b94c4b616f1dbbc3bce8313785", size = 8756128, upload-time = "2024-09-16T22:19:48.12Z" }
@@ -10789,7 +10789,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "colorama"
         version = "0.4.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44", size = 27697, upload-time = "2022-10-25T02:36:22.414Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6", size = 25335, upload-time = "2022-10-25T02:36:20.889Z" },
@@ -10798,7 +10798,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "configargparse"
         version = "1.5.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/16/05/385451bc8d20a3aa1d8934b32bd65847c100849ebba397dbf6c74566b237/ConfigArgParse-1.5.3.tar.gz", hash = "sha256:1b0b3cbf664ab59dada57123c81eff3d9737e0d11d8cf79e3d6eb10823f1739f", size = 39175, upload-time = "2021-10-03T00:17:24.663Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/af/cb/2a6620656f029b7b49c302853b433fac2c8eda9cbb5a3bc70b186b1b5b90/ConfigArgParse-1.5.3-py3-none-any.whl", hash = "sha256:18f6535a2db9f6e02bd5626cc7455eac3e96b9ab3d969d366f9aafd5c5c00fe7", size = 20505, upload-time = "2021-10-03T00:17:22.974Z" },
@@ -10807,7 +10807,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "contourpy"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "numpy" },
         ]
@@ -10871,7 +10871,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "cuequivariance"
         version = "0.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "networkx" },
             { name = "numpy" },
@@ -10887,7 +10887,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "cuequivariance-torch"
         version = "0.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "cuequivariance" },
         ]
@@ -10899,7 +10899,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "cycler"
         version = "0.12.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a9/95/a3dbbb5028f35eafb79008e7522a75244477d2838f38cbb722248dabc2a8/cycler-0.12.1.tar.gz", hash = "sha256:88bb128f02ba341da8ef447245a9e138fae777f6a23943da4540077d3601eb1c", size = 7615, upload-time = "2023-10-07T05:32:18.335Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl", hash = "sha256:85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30", size = 8321, upload-time = "2023-10-07T05:32:16.783Z" },
@@ -10908,7 +10908,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "cython"
         version = "3.0.12"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/5a/25/886e197c97a4b8e254173002cdc141441e878ff29aaa7d9ba560cd6e4866/cython-3.0.12.tar.gz", hash = "sha256:b988bb297ce76c671e28c97d017b95411010f7c77fa6623dd0bb47eed1aee1bc", size = 2757617, upload-time = "2025-02-11T09:05:50.245Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/52/78/3bcb8ee7b6f5956dbd6bebf85818e075d863419db3661f25189c64cd6c70/Cython-3.0.12-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:ba67eee9413b66dd9fbacd33f0bc2e028a2a120991d77b5fd4b19d0b1e4039b9", size = 3271523, upload-time = "2025-02-11T09:06:25.991Z" },
@@ -10948,7 +10948,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "dgl"
         version = "2.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "networkx" },
             { name = "numpy" },
@@ -10976,13 +10976,13 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "e3nn"
         version = "0.4.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "opt-einsum-fx" },
             { name = "scipy" },
             { name = "sympy" },
-            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
-            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
+            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
+            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/aa/98/8e7102dea93106603383fda23bf96649c397a37b910e7c76086e584cd92d/e3nn-0.4.4.tar.gz", hash = "sha256:51c91a84c1fb72e7e3600000958fa8caad48f8270937090fb8d0f8bfffbb3525", size = 361661, upload-time = "2021-12-16T08:49:23.382Z" }
         wheels = [
@@ -10992,7 +10992,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "filelock"
         version = "3.17.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/dc/9c/0b15fb47b464e1b663b1acd1253a062aa5feecb07d4e597daea542ebd2b5/filelock-3.17.0.tar.gz", hash = "sha256:ee4e77401ef576ebb38cd7f13b9b28893194acc20a8e68e18730ba9c0e54660e", size = 18027, upload-time = "2025-01-21T20:04:49.099Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/89/ec/00d68c4ddfedfe64159999e5f8a98fb8442729a63e2077eb9dcd89623d27/filelock-3.17.0-py3-none-any.whl", hash = "sha256:533dc2f7ba78dc2f0f531fc6c4940addf7b70a481e269a5a3b93be94ffbe8338", size = 16164, upload-time = "2025-01-21T20:04:47.734Z" },
@@ -11001,7 +11001,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "flake8"
         version = "7.1.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "mccabe" },
             { name = "pycodestyle" },
@@ -11015,7 +11015,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "fonttools"
         version = "4.56.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/1c/8c/9ffa2a555af0e5e5d0e2ed7fdd8c9bef474ed676995bb4c57c9cd0014248/fonttools-4.56.0.tar.gz", hash = "sha256:a114d1567e1a1586b7e9e7fc2ff686ca542a82769a296cef131e4c4af51e58f4", size = 3462892, upload-time = "2025-02-07T13:46:29.026Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/1e/5e/6ac30c2cc6a29454260f13c9c6422fc509b7982c13cd4597041260d8f482/fonttools-4.56.0-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:331954d002dbf5e704c7f3756028e21db07097c19722569983ba4d74df014000", size = 2752190, upload-time = "2025-02-07T13:43:30.593Z" },
@@ -11056,7 +11056,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "frozenlist"
         version = "1.5.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/8f/ed/0f4cec13a93c02c47ec32d81d11c0c1efbadf4a471e3f3ce7cad366cbbd3/frozenlist-1.5.0.tar.gz", hash = "sha256:81d5af29e61b9c8348e876d442253723928dce6433e0e76cd925cd83f1b4b817", size = 39930, upload-time = "2024-10-23T09:48:29.903Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/54/79/29d44c4af36b2b240725dce566b20f63f9b36ef267aaaa64ee7466f4f2f8/frozenlist-1.5.0-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:5b6a66c18b5b9dd261ca98dffcb826a525334b2f29e7caa54e182255c5f6a65a", size = 94451, upload-time = "2024-10-23T09:46:20.558Z" },
@@ -11125,7 +11125,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "fsspec"
         version = "2025.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/b5/79/68612ed99700e6413de42895aa725463e821a6b3be75c87fcce1b4af4c70/fsspec-2025.2.0.tar.gz", hash = "sha256:1c24b16eaa0a1798afa0337aa0db9b256718ab2a89c425371f5628d22c3b6afd", size = 292283, upload-time = "2025-02-01T18:30:26.893Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e2/94/758680531a00d06e471ef649e4ec2ed6bf185356a7f9fbfbb7368a40bd49/fsspec-2025.2.0-py3-none-any.whl", hash = "sha256:9de2ad9ce1f85e1931858535bc882543171d197001a0a5eb2ddc04f1781ab95b", size = 184484, upload-time = "2025-02-01T18:30:19.802Z" },
@@ -11139,7 +11139,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "gitdb"
         version = "4.0.12"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "smmap" },
         ]
@@ -11151,7 +11151,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "gitpython"
         version = "3.1.44"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "gitdb" },
         ]
@@ -11163,7 +11163,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "h5py"
         version = "3.12.[X]"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "numpy" },
         ]
@@ -11194,7 +11194,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.10"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz", hash = "sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9", size = 190490, upload-time = "2024-09-15T18:07:39.745Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl", hash = "sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3", size = 70442, upload-time = "2024-09-15T18:07:37.964Z" },
@@ -11203,7 +11203,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "jarvis-tools"
         version = "2024.10.30"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "joblib" },
             { name = "matplotlib" },
@@ -11223,7 +11223,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "jinja2"
         version = "3.1.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markupsafe" },
         ]
@@ -11235,7 +11235,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "joblib"
         version = "1.4.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/64/33/60135848598c076ce4b231e1b1895170f45fbcaeaa2c9d5e38b04db70c35/joblib-1.4.2.tar.gz", hash = "sha256:2382c5816b2636fbd20a09e0f4e9dad4736765fdfb7dca582943b9c1366b3f0e", size = 2116621, upload-time = "2024-05-02T12:15:05.765Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/91/29/df4b9b42f2be0b623cbd5e2140cafcaa2bef0759a00b7b70104dcfe2fb51/joblib-1.4.2-py3-none-any.whl", hash = "sha256:06d478d5674cbc267e7496a410ee875abd68e4340feff4490bcb7afb88060ae6", size = 301817, upload-time = "2024-05-02T12:15:00.765Z" },
@@ -11244,7 +11244,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "kiwisolver"
         version = "1.4.8"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/82/59/7c91426a8ac292e1cdd53a63b6d9439abd573c875c3f92c146767dd33faf/kiwisolver-1.4.8.tar.gz", hash = "sha256:23d5f023bdc8c7e54eb65f03ca5d5bb25b601eac4d7f1a042888a1f45237987e", size = 97538, upload-time = "2024-12-24T18:30:51.519Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/47/5f/4d8e9e852d98ecd26cdf8eaf7ed8bc33174033bba5e07001b289f07308fd/kiwisolver-1.4.8-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:88c6f252f6816a73b1f8c904f7bbe02fd67c09a69f7cb8a0eecdbf5ce78e63db", size = 124623, upload-time = "2024-12-24T18:28:17.687Z" },
@@ -11331,7 +11331,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "latexcodec"
         version = "3.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/98/e7/ed339caf3662976949e4fdbfdf4a6db818b8d2aa1cf2b5f73af89e936bba/latexcodec-3.0.0.tar.gz", hash = "sha256:917dc5fe242762cc19d963e6548b42d63a118028cdd3361d62397e3b638b6bc5", size = 31023, upload-time = "2024-03-06T14:51:39.283Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b0/bf/ea8887e9f31a8f93ca306699d11909c6140151393a4216f0d9f85a004077/latexcodec-3.0.0-py3-none-any.whl", hash = "sha256:6f3477ad5e61a0a99bd31a6a370c34e88733a6bad9c921a3ffcfacada12f41a7", size = 18150, upload-time = "2024-03-06T14:51:37.872Z" },
@@ -11340,14 +11340,14 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "lightning"
         version = "2.5.0.post0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "fsspec", extra = ["http"], marker = "(extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (extra != 'extra-4-test-alignn' and extra == 'extra-4-test-m3gnet') or (extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
             { name = "lightning-utilities" },
             { name = "packaging" },
             { name = "pytorch-lightning" },
             { name = "pyyaml" },
-            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "torchmetrics" },
             { name = "tqdm" },
             { name = "typing-extensions" },
@@ -11360,7 +11360,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "lightning-utilities"
         version = "0.12.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "packaging" },
             { name = "setuptools" },
@@ -11374,7 +11374,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "lmdb"
         version = "1.6.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/71/54/fb1d5918406a72fcf46fbfaece7c0349d88cd8685f5443a142ddd7dac05b/lmdb-1.6.2.tar.gz", hash = "sha256:d28e3fa59935ff688858760ec52f202ecb8c1089a3f68d1f162ea3078d151e73", size = 881434, upload-time = "2025-01-06T06:25:02.517Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/01/03/2c6d95c9f450ad57e8264c0fa92f7b49cbaef6fc1b5963bf6c4872a7140b/lmdb-1.6.2-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:18422de2b4e70fc91b6d845a83f5b7355f85ea1c02f8180be0ab42c15191bead", size = 166252, upload-time = "2025-01-06T06:24:21.405Z" },
@@ -11400,7 +11400,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "mace-torch"
         version = "0.3.9"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "ase" },
             { name = "configargparse" },
@@ -11416,8 +11416,8 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
             { name = "prettytable" },
             { name = "python-hostlist" },
             { name = "pyyaml" },
-            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
-            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
+            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
+            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
             { name = "torch-ema" },
             { name = "torchmetrics" },
             { name = "tqdm" },
@@ -11430,7 +11430,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "3.0.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/b2/97/5d42485e71dfc078108a86d6de8fa46db44a1a9295e89c5d6d4a06e23a62/markupsafe-3.0.2.tar.gz", hash = "sha256:ee55d3edf80167e48ea11a923c7386f4669df67d7994554387f84e7d8b0a2bf0", size = 20537, upload-time = "2024-10-18T15:21:54.129Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/04/90/d08277ce111dd22f77149fd1a5d4653eeb3b3eaacbdfcbae5afb2600eebd/MarkupSafe-3.0.2-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:7e94c425039cde14257288fd61dcfb01963e658efbc0ff54f5306b06054700f8", size = 14357, upload-time = "2024-10-18T15:20:51.44Z" },
@@ -11488,14 +11488,14 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "matgl"
         version = "1.1.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "ase" },
             { name = "dgl" },
             { name = "lightning" },
             { name = "pydantic" },
             { name = "pymatgen" },
-            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "torchdata" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/64/d6/0ad42a2efe7bc799df0bf4805cc90866f35aba2bc366de7372c2202d8e37/matgl-1.1.3.tar.gz", hash = "sha256:6b09b3a7a68a1f6fe47bed8c7408540353e46371e32c1a1ac2bde347a6885a14", size = 215012, upload-time = "2024-08-07T12:39:58.714Z" }
@@ -11506,7 +11506,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "matplotlib"
         version = "3.10.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "contourpy" },
             { name = "cycler" },
@@ -11515,8 +11515,8 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
             { name = "numpy" },
             { name = "packaging" },
             { name = "pillow" },
-            { name = "pyparsing", version = "2.4.7", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-alignn' or (extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "pyparsing", version = "3.2.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-alignn'" },
+            { name = "pyparsing", version = "2.4.7", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-alignn' or (extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "pyparsing", version = "3.2.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-alignn'" },
             { name = "python-dateutil" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/68/dd/fa2e1a45fce2d09f4aea3cee169760e672c8262325aa5796c49d543dc7e6/matplotlib-3.10.0.tar.gz", hash = "sha256:b886d02a581b96704c9d1ffe55709e49b4d2d52709ccebc4be42db856e511278", size = 36686418, upload-time = "2024-12-14T06:32:51.547Z" }
@@ -11559,7 +11559,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "matscipy"
         version = "1.1.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "ase" },
             { name = "numpy" },
@@ -11588,7 +11588,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "mccabe"
         version = "0.7.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e7/ff/0ffefdcac38932a54d2b5eed4e0ba8a408f215002cd178ad1df0f2806ff8/mccabe-0.7.0.tar.gz", hash = "sha256:348e0240c33b60bbdf4e523192ef919f28cb2c3d7d5c7794f74009290f236325", size = 9658, upload-time = "2022-01-24T01:14:51.113Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/27/1a/1f68f9ba0c207934b35b86a8ca3aad8395a3d6dd7921c0686e23853ff5a9/mccabe-0.7.0-py2.py3-none-any.whl", hash = "sha256:6c2d30ab6be0e4a46919781807b4f0d834ebdd6c6e3dca0bda5a15f863427b6e", size = 7350, upload-time = "2022-01-24T01:14:49.62Z" },
@@ -11597,7 +11597,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "monty"
         version = "2025.1.9"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "numpy" },
             { name = "ruamel-yaml" },
@@ -11610,7 +11610,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "mpmath"
         version = "1.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e0/47/dd32fa426cc72114383ac549964eecb20ecfd886d1e5ccf5340b55b02f57/mpmath-1.3.0.tar.gz", hash = "sha256:7a28eb2a9774d00c7bc92411c19a89209d5da7c4c9a9e227be8330a23a25b91f", size = 508106, upload-time = "2023-03-07T16:47:11.061Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl", hash = "sha256:a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c", size = 536198, upload-time = "2023-03-07T16:47:09.197Z" },
@@ -11619,7 +11619,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "multidict"
         version = "6.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "typing-extensions", marker = "python_full_version < '3.11' or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
         ]
@@ -11691,7 +11691,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "narwhals"
         version = "1.26.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/18/6f/75929abaac73088fe34c788ecb40db20252174bcd00b8612381aebb954ee/narwhals-1.26.0.tar.gz", hash = "sha256:b9d7605bf1d97a9d87783a69748c39150964e2a1ab0e5a6fef3e59e56772639e", size = 248933, upload-time = "2025-02-10T12:14:35.186Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/15/fc/420680ad8b0cf81372eee7a213a7b7173ec5a628f0d5b2426047fe55c3b3/narwhals-1.26.0-py3-none-any.whl", hash = "sha256:4af8bbdea9e45638bb9a981568a8dfa880e40eb7dcf740d19fd32aea79223c6f", size = 306574, upload-time = "2025-02-10T12:14:32.149Z" },
@@ -11700,7 +11700,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "networkx"
         version = "3.4.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/fd/1d/06475e1cd5264c0b870ea2cc6fdb3e37177c1e565c43f56ff17a10e3937f/networkx-3.4.2.tar.gz", hash = "sha256:307c3669428c5362aab27c8a1260aa8f47c4e91d3891f48be0141738d8d053e1", size = 2151368, upload-time = "2024-10-21T12:39:38.695Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl", hash = "sha256:df5d4365b724cf81b8c6a7312509d0c22386097011ad1abe274afd5e9d3bbc5f", size = 1723263, upload-time = "2024-10-21T12:39:36.247Z" },
@@ -11709,7 +11709,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "numpy"
         version = "1.26.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/65/6e/09db70a523a96d25e115e71cc56a6f9031e7b8cd166c1ac8438307c14058/numpy-1.26.4.tar.gz", hash = "sha256:2a02aba9ed12e4ac4eb3ea9421c420301a0c6460d9830d74a9df87efa4912010", size = 15786129, upload-time = "2024-02-06T00:26:44.495Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a7/94/ace0fdea5241a27d13543ee117cbc65868e82213fb31a8eb7fe9ff23f313/numpy-1.26.4-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:9ff0f4f29c51e2803569d7a51c2304de5554655a60c5d776e35b4a41413830d0", size = 20631468, upload-time = "2024-02-05T23:48:01.194Z" },
@@ -11741,7 +11741,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cublas-cu12"
         version = "12.1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
@@ -11761,7 +11761,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cublas-cu12"
         version = "12.4.5.8"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -11785,7 +11785,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cuda-cupti-cu12"
         version = "12.1.105"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
@@ -11805,7 +11805,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cuda-cupti-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -11829,7 +11829,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cuda-nvrtc-cu12"
         version = "12.1.105"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
@@ -11849,7 +11849,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cuda-nvrtc-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -11873,7 +11873,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cuda-runtime-cu12"
         version = "12.1.105"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
@@ -11893,7 +11893,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cuda-runtime-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -11917,7 +11917,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cudnn-cu12"
         version = "8.9.2.26"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
@@ -11930,7 +11930,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
             "python_full_version < '3.11' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
         ]
         dependencies = [
-            { name = "nvidia-cublas-cu12", version = "12.1.3.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
+            { name = "nvidia-cublas-cu12", version = "12.1.3.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
         ]
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ff/74/a2e2be7fb83aaedec84f391f082cf765dfb635e7caa9b49065f73e4835d8/nvidia_cudnn_cu12-8.9.2.26-py3-none-manylinux1_x86_64.whl", hash = "sha256:5ccb288774fdfb07a7e7025ffec286971c06d8d7b4fb162525334616d7629ff9", size = 731725872, upload-time = "2023-06-01T19:24:57.328Z" },
@@ -11939,7 +11939,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cudnn-cu12"
         version = "9.1.0.70"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -11955,7 +11955,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
             "python_full_version < '3.11' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
         ]
         dependencies = [
-            { name = "nvidia-cublas-cu12", version = "12.4.5.8", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cublas-cu12", version = "12.4.5.8", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
         ]
         wheels = [
             { url = "https://files.pythonhosted.org/packages/9f/fd/713452cd72343f682b1c7b9321e23829f00b842ceaedcda96e742ea0b0b3/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl", hash = "sha256:165764f44ef8c61fcdfdfdbe769d687e06374059fbb388b6c89ecb0e28793a6f", size = 664752741, upload-time = "2024-04-22T15:24:15.253Z" },
@@ -11965,7 +11965,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cufft-cu12"
         version = "11.0.2.54"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
@@ -11985,7 +11985,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cufft-cu12"
         version = "11.2.1.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -12012,7 +12012,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-curand-cu12"
         version = "10.3.2.106"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
@@ -12032,7 +12032,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-curand-cu12"
         version = "10.3.5.147"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -12056,7 +12056,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cusolver-cu12"
         version = "11.4.5.107"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
@@ -12069,8 +12069,8 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
             "python_full_version < '3.11' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
         ]
         dependencies = [
-            { name = "nvidia-cublas-cu12", version = "12.1.3.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
-            { name = "nvidia-cusparse-cu12", version = "12.1.0.106", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
+            { name = "nvidia-cublas-cu12", version = "12.1.3.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
+            { name = "nvidia-cusparse-cu12", version = "12.1.0.106", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
             { name = "nvidia-nvjitlink-cu12", marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
         ]
         wheels = [
@@ -12081,7 +12081,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cusolver-cu12"
         version = "11.6.1.9"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -12097,8 +12097,8 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
             "python_full_version < '3.11' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
         ]
         dependencies = [
-            { name = "nvidia-cublas-cu12", version = "12.4.5.8", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cusparse-cu12", version = "12.3.1.170", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cublas-cu12", version = "12.4.5.8", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cusparse-cu12", version = "12.3.1.170", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
             { name = "nvidia-nvjitlink-cu12", marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
         ]
         wheels = [
@@ -12110,7 +12110,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cusparse-cu12"
         version = "12.1.0.106"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
@@ -12133,7 +12133,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-cusparse-cu12"
         version = "12.3.1.170"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -12160,13 +12160,13 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-ml-py3"
         version = "7.352.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/6d/64/cce82bddb80c0b0f5c703bbdafa94bfb69a1c5ad7a79cff00b482468f0d3/nvidia-ml-py3-7.352.0.tar.gz", hash = "sha256:390f02919ee9d73fe63a98c73101061a6b37fa694a793abf56673320f1f51277", size = 19494, upload-time = "2017-06-03T07:43:46.299Z" }
 
         [[package]]
         name = "nvidia-nccl-cu12"
         version = "2.19.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
@@ -12185,7 +12185,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-nccl-cu12"
         version = "2.21.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -12207,7 +12207,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-nvjitlink-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/02/45/239d52c05074898a80a900f49b1615d81c07fceadd5ad6c4f86a987c0bc4/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_aarch64.whl", hash = "sha256:4abe7fef64914ccfa909bc2ba39739670ecc9e820c83ccc7a6ed414122599b83", size = 20552510, upload-time = "2024-06-18T20:20:13.871Z" },
             { url = "https://files.pythonhosted.org/packages/ff/ff/847841bacfbefc97a00036e0fce5a0f086b640756dc38caea5e1bb002655/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl", hash = "sha256:06b3b9b25bf3f8af351d664978ca26a16d2c5127dbd53c0497e28d1fb9611d57", size = 21066810, upload-time = "2024-04-03T20:59:46.957Z" },
@@ -12217,7 +12217,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-nvtx-cu12"
         version = "12.1.105"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
@@ -12237,7 +12237,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "nvidia-nvtx-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -12261,7 +12261,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "opt-einsum"
         version = "3.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/8c/b9/2ac072041e899a52f20cf9510850ff58295003aa75525e58343591b0cbfb/opt_einsum-3.4.0.tar.gz", hash = "sha256:96ca72f1b886d148241348783498194c577fa30a8faac108586b14f1ba4473ac", size = 63004, upload-time = "2024-09-26T14:33:24.483Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/23/cd/066e86230ae37ed0be70aae89aabf03ca8d9f39c8aea0dec8029455b5540/opt_einsum-3.4.0-py3-none-any.whl", hash = "sha256:69bb92469f86a1565195ece4ac0323943e83477171b91d24c35afe028a90d7cd", size = 71932, upload-time = "2024-09-26T14:33:23.039Z" },
@@ -12270,12 +12270,12 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "opt-einsum-fx"
         version = "0.1.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "opt-einsum" },
             { name = "packaging" },
-            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
-            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
+            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
+            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/93/de/856dab99be0360c7275fee075eb0450a2ec82a54c4c33689606f62e9615b/opt_einsum_fx-0.1.4.tar.gz", hash = "sha256:7eeb7f91ecb70be65e6179c106ea7f64fc1db6319e3d1289a4518b384f81e74f", size = 12969, upload-time = "2021-11-07T20:49:33.811Z" }
         wheels = [
@@ -12285,7 +12285,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "packaging"
         version = "24.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d0/63/68dbb6eb2de9cb10ee4c9c14a0148804425e13c4fb20d61cce69f53106da/packaging-24.2.tar.gz", hash = "sha256:c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f", size = 163950, upload-time = "2024-11-08T09:47:47.202Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/88/ef/eb23f262cca3c0c4eb7ab1933c3b1f03d021f2c48f54763065b6f0e321be/packaging-24.2-py3-none-any.whl", hash = "sha256:09abb1bccd265c01f4a3aa3f7a7db064b36514d2cba19a2f694fe6150451a759", size = 65451, upload-time = "2024-11-08T09:47:44.722Z" },
@@ -12294,7 +12294,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "palettable"
         version = "3.3.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/dc/3d/a5854d60850485bff12f28abfe0e17f503e866763bed61aed4990b604530/palettable-3.3.3.tar.gz", hash = "sha256:094dd7d9a5fc1cca4854773e5c1fc6a315b33bd5b3a8f47064928facaf0490a8", size = 106639, upload-time = "2023-04-19T23:13:35.864Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/cf/f7/3367feadd4ab56783b0971c9b7edfbdd68e0c70ce877949a5dd2117ed4a0/palettable-3.3.3-py2.py3-none-any.whl", hash = "sha256:74e9e7d7fe5a9be065e02397558ed1777b2df0b793a6f4ce1a5ee74f74fb0caa", size = 332251, upload-time = "2023-04-19T23:13:33.996Z" },
@@ -12303,7 +12303,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "pandas"
         version = "2.2.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "numpy" },
             { name = "python-dateutil" },
@@ -12351,7 +12351,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "pillow"
         version = "11.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/f3/af/c097e544e7bd278333db77933e535098c259609c4eb3b85381109602fb5b/pillow-11.1.0.tar.gz", hash = "sha256:368da70808b36d73b4b390a8ffac11069f8a5c85f29eff1f1b01bcf3ef5b2a20", size = 46742715, upload-time = "2025-01-02T08:13:58.407Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/50/1c/2dcea34ac3d7bc96a1fd1bd0a6e06a57c67167fec2cff8d95d88229a8817/pillow-11.1.0-cp310-cp310-macosx_10_10_x86_64.whl", hash = "sha256:e1abe69aca89514737465752b4bcaf8016de61b3be1397a8fc260ba33321b3a8", size = 3229983, upload-time = "2025-01-02T08:10:16.008Z" },
@@ -12418,7 +12418,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "plotly"
         version = "6.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "narwhals" },
             { name = "packaging" },
@@ -12431,7 +12431,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "prettytable"
         version = "3.14.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "wcwidth" },
         ]
@@ -12443,7 +12443,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "propcache"
         version = "0.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/20/c8/2a13f78d82211490855b2fb303b6721348d0787fdd9a12ac46d99d3acde1/propcache-0.2.1.tar.gz", hash = "sha256:3f77ce728b19cb537714499928fe800c3dda29e8d9428778fc7c186da4c09a64", size = 41735, upload-time = "2024-12-01T18:29:16.437Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a7/a5/0ea64c9426959ef145a938e38c832fc551843481d356713ececa9a8a64e8/propcache-0.2.1-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:6b3f39a85d671436ee3d12c017f8fdea38509e4f25b28eb25877293c98c243f6", size = 79296, upload-time = "2024-12-01T18:27:02.052Z" },
@@ -12516,7 +12516,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "psutil"
         version = "7.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/2a/80/336820c1ad9286a4ded7e845b2eccfcb27851ab8ac6abece774a6ff4d3de/psutil-7.0.0.tar.gz", hash = "sha256:7be9c3eba38beccb6495ea33afd982a44074b78f28c434a1f51cc07fd315c456", size = 497003, upload-time = "2025-02-13T21:54:07.946Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ed/e6/2d26234410f8b8abdbf891c9da62bee396583f713fb9f3325a4760875d22/psutil-7.0.0-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:101d71dc322e3cffd7cea0650b09b3d08b8e7c4109dd6809fe452dfd00e58b25", size = 238051, upload-time = "2025-02-13T21:54:12.36Z" },
@@ -12531,7 +12531,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "pybtex"
         version = "0.24.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "latexcodec" },
             { name = "pyyaml" },
@@ -12545,7 +12545,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "pycodestyle"
         version = "2.12.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/43/aa/210b2c9aedd8c1cbeea31a50e42050ad56187754b34eb214c46709445801/pycodestyle-2.12.1.tar.gz", hash = "sha256:6838eae08bbce4f6accd5d5572075c63626a15ee3e6f842df996bf62f6d73521", size = 39232, upload-time = "2024-08-04T20:26:54.576Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/3a/d8/a211b3f85e99a0daa2ddec96c949cac6824bd305b040571b82a03dd62636/pycodestyle-2.12.1-py2.py3-none-any.whl", hash = "sha256:46f0fb92069a7c28ab7bb558f05bfc0110dac69a0cd23c61ea0040283a9d78b3", size = 31284, upload-time = "2024-08-04T20:26:53.173Z" },
@@ -12554,7 +12554,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "pydantic"
         version = "2.10.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "annotated-types" },
             { name = "pydantic-core" },
@@ -12568,7 +12568,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "pydantic-core"
         version = "2.27.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "typing-extensions" },
         ]
@@ -12643,7 +12643,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "pydantic-settings"
         version = "2.7.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "pydantic" },
             { name = "python-dotenv" },
@@ -12656,7 +12656,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "pydocstyle"
         version = "6.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "snowballstemmer" },
         ]
@@ -12668,7 +12668,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "pyflakes"
         version = "3.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/57/f9/669d8c9c86613c9d568757c7f5824bd3197d7b1c6c27553bc5618a27cce2/pyflakes-3.2.0.tar.gz", hash = "sha256:1c61603ff154621fb2a9172037d84dca3500def8c8b630657d1701f026f8af3f", size = 63788, upload-time = "2024-01-05T00:28:47.703Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/d4/d7/f1b7db88d8e4417c5d47adad627a93547f44bdc9028372dbd2313f34a855/pyflakes-3.2.0-py2.py3-none-any.whl", hash = "sha256:84b5be138a2dfbb40689ca07e2152deb896a65c3a3e24c251c5c62489568074a", size = 62725, upload-time = "2024-01-05T00:28:45.903Z" },
@@ -12677,7 +12677,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "pymatgen"
         version = "2025.1.24"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "joblib" },
             { name = "matplotlib" },
@@ -12719,7 +12719,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "pyparsing"
         version = "2.4.7"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform == 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
@@ -12739,7 +12739,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "pyparsing"
         version = "3.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform == 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -12777,7 +12777,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "python-dateutil"
         version = "2.9.0.post0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "six" },
         ]
@@ -12789,7 +12789,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "python-dotenv"
         version = "1.0.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bc/57/e84d88dfe0aec03b7a2d4327012c1627ab5f03652216c63d49846d7a6c58/python-dotenv-1.0.1.tar.gz", hash = "sha256:e324ee90a023d808f1959c46bcbc04446a10ced277783dc6ee09987c37ec10ca", size = 39115, upload-time = "2024-01-23T06:33:00.505Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/6a/3e/b68c118422ec867fa7ab88444e1274aa40681c606d59ac27de5a5588f082/python_dotenv-1.0.1-py3-none-any.whl", hash = "sha256:f7b63ef50f1b690dddf550d03497b66d609393b40b564ed0d674909a68ebf16a", size = 19863, upload-time = "2024-01-23T06:32:58.246Z" },
@@ -12798,19 +12798,19 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "python-hostlist"
         version = "2.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/2e/dd/c9ef1591ca0d0b4f2197751ecfbdf5c718cf4381bc4d7199eeba2dc90c42/python-hostlist-2.2.1.tar.gz", hash = "sha256:bbf7ca58835f84c6991084a661b409bc9cb3359c9f71be9b752442ba9225a0a5", size = 37216, upload-time = "2024-12-03T12:06:07.641Z" }
 
         [[package]]
         name = "pytorch-lightning"
         version = "2.5.0.post0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "fsspec", extra = ["http"], marker = "(extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (extra != 'extra-4-test-alignn' and extra == 'extra-4-test-m3gnet') or (extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
             { name = "lightning-utilities" },
             { name = "packaging" },
             { name = "pyyaml" },
-            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "torchmetrics" },
             { name = "tqdm" },
             { name = "typing-extensions" },
@@ -12823,7 +12823,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "pytz"
         version = "2025.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/5f/57/df1c9157c8d5a05117e455d66fd7cf6dbc46974f832b1058ed4856785d8a/pytz-2025.1.tar.gz", hash = "sha256:c2db42be2a2518b28e65f9207c4d05e6ff547d1efa4086469ef855e4ab70178e", size = 319617, upload-time = "2025-01-31T01:54:48.615Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/eb/38/ac33370d784287baa1c3d538978b5e2ea064d4c1b93ffbd12826c190dd10/pytz-2025.1-py2.py3-none-any.whl", hash = "sha256:89dd22dca55b46eac6eda23b2d72721bf1bdfef212645d81513ef5d03038de57", size = 507930, upload-time = "2025-01-31T01:54:45.634Z" },
@@ -12832,7 +12832,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "pyyaml"
         version = "6.0.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/54/ed/79a089b6be93607fa5cdaedf301d7dfb23af5f25c398d5ead2525b063e17/pyyaml-6.0.2.tar.gz", hash = "sha256:d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e", size = 130631, upload-time = "2024-08-06T20:33:50.674Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/9b/95/a3fac87cb7158e231b5a6012e438c647e1a87f09f8e0d123acec8ab8bf71/PyYAML-6.0.2-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:0a9a2848a5b7feac301353437eb7d5957887edbf81d56e903999a75a3d743086", size = 184199, upload-time = "2024-08-06T20:31:40.178Z" },
@@ -12876,7 +12876,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "requests"
         version = "2.32.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "certifi" },
             { name = "charset-normalizer" },
@@ -12891,7 +12891,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "ruamel-yaml"
         version = "0.18.10"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "ruamel-yaml-clib", marker = "python_full_version < '3.13' and platform_python_implementation == 'CPython'" },
         ]
@@ -12903,7 +12903,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "ruamel-yaml-clib"
         version = "0.2.12"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/20/84/80203abff8ea4993a87d823a5f632e4d92831ef75d404c9fc78d0176d2b5/ruamel.yaml.clib-0.2.12.tar.gz", hash = "sha256:6c8fbb13ec503f99a91901ab46e0b07ae7941cd527393187039aec586fdfd36f", size = 225315, upload-time = "2024-10-20T10:10:56.22Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/70/57/40a958e863e299f0c74ef32a3bde9f2d1ea8d69669368c0c502a0997f57f/ruamel.yaml.clib-0.2.12-cp310-cp310-macosx_13_0_arm64.whl", hash = "sha256:11f891336688faf5156a36293a9c362bdc7c88f03a8a027c2c1d8e0bcde998e5", size = 131301, upload-time = "2024-10-20T10:12:35.876Z" },
@@ -12947,7 +12947,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "scikit-learn"
         version = "1.6.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "joblib" },
             { name = "numpy" },
@@ -12985,7 +12985,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "scipy"
         version = "1.15.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "numpy" },
         ]
@@ -13035,7 +13035,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "setuptools"
         version = "75.8.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/92/ec/089608b791d210aec4e7f97488e67ab0d33add3efccb83a056cbafe3a2a6/setuptools-75.8.0.tar.gz", hash = "sha256:c5afc8f407c626b8313a86e10311dd3f661c6cd9c09d4bf8c15c0e11f9f2b0e6", size = 1343222, upload-time = "2025-01-08T18:28:23.98Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/69/8a/b9dc7678803429e4a3bc9ba462fa3dd9066824d3c607490235c6a796be5a/setuptools-75.8.0-py3-none-any.whl", hash = "sha256:e3982f444617239225d675215d51f6ba05f845d4eec313da4418fdbb56fb27e3", size = 1228782, upload-time = "2025-01-08T18:28:20.912Z" },
@@ -13044,7 +13044,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "sevenn"
         version = "0.10.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "ase" },
             { name = "braceexpand" },
@@ -13064,7 +13064,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "six"
         version = "1.17.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81", size = 34031, upload-time = "2024-12-04T17:35:28.174Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274", size = 11050, upload-time = "2024-12-04T17:35:26.475Z" },
@@ -13073,7 +13073,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "smmap"
         version = "5.0.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/44/cd/a040c4b3119bbe532e5b0732286f805445375489fceaec1f48306068ee3b/smmap-5.0.2.tar.gz", hash = "sha256:26ea65a03958fa0c8a1c7e8c7a58fdc77221b8910f6be2131affade476898ad5", size = 22329, upload-time = "2025-01-02T07:14:40.909Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/04/be/d09147ad1ec7934636ad912901c5fd7667e1c858e19d355237db0d0cd5e4/smmap-5.0.2-py3-none-any.whl", hash = "sha256:b30115f0def7d7531d22a0fb6502488d879e75b260a9db4d0819cfb25403af5e", size = 24303, upload-time = "2025-01-02T07:14:38.724Z" },
@@ -13082,7 +13082,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "snowballstemmer"
         version = "2.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/44/7b/af302bebf22c749c56c9c3e8ae13190b5b5db37a33d9068652e8f73b7089/snowballstemmer-2.2.0.tar.gz", hash = "sha256:09b16deb8547d3412ad7b590689584cd0fe25ec8db3be37788be3810cbf19cb1", size = 86699, upload-time = "2021-11-16T18:38:38.009Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ed/dc/c02e01294f7265e63a7315fe086dd1df7dacb9f840a804da846b96d01b96/snowballstemmer-2.2.0-py2.py3-none-any.whl", hash = "sha256:c8e1716e83cc398ae16824e5572ae04e0d9fc2c6b985fb0f900f5f0c96ecba1a", size = 93002, upload-time = "2021-11-16T18:38:34.792Z" },
@@ -13091,7 +13091,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "spglib"
         version = "2.5.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "numpy" },
         ]
@@ -13117,7 +13117,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "sympy"
         version = "1.13.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "mpmath" },
         ]
@@ -13129,7 +13129,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "tabulate"
         version = "0.9.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/ec/fe/802052aecb21e3797b8f7902564ab6ea0d60ff8ca23952079064155d1ae1/tabulate-0.9.0.tar.gz", hash = "sha256:0095b12bf5966de529c0feb1fa08671671b3368eec77d7ef7ab114be2c068b3c", size = 81090, upload-time = "2022-10-06T17:21:48.54Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/40/44/4a5f08c96eb108af5cb50b41f76142f0afa346dfa99d5296fe7202a11854/tabulate-0.9.0-py3-none-any.whl", hash = "sha256:024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f", size = 35252, upload-time = "2022-10-06T17:21:44.262Z" },
@@ -13146,7 +13146,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [package.optional-dependencies]
         alignn = [
             { name = "alignn" },
-            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "torchdata" },
         ]
         all = [
@@ -13158,7 +13158,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         ]
         m3gnet = [
             { name = "matgl" },
-            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "torchdata" },
         ]
         sevennet = [
@@ -13184,7 +13184,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "threadpoolctl"
         version = "3.5.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bd/55/b5148dcbf72f5cde221f8bfe3b6a540da7aa1842f6b491ad979a6c8b84af/threadpoolctl-3.5.0.tar.gz", hash = "sha256:082433502dd922bf738de0d8bcc4fdcbf0979ff44c42bd40f5af8a282f6fa107", size = 41936, upload-time = "2024-04-29T13:50:16.544Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/4b/2c/ffbf7a134b9ab11a67b0cf0726453cedd9c5043a4fe7a35d1cefa9a1bcfb/threadpoolctl-3.5.0-py3-none-any.whl", hash = "sha256:56c1e26c150397e58c4926da8eeee87533b1e32bef131bd4bf6a2f45f3185467", size = 18414, upload-time = "2024-04-29T13:50:14.014Z" },
@@ -13193,7 +13193,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "toolz"
         version = "1.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/8a/0b/d80dfa675bf592f636d1ea0b835eab4ec8df6e9415d8cfd766df54456123/toolz-1.0.0.tar.gz", hash = "sha256:2c86e3d9a04798ac556793bced838816296a2f085017664e4995cb40a1047a02", size = 66790, upload-time = "2024-10-04T16:17:04.001Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/03/98/eb27cc78ad3af8e302c9d8ff4977f5026676e130d28dd7578132a457170c/toolz-1.0.0-py3-none-any.whl", hash = "sha256:292c8f1c4e7516bf9086f8850935c799a874039c8bcf959d47b600e4c44a6236", size = 56383, upload-time = "2024-10-04T16:17:01.533Z" },
@@ -13202,7 +13202,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "torch"
         version = "2.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform == 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
@@ -13225,19 +13225,19 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
             { name = "fsspec", marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
             { name = "jinja2", marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
             { name = "networkx", marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
-            { name = "nvidia-cublas-cu12", version = "12.1.3.1", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cuda-cupti-cu12", version = "12.1.105", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cuda-nvrtc-cu12", version = "12.1.105", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cuda-runtime-cu12", version = "12.1.105", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cudnn-cu12", version = "8.9.2.26", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cufft-cu12", version = "11.0.2.54", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-curand-cu12", version = "10.3.2.106", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cusolver-cu12", version = "11.4.5.107", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cusparse-cu12", version = "12.1.0.106", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-nccl-cu12", version = "2.19.3", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "nvidia-nvtx-cu12", version = "12.1.105", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cublas-cu12", version = "12.1.3.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cuda-cupti-cu12", version = "12.1.105", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cuda-nvrtc-cu12", version = "12.1.105", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cuda-runtime-cu12", version = "12.1.105", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cudnn-cu12", version = "8.9.2.26", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cufft-cu12", version = "11.0.2.54", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-curand-cu12", version = "10.3.2.106", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cusolver-cu12", version = "11.4.5.107", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-cusparse-cu12", version = "12.1.0.106", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-nccl-cu12", version = "2.19.3", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "nvidia-nvtx-cu12", version = "12.1.105", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
             { name = "sympy", marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
-            { name = "triton", version = "2.2.0", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "triton", version = "2.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-alignn') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (platform_machine != 'x86_64' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (sys_platform != 'linux' and extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
             { name = "typing-extensions", marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
         ]
         wheels = [
@@ -13261,7 +13261,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "torch"
         version = "2.5.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform == 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -13290,21 +13290,21 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
             { name = "fsspec", marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
             { name = "jinja2", marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
             { name = "networkx", marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
-            { name = "nvidia-cublas-cu12", version = "12.4.5.8", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
-            { name = "nvidia-cuda-cupti-cu12", version = "12.4.127", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
-            { name = "nvidia-cuda-nvrtc-cu12", version = "12.4.127", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
-            { name = "nvidia-cuda-runtime-cu12", version = "12.4.127", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
-            { name = "nvidia-cudnn-cu12", version = "9.1.0.70", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
-            { name = "nvidia-cufft-cu12", version = "11.2.1.3", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
-            { name = "nvidia-curand-cu12", version = "10.3.5.147", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
-            { name = "nvidia-cusolver-cu12", version = "11.6.1.9", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
-            { name = "nvidia-cusparse-cu12", version = "12.3.1.170", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
-            { name = "nvidia-nccl-cu12", version = "2.21.5", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
+            { name = "nvidia-cublas-cu12", version = "12.4.5.8", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
+            { name = "nvidia-cuda-cupti-cu12", version = "12.4.127", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
+            { name = "nvidia-cuda-nvrtc-cu12", version = "12.4.127", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
+            { name = "nvidia-cuda-runtime-cu12", version = "12.4.127", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
+            { name = "nvidia-cudnn-cu12", version = "9.1.0.70", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
+            { name = "nvidia-cufft-cu12", version = "11.2.1.3", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
+            { name = "nvidia-curand-cu12", version = "10.3.5.147", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
+            { name = "nvidia-cusolver-cu12", version = "11.6.1.9", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
+            { name = "nvidia-cusparse-cu12", version = "12.3.1.170", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
+            { name = "nvidia-nccl-cu12", version = "2.21.5", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
             { name = "nvidia-nvjitlink-cu12", marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
-            { name = "nvidia-nvtx-cu12", version = "12.4.127", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
+            { name = "nvidia-nvtx-cu12", version = "12.4.127", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
             { name = "setuptools", marker = "(python_full_version >= '3.12' and extra == 'extra-4-test-all') or (python_full_version >= '3.12' and extra == 'extra-4-test-chgnet') or (python_full_version >= '3.12' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
             { name = "sympy", marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
-            { name = "triton", version = "3.1.0", source = { registry = "https://pypi.org/simple" }, marker = "(python_full_version < '3.13' and platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (python_full_version < '3.13' and platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (python_full_version < '3.13' and platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (python_full_version >= '3.13' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (python_full_version >= '3.13' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
+            { name = "triton", version = "3.1.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(python_full_version < '3.13' and platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-all') or (python_full_version < '3.13' and platform_machine == 'x86_64' and sys_platform == 'linux' and extra == 'extra-4-test-chgnet') or (python_full_version < '3.13' and platform_machine == 'x86_64' and sys_platform == 'linux' and extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet') or (python_full_version >= '3.13' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (python_full_version >= '3.13' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (platform_machine != 'x86_64' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (sys_platform != 'linux' and extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet')" },
             { name = "typing-extensions", marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
         ]
         wheels = [
@@ -13326,10 +13326,10 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "torch-ema"
         version = "0.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
-            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
-            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
+            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
+            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/45/af/db7d0c8b26a13062d9b85bdcf8d977acd8a51057fb6edca9eb30613ef5ef/torch_ema-0.3.tar.gz", hash = "sha256:5a3595405fa311995f01291a1d4a9242d6be08a0fc9db29152ec6cfd586ea414", size = 5486, upload-time = "2021-11-17T20:59:16.265Z" }
         wheels = [
@@ -13339,15 +13339,15 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "torch-geometric"
         version = "2.6.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "aiohttp" },
             { name = "fsspec" },
             { name = "jinja2" },
             { name = "numpy" },
             { name = "psutil" },
-            { name = "pyparsing", version = "2.4.7", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-alignn' or (extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
-            { name = "pyparsing", version = "3.2.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-alignn'" },
+            { name = "pyparsing", version = "2.4.7", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-alignn' or (extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
+            { name = "pyparsing", version = "3.2.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or extra != 'extra-4-test-alignn'" },
             { name = "requests" },
             { name = "tqdm" },
         ]
@@ -13359,10 +13359,10 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "torchdata"
         version = "0.7.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "requests" },
-            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
             { name = "urllib3" },
         ]
         wheels = [
@@ -13380,13 +13380,13 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "torchmetrics"
         version = "1.6.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "lightning-utilities" },
             { name = "numpy" },
             { name = "packaging" },
-            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
-            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.org/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
+            { name = "torch", version = "2.2.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-alignn' or extra == 'extra-4-test-m3gnet'" },
+            { name = "torch", version = "2.5.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "extra == 'extra-4-test-all' or extra == 'extra-4-test-chgnet' or (extra != 'extra-4-test-alignn' and extra != 'extra-4-test-m3gnet')" },
         ]
         sdist = { url = "https://files.pythonhosted.org/packages/14/c5/8d916585d4d6eb158105c21b28cd4b0ed296d74e499bf8f104368de16619/torchmetrics-1.6.1.tar.gz", hash = "sha256:a5dc236694b392180949fdd0a0fcf2b57135c8b600e557c725e077eb41e53e64", size = 540022, upload-time = "2024-12-25T23:56:42.146Z" }
         wheels = [
@@ -13396,7 +13396,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "tqdm"
         version = "4.67.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "colorama", marker = "sys_platform == 'win32' or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-all') or (extra == 'extra-4-test-alignn' and extra == 'extra-4-test-chgnet') or (extra == 'extra-4-test-all' and extra == 'extra-4-test-m3gnet') or (extra == 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet')" },
         ]
@@ -13408,7 +13408,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "triton"
         version = "2.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra == 'extra-4-test-alignn' and extra != 'extra-4-test-all' and extra != 'extra-4-test-chgnet' and extra == 'extra-4-test-m3gnet'",
@@ -13432,7 +13432,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "triton"
         version = "3.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "python_full_version >= '3.12' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
             "python_full_version == '3.11.*' and sys_platform != 'win32' and extra != 'extra-4-test-alignn' and extra == 'extra-4-test-all' and extra == 'extra-4-test-chgnet' and extra != 'extra-4-test-m3gnet'",
@@ -13459,7 +13459,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "typing-extensions"
         version = "4.12.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz", hash = "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8", size = 85321, upload-time = "2024-06-07T18:52:15.995Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl", hash = "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d", size = 37438, upload-time = "2024-06-07T18:52:13.582Z" },
@@ -13468,7 +13468,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "tzdata"
         version = "2025.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/43/0f/fa4723f22942480be4ca9527bbde8d43f6c3f2fe8412f00e7f5f6746bc8b/tzdata-2025.1.tar.gz", hash = "sha256:24894909e88cdb28bd1636c6887801df64cb485bd593f2fd83ef29075a81d694", size = 194950, upload-time = "2025-01-21T19:49:38.686Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/0f/dd/84f10e23edd882c6f968c21c2434fe67bd4a528967067515feca9e611e5e/tzdata-2025.1-py2.py3-none-any.whl", hash = "sha256:7e127113816800496f027041c570f50bcd464a020098a3b6b199517772303639", size = 346762, upload-time = "2025-01-21T19:49:37.187Z" },
@@ -13477,7 +13477,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "uncertainties"
         version = "3.2.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a0/b0/f926a3faf468b9784bdecb8d9328b531743937ead284b2e8d406d96e8b0f/uncertainties-3.2.2.tar.gz", hash = "sha256:e62c86fdc64429828229de6ab4e11466f114907e6bd343c077858994cc12e00b", size = 143865, upload-time = "2024-07-07T22:37:06.567Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/fa/fc/97711d2a502881d871e3cf2d2645e21e7f8e4d4fd9a56937557790cade6a/uncertainties-3.2.2-py3-none-any.whl", hash = "sha256:fd8543355952f4052786ed4150acaf12e23117bd0f5bd03ea07de466bce646e7", size = 58266, upload-time = "2024-07-07T22:37:03.942Z" },
@@ -13486,7 +13486,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "urllib3"
         version = "2.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/aa/63/e53da845320b757bf29ef6a9062f5c669fe997973f966045cb019c3f4b66/urllib3-2.3.0.tar.gz", hash = "sha256:f8c5449b3cf0861679ce7e0503c7b44b5ec981bec0d1d3795a07f1ba96f0204d", size = 307268, upload-time = "2024-12-22T07:47:30.032Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c8/19/4ec628951a74043532ca2cf5d97b7b14863931476d117c471e8e2b1eb39f/urllib3-2.3.0-py3-none-any.whl", hash = "sha256:1cee9ad369867bfdbbb48b7dd50374c0967a0bb7710050facf0dd6911440e3df", size = 128369, upload-time = "2024-12-22T07:47:28.074Z" },
@@ -13495,7 +13495,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "wcwidth"
         version = "0.2.13"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/6c/63/53559446a878410fc5a5974feb13d31d78d752eb18aeba59c7fef1af7598/wcwidth-0.2.13.tar.gz", hash = "sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5", size = 101301, upload-time = "2024-01-06T02:10:57.829Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/fd/84/fd2ba7aafacbad3c4201d395674fc6348826569da3c0937e75505ead3528/wcwidth-0.2.13-py2.py3-none-any.whl", hash = "sha256:3da69048e4540d84af32131829ff948f1e022c1c6bdb8d6102117aac784f6859", size = 34166, upload-time = "2024-01-06T02:10:55.763Z" },
@@ -13504,7 +13504,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "xmltodict"
         version = "0.14.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/50/05/51dcca9a9bf5e1bce52582683ce50980bcadbc4fa5143b9f2b19ab99958f/xmltodict-0.14.2.tar.gz", hash = "sha256:201e7c28bb210e374999d1dde6382923ab0ed1a8a5faeece48ab525b7810a553", size = 51942, upload-time = "2024-10-16T06:10:29.683Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/d6/45/fc303eb433e8a2a271739c98e953728422fa61a3c1f36077a49e395c972e/xmltodict-0.14.2-py2.py3-none-any.whl", hash = "sha256:20cc7d723ed729276e808f26fb6b3599f786cbc37e06c65e192ba77c40f20aac", size = 9981, upload-time = "2024-10-16T06:10:27.649Z" },
@@ -13513,7 +13513,7 @@ fn duplicate_torch_and_sympy_because_of_wrong_inferences() -> Result<()> {
         [[package]]
         name = "yarl"
         version = "1.18.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "multidict" },
@@ -13685,11 +13685,11 @@ fn overlapping_resolution_markers() -> Result<()> {
         [package.optional-dependencies]
         cpu = [
             { name = "torch", version = "2.2.2", source = { registry = "https://astral-sh.github.io/pytorch-mirror/whl/cpu" }, marker = "(platform_machine == 'aarch64' and platform_python_implementation == 'CPython' and sys_platform == 'linux' and extra == 'extra-14-ads-mega-model-cpu') or (platform_machine != 'aarch64' and extra == 'extra-14-ads-mega-model-cpu' and extra == 'extra-14-ads-mega-model-cu118') or (platform_python_implementation != 'CPython' and extra == 'extra-14-ads-mega-model-cpu' and extra == 'extra-14-ads-mega-model-cu118') or (sys_platform != 'linux' and extra == 'extra-14-ads-mega-model-cpu' and extra == 'extra-14-ads-mega-model-cu118')" },
-            { name = "torch", version = "2.2.2", source = { registry = "https://pypi.org/simple" }, marker = "(sys_platform == 'darwin' and extra == 'extra-14-ads-mega-model-cpu') or (extra == 'extra-14-ads-mega-model-cpu' and extra == 'extra-14-ads-mega-model-cu118')" },
+            { name = "torch", version = "2.2.2", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(sys_platform == 'darwin' and extra == 'extra-14-ads-mega-model-cpu') or (extra == 'extra-14-ads-mega-model-cpu' and extra == 'extra-14-ads-mega-model-cu118')" },
             { name = "torch", version = "2.2.2+cpu", source = { registry = "https://astral-sh.github.io/pytorch-mirror/whl/cpu" }, marker = "(platform_machine != 'aarch64' and sys_platform == 'linux' and extra == 'extra-14-ads-mega-model-cpu') or (platform_python_implementation != 'CPython' and sys_platform == 'linux' and extra == 'extra-14-ads-mega-model-cpu') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra == 'extra-14-ads-mega-model-cpu') or (sys_platform == 'darwin' and extra == 'extra-14-ads-mega-model-cpu' and extra == 'extra-14-ads-mega-model-cu118') or (sys_platform == 'linux' and extra == 'extra-14-ads-mega-model-cpu' and extra == 'extra-14-ads-mega-model-cu118')" },
         ]
         cu118 = [
-            { name = "torch", version = "2.2.2", source = { registry = "https://pypi.org/simple" } },
+            { name = "torch", version = "2.2.2", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
 
         [package.metadata]
@@ -13704,7 +13704,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "certifi"
         version = "2024.12.14"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/0f/bd/1d41ee578ce09523c81a15426705dd20969f5abf006d1afe8aeff0dd776a/certifi-2024.12.14.tar.gz", hash = "sha256:b650d30f370c2b724812bee08008be0c4163b163ddaec3f2546c1caf65f191db", size = 166010, upload-time = "2024-12-14T13:52:38.02Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a5/32/8f6669fc4798494966bf446c8c4a162e0b5d893dff088afddf76414f70e1/certifi-2024.12.14-py3-none-any.whl", hash = "sha256:1275f7a45be9464efc1173084eaa30f866fe2e47d389406136d332ed4967ec56", size = 164927, upload-time = "2024-12-14T13:52:36.114Z" },
@@ -13713,7 +13713,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "charset-normalizer"
         version = "3.4.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/16/b0/572805e227f01586461c80e0fd25d65a2115599cc9dad142fee4b747c357/charset_normalizer-3.4.1.tar.gz", hash = "sha256:44251f18cd68a75b56585dd00dae26183e102cd5e0f9f1466e6df5da2ed64ea3", size = 123188, upload-time = "2024-12-24T18:12:35.43Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/0d/58/5580c1716040bc89206c77d8f74418caf82ce519aae06450393ca73475d1/charset_normalizer-3.4.1-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:91b36a978b5ae0ee86c394f5a54d6ef44db1de0815eb43de826d41d21e4af3de", size = 198013, upload-time = "2024-12-24T18:09:43.671Z" },
@@ -13735,7 +13735,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "click"
         version = "8.1.8"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "colorama", marker = "sys_platform == 'win32' or (extra == 'extra-14-ads-mega-model-cpu' and extra == 'extra-14-ads-mega-model-cu118')" },
         ]
@@ -13747,7 +13747,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "colorama"
         version = "0.4.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44", size = 27697, upload-time = "2022-10-25T02:36:22.414Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6", size = 25335, upload-time = "2022-10-25T02:36:20.889Z" },
@@ -13756,7 +13756,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "docker-pycreds"
         version = "0.4.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "six" },
         ]
@@ -13768,7 +13768,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "filelock"
         version = "3.17.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/dc/9c/0b15fb47b464e1b663b1acd1253a062aa5feecb07d4e597daea542ebd2b5/filelock-3.17.0.tar.gz", hash = "sha256:ee4e77401ef576ebb38cd7f13b9b28893194acc20a8e68e18730ba9c0e54660e", size = 18027, upload-time = "2025-01-21T20:04:49.099Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/89/ec/00d68c4ddfedfe64159999e5f8a98fb8442729a63e2077eb9dcd89623d27/filelock-3.17.0-py3-none-any.whl", hash = "sha256:533dc2f7ba78dc2f0f531fc6c4940addf7b70a481e269a5a3b93be94ffbe8338", size = 16164, upload-time = "2025-01-21T20:04:47.734Z" },
@@ -13777,7 +13777,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "fsspec"
         version = "2024.12.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/ee/11/de70dee31455c546fbc88301971ec03c328f3d1138cfba14263f651e9551/fsspec-2024.12.0.tar.gz", hash = "sha256:670700c977ed2fb51e0d9f9253177ed20cbde4a3e5c0283cc5385b5870c8533f", size = 291600, upload-time = "2024-12-19T19:57:30.333Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/de/86/5486b0188d08aa643e127774a99bac51ffa6cf343e3deb0583956dca5b22/fsspec-2024.12.0-py3-none-any.whl", hash = "sha256:b520aed47ad9804237ff878b504267a3b0b441e97508bd6d2d8774e3db85cee2", size = 183862, upload-time = "2024-12-19T19:57:28.258Z" },
@@ -13786,7 +13786,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "gitdb"
         version = "4.0.12"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "smmap" },
         ]
@@ -13798,7 +13798,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "gitpython"
         version = "3.1.44"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "gitdb" },
         ]
@@ -13810,7 +13810,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.10"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz", hash = "sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9", size = 190490, upload-time = "2024-09-15T18:07:39.745Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl", hash = "sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3", size = 70442, upload-time = "2024-09-15T18:07:37.964Z" },
@@ -13819,7 +13819,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "jinja2"
         version = "3.1.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markupsafe" },
         ]
@@ -13831,7 +13831,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "3.0.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/b2/97/5d42485e71dfc078108a86d6de8fa46db44a1a9295e89c5d6d4a06e23a62/markupsafe-3.0.2.tar.gz", hash = "sha256:ee55d3edf80167e48ea11a923c7386f4669df67d7994554387f84e7d8b0a2bf0", size = 20537, upload-time = "2024-10-18T15:21:54.129Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/04/90/d08277ce111dd22f77149fd1a5d4653eeb3b3eaacbdfcbae5afb2600eebd/MarkupSafe-3.0.2-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:7e94c425039cde14257288fd61dcfb01963e658efbc0ff54f5306b06054700f8", size = 14357, upload-time = "2024-10-18T15:20:51.44Z" },
@@ -13849,7 +13849,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "mpmath"
         version = "1.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e0/47/dd32fa426cc72114383ac549964eecb20ecfd886d1e5ccf5340b55b02f57/mpmath-1.3.0.tar.gz", hash = "sha256:7a28eb2a9774d00c7bc92411c19a89209d5da7c4c9a9e227be8330a23a25b91f", size = 508106, upload-time = "2023-03-07T16:47:11.061Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl", hash = "sha256:a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c", size = 536198, upload-time = "2023-03-07T16:47:09.197Z" },
@@ -13858,7 +13858,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "networkx"
         version = "3.4.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/fd/1d/06475e1cd5264c0b870ea2cc6fdb3e37177c1e565c43f56ff17a10e3937f/networkx-3.4.2.tar.gz", hash = "sha256:307c3669428c5362aab27c8a1260aa8f47c4e91d3891f48be0141738d8d053e1", size = 2151368, upload-time = "2024-10-21T12:39:38.695Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl", hash = "sha256:df5d4365b724cf81b8c6a7312509d0c22386097011ad1abe274afd5e9d3bbc5f", size = 1723263, upload-time = "2024-10-21T12:39:36.247Z" },
@@ -13867,7 +13867,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "nvidia-cublas-cu12"
         version = "12.1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/37/6d/121efd7382d5b0284239f4ab1fc1590d86d34ed4a4a2fdb13b30ca8e5740/nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl", hash = "sha256:ee53ccca76a6fc08fb9701aa95b6ceb242cdaab118c3bb152af4e579af792728", size = 410594774, upload-time = "2023-04-19T15:50:03.519Z" },
             { url = "https://files.pythonhosted.org/packages/c5/ef/32a375b74bea706c93deea5613552f7c9104f961b21df423f5887eca713b/nvidia_cublas_cu12-12.1.3.1-py3-none-win_amd64.whl", hash = "sha256:2b964d60e8cf11b5e1073d179d85fa340c120e99b3067558f3cf98dd69d02906", size = 439918445, upload-time = "2023-04-19T15:56:13.346Z" },
@@ -13876,7 +13876,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "nvidia-cuda-cupti-cu12"
         version = "12.1.105"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/7e/00/6b218edd739ecfc60524e585ba8e6b00554dd908de2c9c66c1af3e44e18d/nvidia_cuda_cupti_cu12-12.1.105-py3-none-manylinux1_x86_64.whl", hash = "sha256:e54fde3983165c624cb79254ae9818a456eb6e87a7fd4d56a2352c24ee542d7e", size = 14109015, upload-time = "2023-04-19T15:47:32.502Z" },
             { url = "https://files.pythonhosted.org/packages/d0/56/0021e32ea2848c24242f6b56790bd0ccc8bf99f973ca790569c6ca028107/nvidia_cuda_cupti_cu12-12.1.105-py3-none-win_amd64.whl", hash = "sha256:bea8236d13a0ac7190bd2919c3e8e6ce1e402104276e6f9694479e48bb0eb2a4", size = 10154340, upload-time = "2023-04-19T15:53:33.563Z" },
@@ -13885,7 +13885,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "nvidia-cuda-nvrtc-cu12"
         version = "12.1.105"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b6/9f/c64c03f49d6fbc56196664d05dba14e3a561038a81a638eeb47f4d4cfd48/nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl", hash = "sha256:339b385f50c309763ca65456ec75e17bbefcbbf2893f462cb8b90584cd27a1c2", size = 23671734, upload-time = "2023-04-19T15:48:32.42Z" },
             { url = "https://files.pythonhosted.org/packages/ad/1d/f76987c4f454eb86e0b9a0e4f57c3bf1ac1d13ad13cd1a4da4eb0e0c0ce9/nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-win_amd64.whl", hash = "sha256:0a98a522d9ff138b96c010a65e145dc1b4850e9ecb75a0172371793752fd46ed", size = 19331863, upload-time = "2023-04-19T15:54:34.603Z" },
@@ -13894,7 +13894,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "nvidia-cuda-runtime-cu12"
         version = "12.1.105"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/eb/d5/c68b1d2cdfcc59e72e8a5949a37ddb22ae6cade80cd4a57a84d4c8b55472/nvidia_cuda_runtime_cu12-12.1.105-py3-none-manylinux1_x86_64.whl", hash = "sha256:6e258468ddf5796e25f1dc591a31029fa317d97a0a94ed93468fc86301d61e40", size = 823596, upload-time = "2023-04-19T15:47:22.471Z" },
             { url = "https://files.pythonhosted.org/packages/9f/e2/7a2b4b5064af56ea8ea2d8b2776c0f2960d95c88716138806121ae52a9c9/nvidia_cuda_runtime_cu12-12.1.105-py3-none-win_amd64.whl", hash = "sha256:dfb46ef84d73fababab44cf03e3b83f80700d27ca300e537f85f636fac474344", size = 821226, upload-time = "2023-04-19T15:53:23.082Z" },
@@ -13903,7 +13903,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "nvidia-cudnn-cu12"
         version = "8.9.2.26"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "nvidia-cublas-cu12", marker = "(sys_platform == 'linux' and extra == 'extra-14-ads-mega-model-cu118') or (extra == 'extra-14-ads-mega-model-cpu' and extra == 'extra-14-ads-mega-model-cu118')" },
         ]
@@ -13914,7 +13914,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "nvidia-cufft-cu12"
         version = "11.0.2.54"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/86/94/eb540db023ce1d162e7bea9f8f5aa781d57c65aed513c33ee9a5123ead4d/nvidia_cufft_cu12-11.0.2.54-py3-none-manylinux1_x86_64.whl", hash = "sha256:794e3948a1aa71fd817c3775866943936774d1c14e7628c74f6f7417224cdf56", size = 121635161, upload-time = "2023-04-19T15:50:46Z" },
             { url = "https://files.pythonhosted.org/packages/f7/57/7927a3aa0e19927dfed30256d1c854caf991655d847a4e7c01fe87e3d4ac/nvidia_cufft_cu12-11.0.2.54-py3-none-win_amd64.whl", hash = "sha256:d9ac353f78ff89951da4af698f80870b1534ed69993f10a4cf1d96f21357e253", size = 121344196, upload-time = "2023-04-19T15:56:59.562Z" },
@@ -13923,7 +13923,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "nvidia-curand-cu12"
         version = "10.3.2.106"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/44/31/4890b1c9abc496303412947fc7dcea3d14861720642b49e8ceed89636705/nvidia_curand_cu12-10.3.2.106-py3-none-manylinux1_x86_64.whl", hash = "sha256:9d264c5036dde4e64f1de8c50ae753237c12e0b1348738169cd0f8a536c0e1e0", size = 56467784, upload-time = "2023-04-19T15:51:04.804Z" },
             { url = "https://files.pythonhosted.org/packages/5c/97/4c9c7c79efcdf5b70374241d48cf03b94ef6707fd18ea0c0f53684931d0b/nvidia_curand_cu12-10.3.2.106-py3-none-win_amd64.whl", hash = "sha256:75b6b0c574c0037839121317e17fd01f8a69fd2ef8e25853d826fec30bdba74a", size = 55995813, upload-time = "2023-04-19T15:57:16.676Z" },
@@ -13932,7 +13932,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "nvidia-cusolver-cu12"
         version = "11.4.5.107"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "nvidia-cublas-cu12", marker = "(sys_platform == 'linux' and extra == 'extra-14-ads-mega-model-cu118') or (extra == 'extra-14-ads-mega-model-cpu' and extra == 'extra-14-ads-mega-model-cu118')" },
             { name = "nvidia-cusparse-cu12", marker = "(sys_platform == 'linux' and extra == 'extra-14-ads-mega-model-cu118') or (extra == 'extra-14-ads-mega-model-cpu' and extra == 'extra-14-ads-mega-model-cu118')" },
@@ -13946,7 +13946,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "nvidia-cusparse-cu12"
         version = "12.1.0.106"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "nvidia-nvjitlink-cu12", marker = "(sys_platform == 'linux' and extra == 'extra-14-ads-mega-model-cu118') or (extra == 'extra-14-ads-mega-model-cpu' and extra == 'extra-14-ads-mega-model-cu118')" },
         ]
@@ -13958,7 +13958,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "nvidia-nccl-cu12"
         version = "2.19.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/38/00/d0d4e48aef772ad5aebcf70b73028f88db6e5640b36c38e90445b7a57c45/nvidia_nccl_cu12-2.19.3-py3-none-manylinux1_x86_64.whl", hash = "sha256:a9734707a2c96443331c1e48c717024aa6678a0e2a4cb66b2c364d18cee6b48d", size = 165987969, upload-time = "2023-10-24T16:16:24.789Z" },
         ]
@@ -13966,7 +13966,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "nvidia-nvjitlink-cu12"
         version = "12.8.61"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/03/f8/9d85593582bd99b8d7c65634d2304780aefade049b2b94d96e44084be90b/nvidia_nvjitlink_cu12-12.8.61-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl", hash = "sha256:45fd79f2ae20bd67e8bc411055939049873bfd8fac70ff13bd4865e0b9bdab17", size = 39243473, upload-time = "2025-01-23T18:03:03.509Z" },
             { url = "https://files.pythonhosted.org/packages/af/53/698f3758f48c5fcb1112721e40cc6714da3980d3c7e93bae5b29dafa9857/nvidia_nvjitlink_cu12-12.8.61-py3-none-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:9b80ecab31085dda3ce3b41d043be0ec739216c3fc633b8abe212d5a30026df0", size = 38374634, upload-time = "2025-01-23T18:02:35.812Z" },
@@ -13976,7 +13976,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "nvidia-nvtx-cu12"
         version = "12.1.105"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/da/d3/8057f0587683ed2fcd4dbfbdfdfa807b9160b809976099d36b8f60d08f03/nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl", hash = "sha256:dc21cf308ca5691e7c04d962e213f8a4aa9bbfa23d95412f452254c2caeb09e5", size = 99138, upload-time = "2023-04-19T15:48:43.556Z" },
             { url = "https://files.pythonhosted.org/packages/b8/d7/bd7cb2d95ac6ac6e8d05bfa96cdce69619f1ef2808e072919044c2d47a8c/nvidia_nvtx_cu12-12.1.105-py3-none-win_amd64.whl", hash = "sha256:65f4d98982b31b60026e0e6de73fbdfc09d08a96f4656dd3665ca616a11e1e82", size = 66307, upload-time = "2023-04-19T15:54:45.736Z" },
@@ -13985,7 +13985,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "platformdirs"
         version = "4.3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/13/fc/128cc9cb8f03208bdbf93d3aa862e16d376844a14f9a0ce5cf4507372de4/platformdirs-4.3.6.tar.gz", hash = "sha256:357fb2acbc885b0419afd3ce3ed34564c13c9b95c89360cd9563f73aa5e2b907", size = 21302, upload-time = "2024-09-17T19:06:50.688Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/3c/a6/bc1012356d8ece4d66dd75c4b9fc6c1f6650ddd5991e421177d9f8f671be/platformdirs-4.3.6-py3-none-any.whl", hash = "sha256:73e575e1408ab8103900836b97580d5307456908a03e92031bab39e4554cc3fb", size = 18439, upload-time = "2024-09-17T19:06:49.212Z" },
@@ -13994,7 +13994,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "protobuf"
         version = "5.29.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/f7/d1/e0a911544ca9993e0f17ce6d3cc0932752356c1b0a834397f28e63479344/protobuf-5.29.3.tar.gz", hash = "sha256:5da0f41edaf117bde316404bad1a486cb4ededf8e4a54891296f648e8e076620", size = 424945, upload-time = "2025-01-08T21:38:51.572Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/dc/7a/1e38f3cafa022f477ca0f57a1f49962f21ad25850c3ca0acd3b9d0091518/protobuf-5.29.3-cp310-abi3-win32.whl", hash = "sha256:3ea51771449e1035f26069c4c7fd51fba990d07bc55ba80701c78f886bf9c888", size = 422708, upload-time = "2025-01-08T21:38:31.799Z" },
@@ -14008,7 +14008,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "psutil"
         version = "6.1.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/1f/5a/07871137bb752428aa4b659f910b399ba6f291156bdea939be3e96cae7cb/psutil-6.1.1.tar.gz", hash = "sha256:cf8496728c18f2d0b45198f06895be52f36611711746b7f30c464b422b50e2f5", size = 508502, upload-time = "2024-12-19T18:21:20.568Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/61/99/ca79d302be46f7bdd8321089762dd4476ee725fce16fc2b2e1dbba8cac17/psutil-6.1.1-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:fc0ed7fe2231a444fc219b9c42d0376e0a9a1a72f16c5cfa0f68d19f1a0663e8", size = 247511, upload-time = "2024-12-19T18:21:45.163Z" },
@@ -14023,7 +14023,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "pyyaml"
         version = "6.0.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/54/ed/79a089b6be93607fa5cdaedf301d7dfb23af5f25c398d5ead2525b063e17/pyyaml-6.0.2.tar.gz", hash = "sha256:d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e", size = 130631, upload-time = "2024-08-06T20:33:50.674Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/9b/95/a3fac87cb7158e231b5a6012e438c647e1a87f09f8e0d123acec8ab8bf71/PyYAML-6.0.2-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:0a9a2848a5b7feac301353437eb7d5957887edbf81d56e903999a75a3d743086", size = 184199, upload-time = "2024-08-06T20:31:40.178Z" },
@@ -14040,7 +14040,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "requests"
         version = "2.32.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "certifi" },
             { name = "charset-normalizer" },
@@ -14055,7 +14055,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "sentry-sdk"
         version = "2.20.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "certifi" },
             { name = "urllib3" },
@@ -14068,7 +14068,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "setproctitle"
         version = "1.3.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/ae/4e/b09341b19b9ceb8b4c67298ab4a08ef7a4abdd3016c7bb152e9b6379031d/setproctitle-1.3.4.tar.gz", hash = "sha256:3b40d32a3e1f04e94231ed6dfee0da9e43b4f9c6b5450d53e6dd7754c34e0c50", size = 26456, upload-time = "2024-11-17T08:29:38.085Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/52/f4/95937eb5c5370324a942ba90174c6d0fc7c5ad2f7f8ea989ccdbd6e1be5e/setproctitle-1.3.4-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:0f6661a69c68349172ba7b4d5dd65fec2b0917abc99002425ad78c3e58cf7595", size = 16855, upload-time = "2024-11-17T08:27:22.448Z" },
@@ -14092,7 +14092,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "setuptools"
         version = "75.8.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/92/ec/089608b791d210aec4e7f97488e67ab0d33add3efccb83a056cbafe3a2a6/setuptools-75.8.0.tar.gz", hash = "sha256:c5afc8f407c626b8313a86e10311dd3f661c6cd9c09d4bf8c15c0e11f9f2b0e6", size = 1343222, upload-time = "2025-01-08T18:28:23.98Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/69/8a/b9dc7678803429e4a3bc9ba462fa3dd9066824d3c607490235c6a796be5a/setuptools-75.8.0-py3-none-any.whl", hash = "sha256:e3982f444617239225d675215d51f6ba05f845d4eec313da4418fdbb56fb27e3", size = 1228782, upload-time = "2025-01-08T18:28:20.912Z" },
@@ -14101,7 +14101,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "six"
         version = "1.17.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81", size = 34031, upload-time = "2024-12-04T17:35:28.174Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274", size = 11050, upload-time = "2024-12-04T17:35:26.475Z" },
@@ -14110,7 +14110,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "smmap"
         version = "5.0.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/44/cd/a040c4b3119bbe532e5b0732286f805445375489fceaec1f48306068ee3b/smmap-5.0.2.tar.gz", hash = "sha256:26ea65a03958fa0c8a1c7e8c7a58fdc77221b8910f6be2131affade476898ad5", size = 22329, upload-time = "2025-01-02T07:14:40.909Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/04/be/d09147ad1ec7934636ad912901c5fd7667e1c858e19d355237db0d0cd5e4/smmap-5.0.2-py3-none-any.whl", hash = "sha256:b30115f0def7d7531d22a0fb6502488d879e75b260a9db4d0819cfb25403af5e", size = 24303, upload-time = "2025-01-02T07:14:38.724Z" },
@@ -14119,7 +14119,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "sympy"
         version = "1.13.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "mpmath" },
         ]
@@ -14152,7 +14152,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "torch"
         version = "2.2.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "sys_platform == 'linux' and extra != 'extra-14-ads-mega-model-cpu' and extra == 'extra-14-ads-mega-model-cu118'",
             "sys_platform != 'linux' and extra != 'extra-14-ads-mega-model-cpu' and extra == 'extra-14-ads-mega-model-cu118'",
@@ -14210,7 +14210,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "triton"
         version = "2.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "filelock", marker = "(sys_platform == 'linux' and extra == 'extra-14-ads-mega-model-cu118') or (extra == 'extra-14-ads-mega-model-cpu' and extra == 'extra-14-ads-mega-model-cu118')" },
         ]
@@ -14221,7 +14221,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "typing-extensions"
         version = "4.12.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz", hash = "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8", size = 85321, upload-time = "2024-06-07T18:52:15.995Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl", hash = "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d", size = 37438, upload-time = "2024-06-07T18:52:13.582Z" },
@@ -14230,7 +14230,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "urllib3"
         version = "2.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/aa/63/e53da845320b757bf29ef6a9062f5c669fe997973f966045cb019c3f4b66/urllib3-2.3.0.tar.gz", hash = "sha256:f8c5449b3cf0861679ce7e0503c7b44b5ec981bec0d1d3795a07f1ba96f0204d", size = 307268, upload-time = "2024-12-22T07:47:30.032Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c8/19/4ec628951a74043532ca2cf5d97b7b14863931476d117c471e8e2b1eb39f/urllib3-2.3.0-py3-none-any.whl", hash = "sha256:1cee9ad369867bfdbbb48b7dd50374c0967a0bb7710050facf0dd6911440e3df", size = 128369, upload-time = "2024-12-22T07:47:28.074Z" },
@@ -14239,7 +14239,7 @@ fn overlapping_resolution_markers() -> Result<()> {
         [[package]]
         name = "wandb"
         version = "0.17.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "click" },
             { name = "docker-pycreds" },
@@ -14356,7 +14356,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "filelock"
         version = "3.17.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/dc/9c/0b15fb47b464e1b663b1acd1253a062aa5feecb07d4e597daea542ebd2b5/filelock-3.17.0.tar.gz", hash = "sha256:ee4e77401ef576ebb38cd7f13b9b28893194acc20a8e68e18730ba9c0e54660e", size = 18027, upload-time = "2025-01-21T20:04:49.099Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/89/ec/00d68c4ddfedfe64159999e5f8a98fb8442729a63e2077eb9dcd89623d27/filelock-3.17.0-py3-none-any.whl", hash = "sha256:533dc2f7ba78dc2f0f531fc6c4940addf7b70a481e269a5a3b93be94ffbe8338", size = 16164, upload-time = "2025-01-21T20:04:47.734Z" },
@@ -14365,7 +14365,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "fsspec"
         version = "2025.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/b5/79/68612ed99700e6413de42895aa725463e821a6b3be75c87fcce1b4af4c70/fsspec-2025.2.0.tar.gz", hash = "sha256:1c24b16eaa0a1798afa0337aa0db9b256718ab2a89c425371f5628d22c3b6afd", size = 292283, upload-time = "2025-02-01T18:30:26.893Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e2/94/758680531a00d06e471ef649e4ec2ed6bf185356a7f9fbfbb7368a40bd49/fsspec-2025.2.0-py3-none-any.whl", hash = "sha256:9de2ad9ce1f85e1931858535bc882543171d197001a0a5eb2ddc04f1781ab95b", size = 184484, upload-time = "2025-02-01T18:30:19.802Z" },
@@ -14374,7 +14374,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "jinja2"
         version = "3.1.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markupsafe" },
         ]
@@ -14386,7 +14386,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "3.0.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/b2/97/5d42485e71dfc078108a86d6de8fa46db44a1a9295e89c5d6d4a06e23a62/markupsafe-3.0.2.tar.gz", hash = "sha256:ee55d3edf80167e48ea11a923c7386f4669df67d7994554387f84e7d8b0a2bf0", size = 20537, upload-time = "2024-10-18T15:21:54.129Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/22/09/d1f21434c97fc42f09d290cbb6350d44eb12f09cc62c9476effdb33a18aa/MarkupSafe-3.0.2-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:9778bd8ab0a994ebf6f84c2b949e65736d5575320a17ae8984a77fab08db94cf", size = 14274, upload-time = "2024-10-18T15:21:13.777Z" },
@@ -14424,7 +14424,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "mpmath"
         version = "1.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e0/47/dd32fa426cc72114383ac549964eecb20ecfd886d1e5ccf5340b55b02f57/mpmath-1.3.0.tar.gz", hash = "sha256:7a28eb2a9774d00c7bc92411c19a89209d5da7c4c9a9e227be8330a23a25b91f", size = 508106, upload-time = "2023-03-07T16:47:11.061Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl", hash = "sha256:a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c", size = 536198, upload-time = "2023-03-07T16:47:09.197Z" },
@@ -14433,7 +14433,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "networkx"
         version = "3.4.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/fd/1d/06475e1cd5264c0b870ea2cc6fdb3e37177c1e565c43f56ff17a10e3937f/networkx-3.4.2.tar.gz", hash = "sha256:307c3669428c5362aab27c8a1260aa8f47c4e91d3891f48be0141738d8d053e1", size = 2151368, upload-time = "2024-10-21T12:39:38.695Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl", hash = "sha256:df5d4365b724cf81b8c6a7312509d0c22386097011ad1abe274afd5e9d3bbc5f", size = 1723263, upload-time = "2024-10-21T12:39:36.247Z" },
@@ -14442,7 +14442,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cublas-cu12"
         version = "12.4.5.8"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/7f/7f/7fbae15a3982dc9595e49ce0f19332423b260045d0a6afe93cdbe2f1f624/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_aarch64.whl", hash = "sha256:0f8aa1706812e00b9f19dfe0cdb3999b092ccb8ca168c0db5b8ea712456fd9b3", size = 363333771, upload-time = "2024-06-18T19:28:09.881Z" },
             { url = "https://files.pythonhosted.org/packages/ae/71/1c91302526c45ab494c23f61c7a84aa568b8c1f9d196efa5993957faf906/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl", hash = "sha256:2fc8da60df463fdefa81e323eef2e36489e1c94335b5358bcb38360adf75ac9b", size = 363438805, upload-time = "2024-04-03T20:57:06.025Z" },
@@ -14452,7 +14452,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cuda-cupti-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/93/b5/9fb3d00386d3361b03874246190dfec7b206fd74e6e287b26a8fcb359d95/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_aarch64.whl", hash = "sha256:79279b35cf6f91da114182a5ce1864997fd52294a87a16179ce275773799458a", size = 12354556, upload-time = "2024-06-18T19:30:40.546Z" },
             { url = "https://files.pythonhosted.org/packages/67/42/f4f60238e8194a3106d06a058d494b18e006c10bb2b915655bd9f6ea4cb1/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl", hash = "sha256:9dec60f5ac126f7bb551c055072b69d85392b13311fcc1bcda2202d172df30fb", size = 13813957, upload-time = "2024-04-03T20:55:01.564Z" },
@@ -14462,7 +14462,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cuda-nvrtc-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/77/aa/083b01c427e963ad0b314040565ea396f914349914c298556484f799e61b/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_aarch64.whl", hash = "sha256:0eedf14185e04b76aa05b1fea04133e59f465b6f960c0cbf4e37c3cb6b0ea198", size = 24133372, upload-time = "2024-06-18T19:32:00.576Z" },
             { url = "https://files.pythonhosted.org/packages/2c/14/91ae57cd4db3f9ef7aa99f4019cfa8d54cb4caa7e00975df6467e9725a9f/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl", hash = "sha256:a178759ebb095827bd30ef56598ec182b85547f1508941a3d560eb7ea1fbf338", size = 24640306, upload-time = "2024-04-03T20:56:01.463Z" },
@@ -14472,7 +14472,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cuda-runtime-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a1/aa/b656d755f474e2084971e9a297def515938d56b466ab39624012070cb773/nvidia_cuda_runtime_cu12-12.4.127-py3-none-manylinux2014_aarch64.whl", hash = "sha256:961fe0e2e716a2a1d967aab7caee97512f71767f852f67432d572e36cb3a11f3", size = 894177, upload-time = "2024-06-18T19:32:52.877Z" },
             { url = "https://files.pythonhosted.org/packages/ea/27/1795d86fe88ef397885f2e580ac37628ed058a92ed2c39dc8eac3adf0619/nvidia_cuda_runtime_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl", hash = "sha256:64403288fa2136ee8e467cdc9c9427e0434110899d07c779f25b5c068934faa5", size = 883737, upload-time = "2024-04-03T20:54:51.355Z" },
@@ -14482,7 +14482,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cudnn-cu12"
         version = "9.1.0.70"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "nvidia-cublas-cu12" },
         ]
@@ -14494,7 +14494,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cufft-cu12"
         version = "11.2.1.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "nvidia-nvjitlink-cu12" },
         ]
@@ -14507,7 +14507,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-curand-cu12"
         version = "10.3.5.147"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/80/9c/a79180e4d70995fdf030c6946991d0171555c6edf95c265c6b2bf7011112/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_aarch64.whl", hash = "sha256:1f173f09e3e3c76ab084aba0de819c49e56614feae5c12f69883f4ae9bb5fad9", size = 56314811, upload-time = "2024-06-18T19:34:48.575Z" },
             { url = "https://files.pythonhosted.org/packages/8a/6d/44ad094874c6f1b9c654f8ed939590bdc408349f137f9b98a3a23ccec411/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl", hash = "sha256:a88f583d4e0bb643c49743469964103aa59f7f708d862c3ddb0fc07f851e3b8b", size = 56305206, upload-time = "2024-04-03T20:58:08.722Z" },
@@ -14517,7 +14517,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cusolver-cu12"
         version = "11.6.1.9"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "nvidia-cublas-cu12" },
             { name = "nvidia-cusparse-cu12" },
@@ -14532,7 +14532,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cusparse-cu12"
         version = "12.3.1.170"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "nvidia-nvjitlink-cu12" },
         ]
@@ -14545,7 +14545,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cusparselt-cu12"
         version = "0.6.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/98/8e/675498726c605c9441cf46653bd29cb1b8666da1fb1469ffa25f67f20c58/nvidia_cusparselt_cu12-0.6.2-py3-none-manylinux2014_aarch64.whl", hash = "sha256:067a7f6d03ea0d4841c85f0c6f1991c5dda98211f6302cb83a4ab234ee95bef8", size = 149422781, upload-time = "2024-07-23T17:35:27.203Z" },
             { url = "https://files.pythonhosted.org/packages/78/a8/bcbb63b53a4b1234feeafb65544ee55495e1bb37ec31b999b963cbccfd1d/nvidia_cusparselt_cu12-0.6.2-py3-none-manylinux2014_x86_64.whl", hash = "sha256:df2c24502fd76ebafe7457dbc4716b2fec071aabaed4fb7691a201cde03704d9", size = 150057751, upload-time = "2024-07-23T02:35:53.074Z" },
@@ -14555,7 +14555,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-nccl-cu12"
         version = "2.21.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/df/99/12cd266d6233f47d00daf3a72739872bdc10267d0383508b0b9c84a18bb6/nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl", hash = "sha256:8579076d30a8c24988834445f8d633c697d42397e92ffc3f63fa26766d25e0a0", size = 188654414, upload-time = "2024-04-03T15:32:57.427Z" },
         ]
@@ -14563,7 +14563,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-nvjitlink-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/02/45/239d52c05074898a80a900f49b1615d81c07fceadd5ad6c4f86a987c0bc4/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_aarch64.whl", hash = "sha256:4abe7fef64914ccfa909bc2ba39739670ecc9e820c83ccc7a6ed414122599b83", size = 20552510, upload-time = "2024-06-18T20:20:13.871Z" },
             { url = "https://files.pythonhosted.org/packages/ff/ff/847841bacfbefc97a00036e0fce5a0f086b640756dc38caea5e1bb002655/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl", hash = "sha256:06b3b9b25bf3f8af351d664978ca26a16d2c5127dbd53c0497e28d1fb9611d57", size = 21066810, upload-time = "2024-04-03T20:59:46.957Z" },
@@ -14573,7 +14573,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-nvtx-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/06/39/471f581edbb7804b39e8063d92fc8305bdc7a80ae5c07dbe6ea5c50d14a5/nvidia_nvtx_cu12-12.4.127-py3-none-manylinux2014_aarch64.whl", hash = "sha256:7959ad635db13edf4fc65c06a6e9f9e55fc2f92596db928d169c0bb031e88ef3", size = 100417, upload-time = "2024-06-18T20:16:22.484Z" },
             { url = "https://files.pythonhosted.org/packages/87/20/199b8713428322a2f22b722c62b8cc278cc53dffa9705d744484b5035ee9/nvidia_nvtx_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl", hash = "sha256:781e950d9b9f60d8241ccea575b32f5105a5baf4c2351cab5256a24869f12a1a", size = 99144, upload-time = "2024-04-03T20:56:12.406Z" },
@@ -14604,7 +14604,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "setuptools"
         version = "75.8.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/92/ec/089608b791d210aec4e7f97488e67ab0d33add3efccb83a056cbafe3a2a6/setuptools-75.8.0.tar.gz", hash = "sha256:c5afc8f407c626b8313a86e10311dd3f661c6cd9c09d4bf8c15c0e11f9f2b0e6", size = 1343222, upload-time = "2025-01-08T18:28:23.98Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/69/8a/b9dc7678803429e4a3bc9ba462fa3dd9066824d3c607490235c6a796be5a/setuptools-75.8.0-py3-none-any.whl", hash = "sha256:e3982f444617239225d675215d51f6ba05f845d4eec313da4418fdbb56fb27e3", size = 1228782, upload-time = "2025-01-08T18:28:20.912Z" },
@@ -14613,7 +14613,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "sympy"
         version = "1.13.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "mpmath" },
         ]
@@ -14708,7 +14708,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "triton"
         version = "3.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/06/00/59500052cb1cf8cf5316be93598946bc451f14072c6ff256904428eaf03c/triton-3.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:8d9b215efc1c26fa7eefb9a157915c92d52e000d2bf83e5f69704047e63f125c", size = 253159365, upload-time = "2025-01-22T19:13:24.648Z" },
             { url = "https://files.pythonhosted.org/packages/c7/30/37a3384d1e2e9320331baca41e835e90a3767303642c7a80d4510152cbcf/triton-3.2.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e5dfa23ba84541d7c0a531dfce76d8bcd19159d50a4a8b14ad01e91734a5c1b0", size = 253154278, upload-time = "2025-01-22T19:13:54.221Z" },
@@ -14717,7 +14717,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "typing-extensions"
         version = "4.12.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz", hash = "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8", size = 85321, upload-time = "2024-06-07T18:52:15.995Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl", hash = "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d", size = 37438, upload-time = "2024-06-07T18:52:13.582Z" },
@@ -14771,7 +14771,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "filelock"
         version = "3.17.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/dc/9c/0b15fb47b464e1b663b1acd1253a062aa5feecb07d4e597daea542ebd2b5/filelock-3.17.0.tar.gz", hash = "sha256:ee4e77401ef576ebb38cd7f13b9b28893194acc20a8e68e18730ba9c0e54660e", size = 18027, upload-time = "2025-01-21T20:04:49.099Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/89/ec/00d68c4ddfedfe64159999e5f8a98fb8442729a63e2077eb9dcd89623d27/filelock-3.17.0-py3-none-any.whl", hash = "sha256:533dc2f7ba78dc2f0f531fc6c4940addf7b70a481e269a5a3b93be94ffbe8338", size = 16164, upload-time = "2025-01-21T20:04:47.734Z" },
@@ -14780,7 +14780,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "fsspec"
         version = "2025.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/b5/79/68612ed99700e6413de42895aa725463e821a6b3be75c87fcce1b4af4c70/fsspec-2025.2.0.tar.gz", hash = "sha256:1c24b16eaa0a1798afa0337aa0db9b256718ab2a89c425371f5628d22c3b6afd", size = 292283, upload-time = "2025-02-01T18:30:26.893Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e2/94/758680531a00d06e471ef649e4ec2ed6bf185356a7f9fbfbb7368a40bd49/fsspec-2025.2.0-py3-none-any.whl", hash = "sha256:9de2ad9ce1f85e1931858535bc882543171d197001a0a5eb2ddc04f1781ab95b", size = 184484, upload-time = "2025-02-01T18:30:19.802Z" },
@@ -14789,7 +14789,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "jinja2"
         version = "3.1.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markupsafe" },
         ]
@@ -14801,7 +14801,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "3.0.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/b2/97/5d42485e71dfc078108a86d6de8fa46db44a1a9295e89c5d6d4a06e23a62/markupsafe-3.0.2.tar.gz", hash = "sha256:ee55d3edf80167e48ea11a923c7386f4669df67d7994554387f84e7d8b0a2bf0", size = 20537, upload-time = "2024-10-18T15:21:54.129Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/22/09/d1f21434c97fc42f09d290cbb6350d44eb12f09cc62c9476effdb33a18aa/MarkupSafe-3.0.2-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:9778bd8ab0a994ebf6f84c2b949e65736d5575320a17ae8984a77fab08db94cf", size = 14274, upload-time = "2024-10-18T15:21:13.777Z" },
@@ -14839,7 +14839,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "mpmath"
         version = "1.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/e0/47/dd32fa426cc72114383ac549964eecb20ecfd886d1e5ccf5340b55b02f57/mpmath-1.3.0.tar.gz", hash = "sha256:7a28eb2a9774d00c7bc92411c19a89209d5da7c4c9a9e227be8330a23a25b91f", size = 508106, upload-time = "2023-03-07T16:47:11.061Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl", hash = "sha256:a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c", size = 536198, upload-time = "2023-03-07T16:47:09.197Z" },
@@ -14848,7 +14848,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "networkx"
         version = "3.4.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/fd/1d/06475e1cd5264c0b870ea2cc6fdb3e37177c1e565c43f56ff17a10e3937f/networkx-3.4.2.tar.gz", hash = "sha256:307c3669428c5362aab27c8a1260aa8f47c4e91d3891f48be0141738d8d053e1", size = 2151368, upload-time = "2024-10-21T12:39:38.695Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl", hash = "sha256:df5d4365b724cf81b8c6a7312509d0c22386097011ad1abe274afd5e9d3bbc5f", size = 1723263, upload-time = "2024-10-21T12:39:36.247Z" },
@@ -14857,7 +14857,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cublas-cu12"
         version = "12.4.5.8"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/7f/7f/7fbae15a3982dc9595e49ce0f19332423b260045d0a6afe93cdbe2f1f624/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_aarch64.whl", hash = "sha256:0f8aa1706812e00b9f19dfe0cdb3999b092ccb8ca168c0db5b8ea712456fd9b3", size = 363333771, upload-time = "2024-06-18T19:28:09.881Z" },
             { url = "https://files.pythonhosted.org/packages/ae/71/1c91302526c45ab494c23f61c7a84aa568b8c1f9d196efa5993957faf906/nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl", hash = "sha256:2fc8da60df463fdefa81e323eef2e36489e1c94335b5358bcb38360adf75ac9b", size = 363438805, upload-time = "2024-04-03T20:57:06.025Z" },
@@ -14867,7 +14867,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cuda-cupti-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/93/b5/9fb3d00386d3361b03874246190dfec7b206fd74e6e287b26a8fcb359d95/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_aarch64.whl", hash = "sha256:79279b35cf6f91da114182a5ce1864997fd52294a87a16179ce275773799458a", size = 12354556, upload-time = "2024-06-18T19:30:40.546Z" },
             { url = "https://files.pythonhosted.org/packages/67/42/f4f60238e8194a3106d06a058d494b18e006c10bb2b915655bd9f6ea4cb1/nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl", hash = "sha256:9dec60f5ac126f7bb551c055072b69d85392b13311fcc1bcda2202d172df30fb", size = 13813957, upload-time = "2024-04-03T20:55:01.564Z" },
@@ -14877,7 +14877,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cuda-nvrtc-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/77/aa/083b01c427e963ad0b314040565ea396f914349914c298556484f799e61b/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_aarch64.whl", hash = "sha256:0eedf14185e04b76aa05b1fea04133e59f465b6f960c0cbf4e37c3cb6b0ea198", size = 24133372, upload-time = "2024-06-18T19:32:00.576Z" },
             { url = "https://files.pythonhosted.org/packages/2c/14/91ae57cd4db3f9ef7aa99f4019cfa8d54cb4caa7e00975df6467e9725a9f/nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl", hash = "sha256:a178759ebb095827bd30ef56598ec182b85547f1508941a3d560eb7ea1fbf338", size = 24640306, upload-time = "2024-04-03T20:56:01.463Z" },
@@ -14887,7 +14887,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cuda-runtime-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a1/aa/b656d755f474e2084971e9a297def515938d56b466ab39624012070cb773/nvidia_cuda_runtime_cu12-12.4.127-py3-none-manylinux2014_aarch64.whl", hash = "sha256:961fe0e2e716a2a1d967aab7caee97512f71767f852f67432d572e36cb3a11f3", size = 894177, upload-time = "2024-06-18T19:32:52.877Z" },
             { url = "https://files.pythonhosted.org/packages/ea/27/1795d86fe88ef397885f2e580ac37628ed058a92ed2c39dc8eac3adf0619/nvidia_cuda_runtime_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl", hash = "sha256:64403288fa2136ee8e467cdc9c9427e0434110899d07c779f25b5c068934faa5", size = 883737, upload-time = "2024-04-03T20:54:51.355Z" },
@@ -14897,7 +14897,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cudnn-cu12"
         version = "9.1.0.70"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "nvidia-cublas-cu12" },
         ]
@@ -14909,7 +14909,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cufft-cu12"
         version = "11.2.1.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "nvidia-nvjitlink-cu12" },
         ]
@@ -14922,7 +14922,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-curand-cu12"
         version = "10.3.5.147"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/80/9c/a79180e4d70995fdf030c6946991d0171555c6edf95c265c6b2bf7011112/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_aarch64.whl", hash = "sha256:1f173f09e3e3c76ab084aba0de819c49e56614feae5c12f69883f4ae9bb5fad9", size = 56314811, upload-time = "2024-06-18T19:34:48.575Z" },
             { url = "https://files.pythonhosted.org/packages/8a/6d/44ad094874c6f1b9c654f8ed939590bdc408349f137f9b98a3a23ccec411/nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl", hash = "sha256:a88f583d4e0bb643c49743469964103aa59f7f708d862c3ddb0fc07f851e3b8b", size = 56305206, upload-time = "2024-04-03T20:58:08.722Z" },
@@ -14932,7 +14932,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cusolver-cu12"
         version = "11.6.1.9"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "nvidia-cublas-cu12" },
             { name = "nvidia-cusparse-cu12" },
@@ -14947,7 +14947,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cusparse-cu12"
         version = "12.3.1.170"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "nvidia-nvjitlink-cu12" },
         ]
@@ -14960,7 +14960,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-cusparselt-cu12"
         version = "0.6.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/98/8e/675498726c605c9441cf46653bd29cb1b8666da1fb1469ffa25f67f20c58/nvidia_cusparselt_cu12-0.6.2-py3-none-manylinux2014_aarch64.whl", hash = "sha256:067a7f6d03ea0d4841c85f0c6f1991c5dda98211f6302cb83a4ab234ee95bef8", size = 149422781, upload-time = "2024-07-23T17:35:27.203Z" },
             { url = "https://files.pythonhosted.org/packages/78/a8/bcbb63b53a4b1234feeafb65544ee55495e1bb37ec31b999b963cbccfd1d/nvidia_cusparselt_cu12-0.6.2-py3-none-manylinux2014_x86_64.whl", hash = "sha256:df2c24502fd76ebafe7457dbc4716b2fec071aabaed4fb7691a201cde03704d9", size = 150057751, upload-time = "2024-07-23T02:35:53.074Z" },
@@ -14970,7 +14970,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-nccl-cu12"
         version = "2.21.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/df/99/12cd266d6233f47d00daf3a72739872bdc10267d0383508b0b9c84a18bb6/nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl", hash = "sha256:8579076d30a8c24988834445f8d633c697d42397e92ffc3f63fa26766d25e0a0", size = 188654414, upload-time = "2024-04-03T15:32:57.427Z" },
         ]
@@ -14978,7 +14978,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-nvjitlink-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/02/45/239d52c05074898a80a900f49b1615d81c07fceadd5ad6c4f86a987c0bc4/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_aarch64.whl", hash = "sha256:4abe7fef64914ccfa909bc2ba39739670ecc9e820c83ccc7a6ed414122599b83", size = 20552510, upload-time = "2024-06-18T20:20:13.871Z" },
             { url = "https://files.pythonhosted.org/packages/ff/ff/847841bacfbefc97a00036e0fce5a0f086b640756dc38caea5e1bb002655/nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl", hash = "sha256:06b3b9b25bf3f8af351d664978ca26a16d2c5127dbd53c0497e28d1fb9611d57", size = 21066810, upload-time = "2024-04-03T20:59:46.957Z" },
@@ -14988,7 +14988,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "nvidia-nvtx-cu12"
         version = "12.4.127"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/06/39/471f581edbb7804b39e8063d92fc8305bdc7a80ae5c07dbe6ea5c50d14a5/nvidia_nvtx_cu12-12.4.127-py3-none-manylinux2014_aarch64.whl", hash = "sha256:7959ad635db13edf4fc65c06a6e9f9e55fc2f92596db928d169c0bb031e88ef3", size = 100417, upload-time = "2024-06-18T20:16:22.484Z" },
             { url = "https://files.pythonhosted.org/packages/87/20/199b8713428322a2f22b722c62b8cc278cc53dffa9705d744484b5035ee9/nvidia_nvtx_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl", hash = "sha256:781e950d9b9f60d8241ccea575b32f5105a5baf4c2351cab5256a24869f12a1a", size = 99144, upload-time = "2024-04-03T20:56:12.406Z" },
@@ -15019,7 +15019,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "setuptools"
         version = "75.8.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/92/ec/089608b791d210aec4e7f97488e67ab0d33add3efccb83a056cbafe3a2a6/setuptools-75.8.0.tar.gz", hash = "sha256:c5afc8f407c626b8313a86e10311dd3f661c6cd9c09d4bf8c15c0e11f9f2b0e6", size = 1343222, upload-time = "2025-01-08T18:28:23.98Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/69/8a/b9dc7678803429e4a3bc9ba462fa3dd9066824d3c607490235c6a796be5a/setuptools-75.8.0-py3-none-any.whl", hash = "sha256:e3982f444617239225d675215d51f6ba05f845d4eec313da4418fdbb56fb27e3", size = 1228782, upload-time = "2025-01-08T18:28:20.912Z" },
@@ -15028,7 +15028,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "sympy"
         version = "1.13.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "mpmath" },
         ]
@@ -15123,7 +15123,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "triton"
         version = "3.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/06/00/59500052cb1cf8cf5316be93598946bc451f14072c6ff256904428eaf03c/triton-3.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:8d9b215efc1c26fa7eefb9a157915c92d52e000d2bf83e5f69704047e63f125c", size = 253159365, upload-time = "2025-01-22T19:13:24.648Z" },
             { url = "https://files.pythonhosted.org/packages/c7/30/37a3384d1e2e9320331baca41e835e90a3767303642c7a80d4510152cbcf/triton-3.2.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e5dfa23ba84541d7c0a531dfce76d8bcd19159d50a4a8b14ad01e91734a5c1b0", size = 253154278, upload-time = "2025-01-22T19:13:54.221Z" },
@@ -15132,7 +15132,7 @@ fn avoids_exponential_lock_file_growth() -> Result<()> {
         [[package]]
         name = "typing-extensions"
         version = "4.12.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz", hash = "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8", size = 85321, upload-time = "2024-06-07T18:52:15.995Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl", hash = "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d", size = 37438, upload-time = "2024-06-07T18:52:13.582Z" },
@@ -15224,11 +15224,11 @@ fn do_not_simplify_if_not_all_conflict_extras_satisfy_the_marker_by_themselves()
 
         [package.optional-dependencies]
         a = [
-            { name = "python-dateutil", version = "2.8.0", source = { registry = "https://pypi.org/simple" } },
+            { name = "python-dateutil", version = "2.8.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" } },
         ]
         b = [
-            { name = "python-dateutil", version = "2.8.0", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine == 'inapplicable' and extra == 'extra-5-debug-b') or (extra == 'extra-5-debug-a' and extra == 'extra-5-debug-b')" },
-            { name = "python-dateutil", version = "2.8.1", source = { registry = "https://pypi.org/simple" }, marker = "(platform_machine != 'inapplicable' and extra == 'extra-5-debug-b') or (extra == 'extra-5-debug-a' and extra == 'extra-5-debug-b')" },
+            { name = "python-dateutil", version = "2.8.0", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine == 'inapplicable' and extra == 'extra-5-debug-b') or (extra == 'extra-5-debug-a' and extra == 'extra-5-debug-b')" },
+            { name = "python-dateutil", version = "2.8.1", source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }, marker = "(platform_machine != 'inapplicable' and extra == 'extra-5-debug-b') or (extra == 'extra-5-debug-a' and extra == 'extra-5-debug-b')" },
         ]
 
         [package.metadata]
@@ -15242,7 +15242,7 @@ fn do_not_simplify_if_not_all_conflict_extras_satisfy_the_marker_by_themselves()
         [[package]]
         name = "python-dateutil"
         version = "2.8.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "platform_machine == 'inapplicable' and extra != 'extra-5-debug-a' and extra == 'extra-5-debug-b'",
             "extra == 'extra-5-debug-a' and extra != 'extra-5-debug-b'",
@@ -15258,7 +15258,7 @@ fn do_not_simplify_if_not_all_conflict_extras_satisfy_the_marker_by_themselves()
         [[package]]
         name = "python-dateutil"
         version = "2.8.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         resolution-markers = [
             "platform_machine != 'inapplicable'",
         ]
@@ -15273,7 +15273,7 @@ fn do_not_simplify_if_not_all_conflict_extras_satisfy_the_marker_by_themselves()
         [[package]]
         name = "six"
         version = "1.17.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81", size = 34031, upload-time = "2024-12-04T17:35:28.174Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274", size = 11050, upload-time = "2024-12-04T17:35:26.475Z" },

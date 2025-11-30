@@ -1269,7 +1269,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "certifi"
         version = "2024.2.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/71/da/e94e26401b62acd6d91df2b52954aceb7f561743aa5ccc32152886c76c96/certifi-2024.2.2.tar.gz", hash = "sha256:0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f", size = 164886, upload-time = "2024-02-02T01:22:17.364Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl", hash = "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1", size = 163774, upload-time = "2024-02-02T01:22:14.86Z" },
@@ -1278,7 +1278,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "charset-normalizer"
         version = "3.3.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset-normalizer-3.3.2.tar.gz", hash = "sha256:f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5", size = 104809, upload-time = "2023-11-01T04:04:59.997Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/68/77/02839016f6fbbf808e8b38601df6e0e66c17bbab76dff4613f7511413597/charset_normalizer-3.3.2-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:802fe99cca7457642125a8a88a084cef28ff0cf9407060f7b93dca5aa25480db", size = 191647, upload-time = "2023-11-01T04:02:55.329Z" },
@@ -1317,7 +1317,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -1326,7 +1326,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "markdown-it-py"
         version = "3.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "mdurl" },
         ]
@@ -1338,7 +1338,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "mdurl"
         version = "0.1.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba", size = 8729, upload-time = "2022-08-14T12:40:10.846Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8", size = 9979, upload-time = "2022-08-14T12:40:09.779Z" },
@@ -1347,7 +1347,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "pygments"
         version = "2.17.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz", hash = "sha256:da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367", size = 4827772, upload-time = "2023-11-21T20:43:53.875Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/97/9c/372fef8377a6e340b1704768d20daaded98bf13282b5327beb2e2fe2c7ef/pygments-2.17.2-py3-none-any.whl", hash = "sha256:b27c2826c47d0f3219f29554824c30c5e8945175d888647acd804ddd04af846c", size = 1179756, upload-time = "2023-11-21T20:43:49.423Z" },
@@ -1356,7 +1356,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "requests"
         version = "2.31.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "certifi" },
             { name = "charset-normalizer" },
@@ -1371,7 +1371,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "rich"
         version = "13.7.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markdown-it-py" },
             { name = "pygments" },
@@ -1384,7 +1384,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "urllib3"
         version = "2.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/7a/50/7fd50a27caa0652cd4caf224aa87741ea41d3265ad13f010886167cfcc79/urllib3-2.2.1.tar.gz", hash = "sha256:d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19", size = 291020, upload-time = "2024-02-18T03:55:57.539Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a2/73/a68704750a7679d0b6d3ad7aa8d4da8e14e151ae82e6fee774e6e0d05ec8/urllib3-2.2.1-py3-none-any.whl", hash = "sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d", size = 121067, upload-time = "2024-02-18T03:55:54.704Z" },
@@ -1456,7 +1456,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "certifi"
         version = "2024.2.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/71/da/e94e26401b62acd6d91df2b52954aceb7f561743aa5ccc32152886c76c96/certifi-2024.2.2.tar.gz", hash = "sha256:0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f", size = 164886, upload-time = "2024-02-02T01:22:17.364Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl", hash = "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1", size = 163774, upload-time = "2024-02-02T01:22:14.86Z" },
@@ -1465,7 +1465,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "charset-normalizer"
         version = "3.3.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset-normalizer-3.3.2.tar.gz", hash = "sha256:f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5", size = 104809, upload-time = "2023-11-01T04:04:59.997Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/68/77/02839016f6fbbf808e8b38601df6e0e66c17bbab76dff4613f7511413597/charset_normalizer-3.3.2-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:802fe99cca7457642125a8a88a084cef28ff0cf9407060f7b93dca5aa25480db", size = 191647, upload-time = "2023-11-01T04:02:55.329Z" },
@@ -1504,7 +1504,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -1513,7 +1513,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -1522,7 +1522,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "markdown-it-py"
         version = "3.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "mdurl" },
         ]
@@ -1534,7 +1534,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "mdurl"
         version = "0.1.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba", size = 8729, upload-time = "2022-08-14T12:40:10.846Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8", size = 9979, upload-time = "2022-08-14T12:40:09.779Z" },
@@ -1543,7 +1543,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "pygments"
         version = "2.17.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz", hash = "sha256:da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367", size = 4827772, upload-time = "2023-11-21T20:43:53.875Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/97/9c/372fef8377a6e340b1704768d20daaded98bf13282b5327beb2e2fe2c7ef/pygments-2.17.2-py3-none-any.whl", hash = "sha256:b27c2826c47d0f3219f29554824c30c5e8945175d888647acd804ddd04af846c", size = 1179756, upload-time = "2023-11-21T20:43:49.423Z" },
@@ -1552,7 +1552,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "requests"
         version = "2.31.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "certifi" },
             { name = "charset-normalizer" },
@@ -1567,7 +1567,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "rich"
         version = "13.7.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markdown-it-py" },
             { name = "pygments" },
@@ -1580,7 +1580,7 @@ fn script() -> Result<()> {
         [[package]]
         name = "urllib3"
         version = "2.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/7a/50/7fd50a27caa0652cd4caf224aa87741ea41d3265ad13f010886167cfcc79/urllib3-2.2.1.tar.gz", hash = "sha256:d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19", size = 291020, upload-time = "2024-02-18T03:55:57.539Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a2/73/a68704750a7679d0b6d3ad7aa8d4da8e14e151ae82e6fee774e6e0d05ec8/urllib3-2.2.1-py3-none-any.whl", hash = "sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d", size = 121067, upload-time = "2024-02-18T03:55:54.704Z" },

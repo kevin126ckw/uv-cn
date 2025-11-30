@@ -66,7 +66,7 @@ mod tests {
 
     #[test]
     fn pypi() {
-        let url = DisplaySafeUrl::parse("https://pypi.org/simple").unwrap();
+        let url = DisplaySafeUrl::parse("https://pypi.tuna.tsinghua.edu.cn/simple").unwrap();
         assert_eq!(SystemDependency::from_index(&url), None);
     }
 

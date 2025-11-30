@@ -631,7 +631,7 @@ mod tests {
 
         // Unknown domain.
         assert!(!is_known_url(
-            &Url::parse("https://pypi.org/simple/").unwrap(),
+            &Url::parse("https://pypi.tuna.tsinghua.edu.cn/simple/").unwrap(),
             &api_url,
             cdn_domain
         ));
@@ -693,7 +693,7 @@ mod tests {
 
         // Unknown domain.
         assert!(!is_known_domain(
-            &Url::parse("https://pypi.org/simple/").unwrap(),
+            &Url::parse("https://pypi.tuna.tsinghua.edu.cn/simple/").unwrap(),
             &api_url,
             cdn_domain
         ));

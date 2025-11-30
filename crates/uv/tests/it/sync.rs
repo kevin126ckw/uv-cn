@@ -4746,7 +4746,7 @@ fn sync_group_legacy_non_project_member() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -4755,7 +4755,7 @@ fn sync_group_legacy_non_project_member() -> Result<()> {
         [[package]]
         name = "typing-extensions"
         version = "4.10.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz", hash = "sha256:b0abd7c89e8fb96f98db18d86106ff1d90ab692004eb746cf6eda2682f91b3cb", size = 77558, upload-time = "2024-02-25T22:12:49.693Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/f9/de/dc04a3ea60b22624b51c703a84bbe0184abcd1d0b9bc8074b5d6b7ab90bb/typing_extensions-4.10.0-py3-none-any.whl", hash = "sha256:69b1a937c3a517342112fb4c6df7e72fc39a38e7891a5730ed4985b5214b5475", size = 33926, upload-time = "2024-02-25T22:12:47.72Z" },
@@ -4835,7 +4835,7 @@ fn sync_group_self() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -4844,7 +4844,7 @@ fn sync_group_self() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -4889,7 +4889,7 @@ fn sync_group_self() -> Result<()> {
         [[package]]
         name = "typing-extensions"
         version = "4.10.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz", hash = "sha256:b0abd7c89e8fb96f98db18d86106ff1d90ab692004eb746cf6eda2682f91b3cb", size = 77558, upload-time = "2024-02-25T22:12:49.693Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/f9/de/dc04a3ea60b22624b51c703a84bbe0184abcd1d0b9bc8074b5d6b7ab90bb/typing_extensions-4.10.0-py3-none-any.whl", hash = "sha256:69b1a937c3a517342112fb4c6df7e72fc39a38e7891a5730ed4985b5214b5475", size = 33926, upload-time = "2024-02-25T22:12:47.72Z" },
@@ -5054,7 +5054,7 @@ fn sync_ignore_extras_check_when_no_provides_extras() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372 }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235 },
@@ -6199,7 +6199,7 @@ fn convert_to_virtual() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -6259,7 +6259,7 @@ fn convert_to_virtual() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -6328,7 +6328,7 @@ fn convert_to_package() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -6393,7 +6393,7 @@ fn convert_to_package() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -7494,7 +7494,7 @@ fn no_binary_error() -> Result<()> {
 
     ----- stderr -----
     Resolved 31 packages in [TIME]
-    error: Distribution `odrive==0.6.8 @ registry+https://pypi.org/simple` can't be installed because it is marked as `--no-binary` but has no source distribution
+    error: Distribution `odrive==0.6.8 @ registry+https://pypi.tuna.tsinghua.edu.cn/simple` can't be installed because it is marked as `--no-binary` but has no source distribution
     ");
 
     assert!(context.temp_dir.child("uv.lock").exists());
@@ -7573,7 +7573,7 @@ fn no_build_error() -> Result<()> {
 
     ----- stderr -----
     Resolved 19 packages in [TIME]
-    error: Distribution `django-allauth==0.51.0 @ registry+https://pypi.org/simple` can't be installed because it is marked as `--no-build` but has no binary distribution
+    error: Distribution `django-allauth==0.51.0 @ registry+https://pypi.tuna.tsinghua.edu.cn/simple` can't be installed because it is marked as `--no-build` but has no binary distribution
     ");
 
     uv_snapshot!(context.filters(), context.sync().arg("--no-build"), @r"
@@ -7583,7 +7583,7 @@ fn no_build_error() -> Result<()> {
 
     ----- stderr -----
     Resolved 19 packages in [TIME]
-    error: Distribution `django-allauth==0.51.0 @ registry+https://pypi.org/simple` can't be installed because it is marked as `--no-build` but has no binary distribution
+    error: Distribution `django-allauth==0.51.0 @ registry+https://pypi.tuna.tsinghua.edu.cn/simple` can't be installed because it is marked as `--no-build` but has no binary distribution
     ");
 
     uv_snapshot!(context.filters(), context.sync().arg("--reinstall").env(EnvVars::UV_NO_BUILD, "1"), @r"
@@ -7593,7 +7593,7 @@ fn no_build_error() -> Result<()> {
 
     ----- stderr -----
     Resolved 19 packages in [TIME]
-    error: Distribution `django-allauth==0.51.0 @ registry+https://pypi.org/simple` can't be installed because it is marked as `--no-build` but has no binary distribution
+    error: Distribution `django-allauth==0.51.0 @ registry+https://pypi.tuna.tsinghua.edu.cn/simple` can't be installed because it is marked as `--no-build` but has no binary distribution
     ");
 
     uv_snapshot!(context.filters(), context.sync().arg("--reinstall").env(EnvVars::UV_NO_BUILD_PACKAGE, "django-allauth"), @r"
@@ -7603,7 +7603,7 @@ fn no_build_error() -> Result<()> {
 
     ----- stderr -----
     Resolved 19 packages in [TIME]
-    error: Distribution `django-allauth==0.51.0 @ registry+https://pypi.org/simple` can't be installed because it is marked as `--no-build` but has no binary distribution
+    error: Distribution `django-allauth==0.51.0 @ registry+https://pypi.tuna.tsinghua.edu.cn/simple` can't be installed because it is marked as `--no-build` but has no binary distribution
     ");
 
     uv_snapshot!(context.filters(), context.sync().arg("--reinstall").env(EnvVars::UV_NO_BUILD, "django-allauth"), @r###"
@@ -8289,7 +8289,7 @@ fn sync_dynamic_extra() -> Result<()> {
             [[package]]
             name = "iniconfig"
             version = "2.0.0"
-            source = { registry = "https://pypi.org/simple" }
+            source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
             sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
             wheels = [
                 { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -8318,7 +8318,7 @@ fn sync_dynamic_extra() -> Result<()> {
             [[package]]
             name = "typing-extensions"
             version = "4.10.0"
-            source = { registry = "https://pypi.org/simple" }
+            source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
             sdist = { url = "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz", hash = "sha256:b0abd7c89e8fb96f98db18d86106ff1d90ab692004eb746cf6eda2682f91b3cb", size = 77558, upload-time = "2024-02-25T22:12:49.693Z" }
             wheels = [
                 { url = "https://files.pythonhosted.org/packages/f9/de/dc04a3ea60b22624b51c703a84bbe0184abcd1d0b9bc8074b5d6b7ab90bb/typing_extensions-4.10.0-py3-none-any.whl", hash = "sha256:69b1a937c3a517342112fb4c6df7e72fc39a38e7891a5730ed4985b5214b5475", size = 33926, upload-time = "2024-02-25T22:12:47.72Z" },
@@ -9743,7 +9743,7 @@ fn sync_stale_egg_info() -> Result<()> {
             [[package]]
             name = "setuptools"
             version = "69.2.0"
-            source = { registry = "https://pypi.org/simple" }
+            source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
             sdist = { url = "https://files.pythonhosted.org/packages/4d/5b/dc575711b6b8f2f866131a40d053e30e962e633b332acf7cd2c24843d83d/setuptools-69.2.0.tar.gz", hash = "sha256:0ff4183f8f42cd8fa3acea16c45205521a4ef28f73c6391d8a25e92893134f2e", size = 2222950, upload-time = "2024-03-13T11:20:59.219Z" }
             wheels = [
                 { url = "https://files.pythonhosted.org/packages/92/e1/1c8bb3420105e70bdf357d57dd5567202b4ef8d27f810e98bb962d950834/setuptools-69.2.0-py3-none-any.whl", hash = "sha256:c21c49fb1042386df081cb5d86759792ab89efca84cf114889191cd09aacc80c", size = 821485, upload-time = "2024-03-13T11:20:54.103Z" },
@@ -9936,7 +9936,7 @@ fn sync_git_repeated_member_dynamic_metadata() -> Result<()> {
             [[package]]
             name = "iniconfig"
             version = "2.0.0"
-            source = { registry = "https://pypi.org/simple" }
+            source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
             sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
             wheels = [
                 { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -9954,7 +9954,7 @@ fn sync_git_repeated_member_dynamic_metadata() -> Result<()> {
             [[package]]
             name = "typing-extensions"
             version = "4.10.0"
-            source = { registry = "https://pypi.org/simple" }
+            source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
             sdist = { url = "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz", hash = "sha256:b0abd7c89e8fb96f98db18d86106ff1d90ab692004eb746cf6eda2682f91b3cb", size = 77558, upload-time = "2024-02-25T22:12:49.693Z" }
             wheels = [
                 { url = "https://files.pythonhosted.org/packages/f9/de/dc04a3ea60b22624b51c703a84bbe0184abcd1d0b9bc8074b5d6b7ab90bb/typing_extensions-4.10.0-py3-none-any.whl", hash = "sha256:69b1a937c3a517342112fb4c6df7e72fc39a38e7891a5730ed4985b5214b5475", size = 33926, upload-time = "2024-02-25T22:12:47.72Z" },
@@ -10992,7 +10992,7 @@ fn sync_locked_script() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -11005,7 +11005,7 @@ fn sync_locked_script() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -11014,7 +11014,7 @@ fn sync_locked_script() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -11100,7 +11100,7 @@ fn sync_locked_script() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -11113,7 +11113,7 @@ fn sync_locked_script() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -11122,7 +11122,7 @@ fn sync_locked_script() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -11131,7 +11131,7 @@ fn sync_locked_script() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -11878,7 +11878,7 @@ fn locked_version_coherence() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -11985,7 +11985,7 @@ fn sync_build_constraints() -> Result<()> {
             [[package]]
             name = "json-merge-patch"
             version = "0.2"
-            source = { registry = "https://pypi.org/simple" }
+            source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
             sdist = { url = "https://files.pythonhosted.org/packages/39/62/3b783faabac9a099877397d8f7a7cc862a03fbf9fb1b90d414ea7c6bb096/json-merge-patch-0.2.tar.gz", hash = "sha256:09898b6d427c08754e2a97c709cf2dfd7e28bd10c5683a538914975eab778d39", size = 3081, upload-time = "2017-11-09T11:38:15.773Z" }
 
             [[package]]
@@ -12205,7 +12205,7 @@ fn sync_upload_time() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "3.7.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -12218,7 +12218,7 @@ fn sync_upload_time() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload_time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload_time = "2023-11-25T15:40:52.604Z" },
@@ -12238,7 +12238,7 @@ fn sync_upload_time() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload_time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload_time = "2024-02-25T23:20:01.196Z" },
@@ -13627,7 +13627,7 @@ fn sync_build_dependencies_respect_locked_versions() -> Result<()> {
     Resolved [N] packages in [TIME]
       × Failed to build `child @ file://[TEMP_DIR]/child`
       ├─▶ Failed to resolve requirements from `build-system.requires` and `extra-build-dependencies`
-      ├─▶ No solution found when resolving: `hatchling`, `anyio>3.8, <4.2`, `anyio==3.7.1 (index: https://pypi.org/simple)`
+      ├─▶ No solution found when resolving: `hatchling`, `anyio>3.8, <4.2`, `anyio==3.7.1 (index: https://pypi.tuna.tsinghua.edu.cn/simple)`
       ╰─▶ Because you require anyio>3.8,<4.2 and anyio==3.7.1, we can conclude that your requirements are unsatisfiable.
       help: `child` was included because `parent` (v0.1.0) depends on `child`
     ");
@@ -14163,7 +14163,7 @@ fn toggle_workspace_editable() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -14248,7 +14248,7 @@ fn toggle_workspace_editable() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -14417,7 +14417,7 @@ fn workspace_editable_conflict() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -14514,7 +14514,7 @@ fn workspace_editable_conflict() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },

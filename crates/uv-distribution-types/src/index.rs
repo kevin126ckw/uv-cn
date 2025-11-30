@@ -68,7 +68,7 @@ pub struct Index {
     pub name: Option<IndexName>,
     /// The URL of the index.
     ///
-    /// Expects to receive a URL (e.g., `https://pypi.org/simple`) or a local path.
+    /// Expects to receive a URL (e.g., `https://pypi.tuna.tsinghua.edu.cn/simple`) or a local path.
     pub url: IndexUrl,
     /// Mark the index as explicit.
     ///
@@ -116,8 +116,8 @@ pub struct Index {
     /// ```toml
     /// [[tool.uv.index]]
     /// name = "pypi"
-    /// url = "https://pypi.org/simple"
-    /// publish-url = "https://upload.pypi.org/legacy/"
+    /// url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+    /// publish-url = "https://pypi.tuna.tsinghua.edu.cn/legacy/"
     /// ```
     pub publish_url: Option<DisplaySafeUrl>,
     /// When uv should use authentication for requests to the index.
@@ -424,7 +424,7 @@ impl FromStr for Index {
     type Err = IndexSourceError;
 
     fn from_str(s: &str) -> Result<Self, Self::Err> {
-        // Determine whether the source is prefixed with a name, as in `name=https://pypi.org/simple`.
+        // Determine whether the source is prefixed with a name, as in `name=https://pypi.tuna.tsinghua.edu.cn/simple`.
         if let Some((name, url)) = s.split_once('=') {
             if !name.chars().any(|c| c == ':') {
                 let name = IndexName::from_str(name)?;

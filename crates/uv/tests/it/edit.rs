@@ -85,7 +85,7 @@ fn add_registry() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "3.7.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -98,7 +98,7 @@ fn add_registry() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -118,7 +118,7 @@ fn add_registry() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -239,7 +239,7 @@ fn add_git() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "3.7.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -252,7 +252,7 @@ fn add_git() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -276,7 +276,7 @@ fn add_git() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -748,7 +748,7 @@ fn add_git_raw() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "3.7.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -761,7 +761,7 @@ fn add_git_raw() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -785,7 +785,7 @@ fn add_git_raw() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -1138,7 +1138,7 @@ fn add_remove_dev() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "3.7.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -1151,7 +1151,7 @@ fn add_remove_dev() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -1175,7 +1175,7 @@ fn add_remove_dev() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -1345,7 +1345,7 @@ fn add_remove_optional() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "3.7.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -1358,7 +1358,7 @@ fn add_remove_optional() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -1381,7 +1381,7 @@ fn add_remove_optional() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -3031,7 +3031,7 @@ fn update() -> Result<()> {
         [[package]]
         name = "certifi"
         version = "2024.2.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/71/da/e94e26401b62acd6d91df2b52954aceb7f561743aa5ccc32152886c76c96/certifi-2024.2.2.tar.gz", hash = "sha256:0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f", size = 164886, upload-time = "2024-02-02T01:22:17.364Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl", hash = "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1", size = 163774, upload-time = "2024-02-02T01:22:14.86Z" },
@@ -3040,7 +3040,7 @@ fn update() -> Result<()> {
         [[package]]
         name = "chardet"
         version = "5.2.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/f3/0d/f7b6ab21ec75897ed80c17d79b15951a719226b9fababf1e40ea74d69079/chardet-5.2.0.tar.gz", hash = "sha256:1b3b6ff479a8c414bc3fa2c0852995695c4a026dcd6d0633b2dd092ca39c1cf7", size = 2069618, upload-time = "2023-08-01T19:23:02.662Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/38/6f/f5fbc992a329ee4e0f288c1fe0e2ad9485ed064cac731ed2fe47dcc38cbf/chardet-5.2.0-py3-none-any.whl", hash = "sha256:e1cf59446890a00105fe7b7912492ea04b6e6f06d4b742b2c788469e34c82970", size = 199385, upload-time = "2023-08-01T19:23:00.661Z" },
@@ -3049,7 +3049,7 @@ fn update() -> Result<()> {
         [[package]]
         name = "charset-normalizer"
         version = "3.3.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset-normalizer-3.3.2.tar.gz", hash = "sha256:f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5", size = 104809, upload-time = "2023-11-01T04:04:59.997Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/d1/b2/fcedc8255ec42afee97f9e6f0145c734bbe104aac28300214593eb326f1d/charset_normalizer-3.3.2-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:0b2b64d2bb6d3fb9112bafa732def486049e63de9618b5843bcdd081d8144cd8", size = 192892, upload-time = "2023-11-01T04:03:24.135Z" },
@@ -3073,7 +3073,7 @@ fn update() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -3096,7 +3096,7 @@ fn update() -> Result<()> {
         [[package]]
         name = "pysocks"
         version = "1.7.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bd/11/293dd436aea955d45fc4e8a35b6ae7270f5b8e00b53cf6c024c83b657a11/PySocks-1.7.1.tar.gz", hash = "sha256:3f8804571ebe159c380ac6de37643bb4685970655d3bba243530d6558b799aa0", size = 284429, upload-time = "2019-09-20T02:07:35.714Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/8d/59/b4572118e098ac8e46e399a1dd0f2d85403ce8bbaad9ec79373ed6badaf9/PySocks-1.7.1-py3-none-any.whl", hash = "sha256:2725bd0a9925919b9b51739eea5f9e2bae91e83288108a9ad338b2e3a4435ee5", size = 16725, upload-time = "2019-09-20T02:06:22.938Z" },
@@ -3124,7 +3124,7 @@ fn update() -> Result<()> {
         [[package]]
         name = "urllib3"
         version = "2.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/7a/50/7fd50a27caa0652cd4caf224aa87741ea41d3265ad13f010886167cfcc79/urllib3-2.2.1.tar.gz", hash = "sha256:d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19", size = 291020, upload-time = "2024-02-18T03:55:57.539Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a2/73/a68704750a7679d0b6d3ad7aa8d4da8e14e151ae82e6fee774e6e0d05ec8/urllib3-2.2.1-py3-none-any.whl", hash = "sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d", size = 121067, upload-time = "2024-02-18T03:55:54.704Z" },
@@ -3799,7 +3799,7 @@ fn add_inexact() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -4563,7 +4563,7 @@ fn add_lower_bound_optional() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -4576,7 +4576,7 @@ fn add_lower_bound_optional() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -4599,7 +4599,7 @@ fn add_lower_bound_optional() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -4783,7 +4783,7 @@ fn add_non_project() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -5799,7 +5799,7 @@ fn add_requirements_file_constraints() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "3.7.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -5812,7 +5812,7 @@ fn add_requirements_file_constraints() -> Result<()> {
         [[package]]
         name = "click"
         version = "6.7"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/95/d9/c3336b6b5711c3ab9d1d3a80f1a3e2afeb9d8c02a7166462f6cc96570897/click-6.7.tar.gz", hash = "sha256:f15516df478d5a56180fbf80e68f206010e6d160fc39fa508b65e035fd75130b", size = 279019, upload-time = "2017-01-06T22:41:13.209Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/34/c1/8806f99713ddb993c5366c362b2f908f18269f8d792aff1abfd700775a77/click-6.7-py2.py3-none-any.whl", hash = "sha256:29f99fc6125fbc931b758dc053b3114e55c77a6e4c6c3a2674a2dc986016381d", size = 71175, upload-time = "2017-01-06T22:41:15.466Z" },
@@ -5821,7 +5821,7 @@ fn add_requirements_file_constraints() -> Result<()> {
         [[package]]
         name = "flask"
         version = "1.1.4"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "click" },
             { name = "itsdangerous" },
@@ -5836,7 +5836,7 @@ fn add_requirements_file_constraints() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -5845,7 +5845,7 @@ fn add_requirements_file_constraints() -> Result<()> {
         [[package]]
         name = "itsdangerous"
         version = "1.1.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/68/1a/f27de07a8a304ad5fa817bbe383d1238ac4396da447fa11ed937039fa04b/itsdangerous-1.1.0.tar.gz", hash = "sha256:321b033d07f2a4136d3ec762eac9f16a10ccd60f53c0c91af90217ace7ba1f19", size = 53219, upload-time = "2018-10-27T00:17:37.922Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/76/ae/44b03b253d6fade317f32c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl", hash = "sha256:b12271b2047cb23eeb98c8b5622e2e5c5e9abd9784a153e9d8ef9cb4dd09d749", size = 16743, upload-time = "2018-10-27T00:17:35.954Z" },
@@ -5854,7 +5854,7 @@ fn add_requirements_file_constraints() -> Result<()> {
         [[package]]
         name = "jinja2"
         version = "2.11.3"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markupsafe" },
         ]
@@ -5866,7 +5866,7 @@ fn add_requirements_file_constraints() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "2.1.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/87/5b/aae44c6655f3801e81aa3eef09dbbf012431987ba564d7231722f68df02d/MarkupSafe-2.1.5.tar.gz", hash = "sha256:d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b", size = 19384, upload-time = "2024-02-02T16:31:22.863Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/53/bd/583bf3e4c8d6a321938c13f49d44024dbe5ed63e0a7ba127e454a66da974/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:8dec4936e9c3100156f8a2dc89c4b88d5c435175ff03413b443469c7c8c5f4d1", size = 18215, upload-time = "2024-02-02T16:30:33.081Z" },
@@ -5899,7 +5899,7 @@ fn add_requirements_file_constraints() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -5908,7 +5908,7 @@ fn add_requirements_file_constraints() -> Result<()> {
         [[package]]
         name = "werkzeug"
         version = "1.0.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/10/27/a33329150147594eff0ea4c33c2036c0eadd933141055be0ff911f7f8d04/Werkzeug-1.0.1.tar.gz", hash = "sha256:6c80b1e5ad3665290ea39320b91e1be1e0d5f60652b964a3070216de83d2e47c", size = 904455, upload-time = "2020-03-31T18:03:37.943Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/cc/94/5f7079a0e00bd6863ef8f1da638721e9da21e5bacee597595b318f71d62e/Werkzeug-1.0.1-py2.py3-none-any.whl", hash = "sha256:2de2a5db0baeae7b2d2664949077c2ac63fbd16d98da0ff71837f7d1dea3fd43", size = 298631, upload-time = "2020-03-31T18:03:34.839Z" },
@@ -6745,7 +6745,7 @@ fn add_script_settings() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "3.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -6758,7 +6758,7 @@ fn add_script_settings() -> Result<()> {
         [[package]]
         name = "commonmark"
         version = "0.9.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/60/48/a60f593447e8f0894ebb7f6e6c1f25dafc5e89c5879fdc9360ae93ff83f0/commonmark-0.9.1.tar.gz", hash = "sha256:452f9dc859be7f06631ddcb328b6919c67984aca654e5fefb3914d54691aed60", size = 95764, upload-time = "2019-10-04T15:37:39.817Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b1/92/dfd892312d822f36c55366118b95d914e5f16de11044a27cf10a7d71bbbf/commonmark-0.9.1-py2.py3-none-any.whl", hash = "sha256:da2f38c92590f83de410ba1a3cbceafbc74fee9def35f9251ba9a971d6d66fd9", size = 51068, upload-time = "2019-10-04T15:37:37.674Z" },
@@ -6767,7 +6767,7 @@ fn add_script_settings() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -6776,7 +6776,7 @@ fn add_script_settings() -> Result<()> {
         [[package]]
         name = "pygments"
         version = "2.17.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz", hash = "sha256:da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367", size = 4827772, upload-time = "2023-11-21T20:43:53.875Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/97/9c/372fef8377a6e340b1704768d20daaded98bf13282b5327beb2e2fe2c7ef/pygments-2.17.2-py3-none-any.whl", hash = "sha256:b27c2826c47d0f3219f29554824c30c5e8945175d888647acd804ddd04af846c", size = 1179756, upload-time = "2023-11-21T20:43:49.423Z" },
@@ -6785,7 +6785,7 @@ fn add_script_settings() -> Result<()> {
         [[package]]
         name = "requests"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/8e/88/102742c48605aef8d39fa719d932c67783d789679628fa1433cb4b2c7a2a/requests-2.0.0.tar.gz", hash = "sha256:78536038f54cff6ade3be6863403146665b5a3923dd61108c98d8b64141f9d70", size = 362994, upload-time = "2013-09-24T18:39:33.154Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/bf/78/be2b4c440ea767336d8448fe671fe1d78ca499e49d77dac90f92191cca0e/requests-2.0.0-py2.py3-none-any.whl", hash = "sha256:2ef65639cb9600443f85451df487818c31f993ab288f313d29cc9db4f3cbe6ed", size = 391141, upload-time = "2013-11-15T19:09:51.527Z" },
@@ -6794,7 +6794,7 @@ fn add_script_settings() -> Result<()> {
         [[package]]
         name = "rich"
         version = "12.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "commonmark" },
             { name = "pygments" },
@@ -6807,7 +6807,7 @@ fn add_script_settings() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -7289,7 +7289,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "certifi"
         version = "2024.2.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/71/da/e94e26401b62acd6d91df2b52954aceb7f561743aa5ccc32152886c76c96/certifi-2024.2.2.tar.gz", hash = "sha256:0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f", size = 164886, upload-time = "2024-02-02T01:22:17.364Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl", hash = "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1", size = 163774, upload-time = "2024-02-02T01:22:14.86Z" },
@@ -7298,7 +7298,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "charset-normalizer"
         version = "3.3.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset-normalizer-3.3.2.tar.gz", hash = "sha256:f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5", size = 104809, upload-time = "2023-11-01T04:04:59.997Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/68/77/02839016f6fbbf808e8b38601df6e0e66c17bbab76dff4613f7511413597/charset_normalizer-3.3.2-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:802fe99cca7457642125a8a88a084cef28ff0cf9407060f7b93dca5aa25480db", size = 191647, upload-time = "2023-11-01T04:02:55.329Z" },
@@ -7337,7 +7337,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -7346,7 +7346,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "markdown-it-py"
         version = "3.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "mdurl" },
         ]
@@ -7358,7 +7358,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "mdurl"
         version = "0.1.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba", size = 8729, upload-time = "2022-08-14T12:40:10.846Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8", size = 9979, upload-time = "2022-08-14T12:40:09.779Z" },
@@ -7367,7 +7367,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "pygments"
         version = "2.17.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz", hash = "sha256:da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367", size = 4827772, upload-time = "2023-11-21T20:43:53.875Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/97/9c/372fef8377a6e340b1704768d20daaded98bf13282b5327beb2e2fe2c7ef/pygments-2.17.2-py3-none-any.whl", hash = "sha256:b27c2826c47d0f3219f29554824c30c5e8945175d888647acd804ddd04af846c", size = 1179756, upload-time = "2023-11-21T20:43:49.423Z" },
@@ -7376,7 +7376,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "requests"
         version = "2.31.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "certifi" },
             { name = "charset-normalizer" },
@@ -7391,7 +7391,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "rich"
         version = "13.7.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markdown-it-py" },
             { name = "pygments" },
@@ -7404,7 +7404,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "urllib3"
         version = "2.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/7a/50/7fd50a27caa0652cd4caf224aa87741ea41d3265ad13f010886167cfcc79/urllib3-2.2.1.tar.gz", hash = "sha256:d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19", size = 291020, upload-time = "2024-02-18T03:55:57.539Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a2/73/a68704750a7679d0b6d3ad7aa8d4da8e14e151ae82e6fee774e6e0d05ec8/urllib3-2.2.1-py3-none-any.whl", hash = "sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d", size = 121067, upload-time = "2024-02-18T03:55:54.704Z" },
@@ -7473,7 +7473,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -7486,7 +7486,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "certifi"
         version = "2024.2.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/71/da/e94e26401b62acd6d91df2b52954aceb7f561743aa5ccc32152886c76c96/certifi-2024.2.2.tar.gz", hash = "sha256:0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f", size = 164886, upload-time = "2024-02-02T01:22:17.364Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl", hash = "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1", size = 163774, upload-time = "2024-02-02T01:22:14.86Z" },
@@ -7495,7 +7495,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "charset-normalizer"
         version = "3.3.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset-normalizer-3.3.2.tar.gz", hash = "sha256:f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5", size = 104809, upload-time = "2023-11-01T04:04:59.997Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/68/77/02839016f6fbbf808e8b38601df6e0e66c17bbab76dff4613f7511413597/charset_normalizer-3.3.2-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:802fe99cca7457642125a8a88a084cef28ff0cf9407060f7b93dca5aa25480db", size = 191647, upload-time = "2023-11-01T04:02:55.329Z" },
@@ -7534,7 +7534,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -7543,7 +7543,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "markdown-it-py"
         version = "3.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "mdurl" },
         ]
@@ -7555,7 +7555,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "mdurl"
         version = "0.1.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba", size = 8729, upload-time = "2022-08-14T12:40:10.846Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8", size = 9979, upload-time = "2022-08-14T12:40:09.779Z" },
@@ -7564,7 +7564,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "pygments"
         version = "2.17.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz", hash = "sha256:da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367", size = 4827772, upload-time = "2023-11-21T20:43:53.875Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/97/9c/372fef8377a6e340b1704768d20daaded98bf13282b5327beb2e2fe2c7ef/pygments-2.17.2-py3-none-any.whl", hash = "sha256:b27c2826c47d0f3219f29554824c30c5e8945175d888647acd804ddd04af846c", size = 1179756, upload-time = "2023-11-21T20:43:49.423Z" },
@@ -7573,7 +7573,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "requests"
         version = "2.31.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "certifi" },
             { name = "charset-normalizer" },
@@ -7588,7 +7588,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "rich"
         version = "13.7.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markdown-it-py" },
             { name = "pygments" },
@@ -7601,7 +7601,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -7610,7 +7610,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "urllib3"
         version = "2.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/7a/50/7fd50a27caa0652cd4caf224aa87741ea41d3265ad13f010886167cfcc79/urllib3-2.2.1.tar.gz", hash = "sha256:d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19", size = 291020, upload-time = "2024-02-18T03:55:57.539Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a2/73/a68704750a7679d0b6d3ad7aa8d4da8e14e151ae82e6fee774e6e0d05ec8/urllib3-2.2.1-py3-none-any.whl", hash = "sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d", size = 121067, upload-time = "2024-02-18T03:55:54.704Z" },
@@ -7677,7 +7677,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "certifi"
         version = "2024.2.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/71/da/e94e26401b62acd6d91df2b52954aceb7f561743aa5ccc32152886c76c96/certifi-2024.2.2.tar.gz", hash = "sha256:0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f", size = 164886, upload-time = "2024-02-02T01:22:17.364Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl", hash = "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1", size = 163774, upload-time = "2024-02-02T01:22:14.86Z" },
@@ -7686,7 +7686,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "charset-normalizer"
         version = "3.3.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset-normalizer-3.3.2.tar.gz", hash = "sha256:f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5", size = 104809, upload-time = "2023-11-01T04:04:59.997Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/68/77/02839016f6fbbf808e8b38601df6e0e66c17bbab76dff4613f7511413597/charset_normalizer-3.3.2-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:802fe99cca7457642125a8a88a084cef28ff0cf9407060f7b93dca5aa25480db", size = 191647, upload-time = "2023-11-01T04:02:55.329Z" },
@@ -7725,7 +7725,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -7734,7 +7734,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "markdown-it-py"
         version = "3.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "mdurl" },
         ]
@@ -7746,7 +7746,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "mdurl"
         version = "0.1.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba", size = 8729, upload-time = "2022-08-14T12:40:10.846Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8", size = 9979, upload-time = "2022-08-14T12:40:09.779Z" },
@@ -7755,7 +7755,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "pygments"
         version = "2.17.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/55/59/8bccf4157baf25e4aa5a0bb7fa3ba8600907de105ebc22b0c78cfbf6f565/pygments-2.17.2.tar.gz", hash = "sha256:da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367", size = 4827772, upload-time = "2023-11-21T20:43:53.875Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/97/9c/372fef8377a6e340b1704768d20daaded98bf13282b5327beb2e2fe2c7ef/pygments-2.17.2-py3-none-any.whl", hash = "sha256:b27c2826c47d0f3219f29554824c30c5e8945175d888647acd804ddd04af846c", size = 1179756, upload-time = "2023-11-21T20:43:49.423Z" },
@@ -7764,7 +7764,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "requests"
         version = "2.31.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "certifi" },
             { name = "charset-normalizer" },
@@ -7779,7 +7779,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "rich"
         version = "13.7.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "markdown-it-py" },
             { name = "pygments" },
@@ -7792,7 +7792,7 @@ fn add_remove_script_lock() -> Result<()> {
         [[package]]
         name = "urllib3"
         version = "2.2.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/7a/50/7fd50a27caa0652cd4caf224aa87741ea41d3265ad13f010886167cfcc79/urllib3-2.2.1.tar.gz", hash = "sha256:d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19", size = 291020, upload-time = "2024-02-18T03:55:57.539Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/a2/73/a68704750a7679d0b6d3ad7aa8d4da8e14e151ae82e6fee774e6e0d05ec8/urllib3-2.2.1-py3-none-any.whl", hash = "sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d", size = 121067, upload-time = "2024-02-18T03:55:54.704Z" },
@@ -9252,7 +9252,7 @@ fn add_warn_index_url() -> Result<()> {
         dependencies = []
     "#})?;
 
-    uv_snapshot!(context.filters(), context.add().arg("idna").arg("--index-url").arg("https://pypi.org/simple"), @r"
+    uv_snapshot!(context.filters(), context.add().arg("idna").arg("--index-url").arg("https://pypi.tuna.tsinghua.edu.cn/simple"), @r"
     success: true
     exit_code: 0
     ----- stdout -----
@@ -9300,7 +9300,7 @@ fn add_warn_index_url() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -9330,7 +9330,7 @@ fn add_warn_index_url() -> Result<()> {
       × No solution found when resolving dependencies:
       ╰─▶ Because only idna==2.7 is available and your project depends on idna>=3.6, we can conclude that your project's requirements are unsatisfiable.
 
-          hint: `idna` was found on https://test.pypi.org/simple, but not at the requested version (idna>=3.6). A compatible version may be available on a subsequent index (e.g., https://pypi.org/simple). By default, uv will only consider versions that are published on the first index that contains a given package, to avoid dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to consider all versions from all indexes, regardless of the order in which they were defined.
+          hint: `idna` was found on https://test.pypi.org/simple, but not at the requested version (idna>=3.6). A compatible version may be available on a subsequent index (e.g., https://pypi.tuna.tsinghua.edu.cn/simple). By default, uv will only consider versions that are published on the first index that contains a given package, to avoid dependency confusion attacks. If all indexes are equally trusted, use `--index-strategy unsafe-best-match` to consider all versions from all indexes, regardless of the order in which they were defined.
       help: If you want to add the package regardless of the failed resolution, provide the `--frozen` flag to skip locking and syncing.
     ");
 
@@ -9442,7 +9442,7 @@ fn add_index() -> Result<()> {
         constraint-dependencies = ["markupsafe<3"]
     "#})?;
 
-    uv_snapshot!(context.filters(), context.add().arg("iniconfig==2.0.0").arg("--index").arg("https://pypi.org/simple"), @r###"
+    uv_snapshot!(context.filters(), context.add().arg("iniconfig==2.0.0").arg("--index").arg("https://pypi.tuna.tsinghua.edu.cn/simple"), @r###"
     success: true
     exit_code: 0
     ----- stdout -----
@@ -9473,7 +9473,7 @@ fn add_index() -> Result<()> {
         constraint-dependencies = ["markupsafe<3"]
 
         [[tool.uv.index]]
-        url = "https://pypi.org/simple"
+        url = "https://pypi.tuna.tsinghua.edu.cn/simple"
         "###
         );
     });
@@ -9498,7 +9498,7 @@ fn add_index() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -9559,7 +9559,7 @@ fn add_index() -> Result<()> {
         jinja2 = { index = "pytorch" }
 
         [[tool.uv.index]]
-        url = "https://pypi.org/simple"
+        url = "https://pypi.tuna.tsinghua.edu.cn/simple"
         "###
         );
     });
@@ -9584,7 +9584,7 @@ fn add_index() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -9671,7 +9671,7 @@ fn add_index() -> Result<()> {
         url = "https://test.pypi.org/simple"
 
         [[tool.uv.index]]
-        url = "https://pypi.org/simple"
+        url = "https://pypi.tuna.tsinghua.edu.cn/simple"
         "###
         );
     });
@@ -9751,7 +9751,7 @@ fn add_index() -> Result<()> {
     });
 
     // Adding a subsequent index with the same URL should bump it to the top.
-    uv_snapshot!(context.filters(), context.add().arg("typing-extensions").arg("--index").arg("https://pypi.org/simple"), @r###"
+    uv_snapshot!(context.filters(), context.add().arg("typing-extensions").arg("--index").arg("https://pypi.tuna.tsinghua.edu.cn/simple"), @r###"
     success: true
     exit_code: 0
     ----- stdout -----
@@ -9787,7 +9787,7 @@ fn add_index() -> Result<()> {
         jinja2 = { index = "pytorch" }
 
         [[tool.uv.index]]
-        url = "https://pypi.org/simple"
+        url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 
         [[tool.uv.index]]
         name = "pytorch"
@@ -9816,7 +9816,7 @@ fn add_index() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -9837,7 +9837,7 @@ fn add_index() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "2.1.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/87/5b/aae44c6655f3801e81aa3eef09dbbf012431987ba564d7231722f68df02d/MarkupSafe-2.1.5.tar.gz", hash = "sha256:d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b", size = 19384, upload-time = "2024-02-02T16:31:22.863Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/53/bd/583bf3e4c8d6a321938c13f49d44024dbe5ed63e0a7ba127e454a66da974/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:8dec4936e9c3100156f8a2dc89c4b88d5c435175ff03413b443469c7c8c5f4d1", size = 18215, upload-time = "2024-02-02T16:30:33.081Z" },
@@ -9872,7 +9872,7 @@ fn add_index() -> Result<()> {
         [[package]]
         name = "typing-extensions"
         version = "4.12.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz", hash = "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8", size = 85321, upload-time = "2024-06-07T18:52:15.995Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl", hash = "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d", size = 37438, upload-time = "2024-06-07T18:52:13.582Z" },
@@ -9920,7 +9920,7 @@ fn add_index() -> Result<()> {
         url = "https://test.pypi.org/simple"
 
         [[tool.uv.index]]
-        url = "https://pypi.org/simple"
+        url = "https://pypi.tuna.tsinghua.edu.cn/simple"
         "###
         );
     });
@@ -9945,7 +9945,7 @@ fn add_index() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -9966,7 +9966,7 @@ fn add_index() -> Result<()> {
         [[package]]
         name = "markupsafe"
         version = "2.1.5"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/87/5b/aae44c6655f3801e81aa3eef09dbbf012431987ba564d7231722f68df02d/MarkupSafe-2.1.5.tar.gz", hash = "sha256:d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b", size = 19384, upload-time = "2024-02-02T16:31:22.863Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/53/bd/583bf3e4c8d6a321938c13f49d44024dbe5ed63e0a7ba127e454a66da974/MarkupSafe-2.1.5-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:8dec4936e9c3100156f8a2dc89c4b88d5c435175ff03413b443469c7c8c5f4d1", size = 18215, upload-time = "2024-02-02T16:30:33.081Z" },
@@ -10001,7 +10001,7 @@ fn add_index() -> Result<()> {
         [[package]]
         name = "typing-extensions"
         version = "4.12.2"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz", hash = "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8", size = 85321, upload-time = "2024-06-07T18:52:15.995Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl", hash = "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d", size = 37438, upload-time = "2024-06-07T18:52:13.582Z" },
@@ -10099,7 +10099,7 @@ fn add_default_index_url() -> Result<()> {
     });
 
     // Adding another `--default-index` replaces the current default.
-    uv_snapshot!(context.filters(), context.add().arg("typing-extensions").arg("--default-index").arg("https://pypi.org/simple"), @r###"
+    uv_snapshot!(context.filters(), context.add().arg("typing-extensions").arg("--default-index").arg("https://pypi.tuna.tsinghua.edu.cn/simple"), @r###"
     success: true
     exit_code: 0
     ----- stdout -----
@@ -10128,7 +10128,7 @@ fn add_default_index_url() -> Result<()> {
         ]
 
         [[tool.uv.index]]
-        url = "https://pypi.org/simple"
+        url = "https://pypi.tuna.tsinghua.edu.cn/simple"
         default = true
         "###
         );
@@ -10151,7 +10151,7 @@ fn add_default_index_url() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -10175,7 +10175,7 @@ fn add_default_index_url() -> Result<()> {
         [[package]]
         name = "typing-extensions"
         version = "4.10.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz", hash = "sha256:b0abd7c89e8fb96f98db18d86106ff1d90ab692004eb746cf6eda2682f91b3cb", size = 77558, upload-time = "2024-02-25T22:12:49.693Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/f9/de/dc04a3ea60b22624b51c703a84bbe0184abcd1d0b9bc8074b5d6b7ab90bb/typing_extensions-4.10.0-py3-none-any.whl", hash = "sha256:69b1a937c3a517342112fb4c6df7e72fc39a38e7891a5730ed4985b5214b5475", size = 33926, upload-time = "2024-02-25T22:12:47.72Z" },
@@ -10388,7 +10388,7 @@ fn add_index_with_trailing_slash() -> Result<()> {
         constraint-dependencies = ["markupsafe<3"]
     "#})?;
 
-    uv_snapshot!(context.filters(), context.add().arg("iniconfig==2.0.0").arg("--index").arg("https://pypi.org/simple/"), @r###"
+    uv_snapshot!(context.filters(), context.add().arg("iniconfig==2.0.0").arg("--index").arg("https://pypi.tuna.tsinghua.edu.cn/simple/"), @r###"
     success: true
     exit_code: 0
     ----- stdout -----
@@ -10419,7 +10419,7 @@ fn add_index_with_trailing_slash() -> Result<()> {
         constraint-dependencies = ["markupsafe<3"]
 
         [[tool.uv.index]]
-        url = "https://pypi.org/simple/"
+        url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
         "###
         );
     });
@@ -10444,7 +10444,7 @@ fn add_index_with_trailing_slash() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple/" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple/" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -10484,7 +10484,7 @@ fn add_index_without_trailing_slash() -> Result<()> {
         constraint-dependencies = ["markupsafe<3"]
     "#})?;
 
-    uv_snapshot!(context.filters(), context.add().arg("iniconfig==2.0.0").arg("--index").arg("https://pypi.org/simple"), @r###"
+    uv_snapshot!(context.filters(), context.add().arg("iniconfig==2.0.0").arg("--index").arg("https://pypi.tuna.tsinghua.edu.cn/simple"), @r###"
     success: true
     exit_code: 0
     ----- stdout -----
@@ -10515,7 +10515,7 @@ fn add_index_without_trailing_slash() -> Result<()> {
         constraint-dependencies = ["markupsafe<3"]
 
         [[tool.uv.index]]
-        url = "https://pypi.org/simple"
+        url = "https://pypi.tuna.tsinghua.edu.cn/simple"
         "###
         );
     });
@@ -10540,7 +10540,7 @@ fn add_index_without_trailing_slash() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -10813,7 +10813,7 @@ fn add_group_comment() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -10845,7 +10845,7 @@ fn add_group_comment() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -10854,7 +10854,7 @@ fn add_group_comment() -> Result<()> {
         [[package]]
         name = "typing-extensions"
         version = "4.10.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz", hash = "sha256:b0abd7c89e8fb96f98db18d86106ff1d90ab692004eb746cf6eda2682f91b3cb", size = 77558, upload-time = "2024-02-25T22:12:49.693Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/f9/de/dc04a3ea60b22624b51c703a84bbe0184abcd1d0b9bc8074b5d6b7ab90bb/typing_extensions-4.10.0-py3-none-any.whl", hash = "sha256:69b1a937c3a517342112fb4c6df7e72fc39a38e7891a5730ed4985b5214b5475", size = 33926, upload-time = "2024-02-25T22:12:47.72Z" },
@@ -10895,7 +10895,7 @@ fn add_index_comments() -> Result<()> {
     "#})?;
 
     // Preserve the comment on the index URL, despite replacing it.
-    uv_snapshot!(context.filters(), context.add().arg("iniconfig==2.0.0").env(EnvVars::UV_DEFAULT_INDEX, "https://pypi.org/simple"), @r###"
+    uv_snapshot!(context.filters(), context.add().arg("iniconfig==2.0.0").env(EnvVars::UV_DEFAULT_INDEX, "https://pypi.tuna.tsinghua.edu.cn/simple"), @r###"
     success: true
     exit_code: 0
     ----- stdout -----
@@ -10924,7 +10924,7 @@ fn add_index_comments() -> Result<()> {
 
         [[tool.uv.index]]
         name = "internal"
-        url = "https://pypi.org/simple"  # This is a test index.
+        url = "https://pypi.tuna.tsinghua.edu.cn/simple"  # This is a test index.
         default = true
         "###
         );
@@ -10947,7 +10947,7 @@ fn add_index_comments() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },
@@ -11267,7 +11267,7 @@ fn add_direct_url_subdirectory() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -11280,7 +11280,7 @@ fn add_direct_url_subdirectory() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -11312,7 +11312,7 @@ fn add_direct_url_subdirectory() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -11397,7 +11397,7 @@ fn add_direct_url_subdirectory_raw() -> Result<()> {
         [[package]]
         name = "anyio"
         version = "4.3.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         dependencies = [
             { name = "idna" },
             { name = "sniffio" },
@@ -11410,7 +11410,7 @@ fn add_direct_url_subdirectory_raw() -> Result<()> {
         [[package]]
         name = "idna"
         version = "3.6"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca", size = 175426, upload-time = "2023-11-25T15:40:54.902Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f", size = 61567, upload-time = "2023-11-25T15:40:52.604Z" },
@@ -11442,7 +11442,7 @@ fn add_direct_url_subdirectory_raw() -> Result<()> {
         [[package]]
         name = "sniffio"
         version = "1.3.1"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc", size = 20372, upload-time = "2024-02-25T23:20:04.057Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
@@ -11992,7 +11992,7 @@ fn multiple_index_cli() -> Result<()> {
         .arg("--index")
         .arg("https://test.pypi.org/simple")
         .arg("--index")
-        .arg("https://pypi.org/simple"), @r"
+        .arg("https://pypi.tuna.tsinghua.edu.cn/simple"), @r"
     success: true
     exit_code: 0
     ----- stdout -----
@@ -12023,7 +12023,7 @@ fn multiple_index_cli() -> Result<()> {
         url = "https://test.pypi.org/simple"
 
         [[tool.uv.index]]
-        url = "https://pypi.org/simple"
+        url = "https://pypi.tuna.tsinghua.edu.cn/simple"
         "#
         );
     });
@@ -13034,7 +13034,7 @@ fn add_auth_policy_always_without_credentials() -> Result<()> {
 
         [[tool.uv.index]]
         name = "my-index"
-        url = "https://pypi.org/simple"
+        url = "https://pypi.tuna.tsinghua.edu.cn/simple"
         authenticate = "always"
         default = true
         "#
@@ -13046,8 +13046,8 @@ fn add_auth_policy_always_without_credentials() -> Result<()> {
     ----- stdout -----
 
     ----- stderr -----
-    error: Failed to fetch: `https://pypi.org/simple/anyio/`
-      Caused by: Missing credentials for https://pypi.org/simple/anyio/
+    error: Failed to fetch: `https://pypi.tuna.tsinghua.edu.cn/simple/anyio/`
+      Caused by: Missing credentials for https://pypi.tuna.tsinghua.edu.cn/simple/anyio/
     "
     );
 
@@ -13057,8 +13057,8 @@ fn add_auth_policy_always_without_credentials() -> Result<()> {
     ----- stdout -----
 
     ----- stderr -----
-    error: Failed to fetch: `https://pypi.org/simple/black/`
-      Caused by: Missing credentials for https://pypi.org/simple/black/
+    error: Failed to fetch: `https://pypi.tuna.tsinghua.edu.cn/simple/black/`
+      Caused by: Missing credentials for https://pypi.tuna.tsinghua.edu.cn/simple/black/
     "
     );
     Ok(())
@@ -13092,8 +13092,8 @@ fn add_auth_policy_always_with_username_no_password() -> Result<()> {
     ----- stdout -----
 
     ----- stderr -----
-    error: Failed to fetch: `https://pypi.org/simple/anyio/`
-      Caused by: Missing password for https://pypi.org/simple/anyio/
+    error: Failed to fetch: `https://pypi.tuna.tsinghua.edu.cn/simple/anyio/`
+      Caused by: Missing password for https://pypi.tuna.tsinghua.edu.cn/simple/anyio/
     "
     );
     Ok(())
@@ -13192,7 +13192,7 @@ fn add_auth_policy_never_without_credentials() -> Result<()> {
 
         [[tool.uv.index]]
         name = "my-index"
-        url = "https://pypi.org/simple"
+        url = "https://pypi.tuna.tsinghua.edu.cn/simple"
         authenticate = "never"
         default = true
         "#
@@ -14389,7 +14389,7 @@ fn add_no_install_project() -> Result<()> {
         [[package]]
         name = "iniconfig"
         version = "2.0.0"
-        source = { registry = "https://pypi.org/simple" }
+        source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
         sdist = { url = "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3", size = 4646, upload-time = "2023-01-07T11:08:11.254Z" }
         wheels = [
             { url = "https://files.pythonhosted.org/packages/ef/a6/62565a6e1cf69e10f5727360368e451d4b7f58beeac6173dc9db836a5b46/iniconfig-2.0.0-py3-none-any.whl", hash = "sha256:b6a85871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374", size = 5892, upload-time = "2023-01-07T11:08:09.864Z" },

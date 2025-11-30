@@ -1821,7 +1821,7 @@ fn transitive_dep_in_git_workspace_no_root() -> Result<()> {
         "virtual": "."
       },
       "anyio": {
-        "registry": "https://pypi.org/simple"
+        "registry": "https://pypi.tuna.tsinghua.edu.cn/simple"
       },
       "c": {
         "git": "https://github.com/astral-sh/workspace-virtual-root-test?subdirectory=packages%2Fc&rev=fac39c8d4c5d0ef32744e2bb309bbe34a759fd46#fac39c8d4c5d0ef32744e2bb309bbe34a759fd46"
@@ -1830,10 +1830,10 @@ fn transitive_dep_in_git_workspace_no_root() -> Result<()> {
         "git": "https://github.com/astral-sh/workspace-virtual-root-test?subdirectory=packages%2Fd&rev=fac39c8d4c5d0ef32744e2bb309bbe34a759fd46#fac39c8d4c5d0ef32744e2bb309bbe34a759fd46"
       },
       "idna": {
-        "registry": "https://pypi.org/simple"
+        "registry": "https://pypi.tuna.tsinghua.edu.cn/simple"
       },
       "sniffio": {
-        "registry": "https://pypi.org/simple"
+        "registry": "https://pypi.tuna.tsinghua.edu.cn/simple"
       }
     }
     "###);

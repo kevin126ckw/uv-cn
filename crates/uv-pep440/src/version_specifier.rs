@@ -1894,7 +1894,7 @@ mod tests {
     }
 
     /// These occur in the simple api, e.g.
-    /// <https://pypi.org/simple/geopandas/?format=application/vnd.pypi.simple.v1+json>
+    /// <https://pypi.tuna.tsinghua.edu.cn/simple/geopandas/?format=application/vnd.pypi.simple.v1+json>
     #[test]
     fn test_version_specifiers_empty() {
         assert_eq!(VersionSpecifiers::from_str("").unwrap().to_string(), "");

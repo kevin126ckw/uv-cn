@@ -699,7 +699,7 @@ impl RegistryClient {
 
     /// Fetch the list of projects from a Simple API index at a remote URL.
     ///
-    /// This fetches the root of a Simple API index (e.g., `https://pypi.org/simple/`)
+    /// This fetches the root of a Simple API index (e.g., `https://pypi.tuna.tsinghua.edu.cn/simple/`)
     /// which returns a list of all available projects.
     pub async fn fetch_simple_index(
         &self,
@@ -1801,7 +1801,7 @@ mod tests {
     }
     "#;
         let data: PypiSimpleDetail = serde_json::from_str(response).unwrap();
-        let base = DisplaySafeUrl::parse("https://pypi.org/simple/pyflyby/").unwrap();
+        let base = DisplaySafeUrl::parse("https://pypi.tuna.tsinghua.edu.cn/simple/pyflyby/").unwrap();
         let simple_metadata = SimpleDetailMetadata::from_pypi_files(
             data.files,
             &PackageName::from_str("pyflyby").unwrap(),

@@ -9,7 +9,7 @@ use uv_settings::EnvironmentOptions;
 
 #[derive(Parser)]
 pub(crate) struct ListPackagesArgs {
-    /// The Simple API index URL (e.g., <https://pypi.org/simple>/)
+    /// The Simple API index URL (e.g., <https://pypi.tuna.tsinghua.edu.cn/simple>)
     url: String,
     #[command(flatten)]
     cache_args: CacheArgs,

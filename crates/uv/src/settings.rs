@@ -60,7 +60,7 @@ use crate::commands::ToolRunCommand;
 use crate::commands::{InitKind, InitProjectKind, pip::operations::Modifications};
 
 /// The default publish URL.
-const PYPI_PUBLISH_URL: &str = "https://upload.pypi.org/legacy/";
+const PYPI_PUBLISH_URL: &str = "https://pypi.tuna.tsinghua.edu.cn/legacy/";
 
 /// The resolved global settings to use for any invocation of the CLI.
 #[derive(Debug, Clone)]

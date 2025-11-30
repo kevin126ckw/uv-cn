@@ -3849,7 +3849,7 @@ impl TryFrom<SourceWire> for Source {
 /// The source for a registry, which could be a URL or a relative path.
 #[derive(Clone, Debug, Eq, Hash, PartialEq, PartialOrd, Ord)]
 enum RegistrySource {
-    /// Ex) `https://pypi.org/simple`
+    /// Ex) `https://pypi.tuna.tsinghua.edu.cn/simple`
     Url(UrlString),
     /// Ex) `../path/to/local/index`
     Path(Box<Path>),
@@ -3866,7 +3866,7 @@ impl Display for RegistrySource {
 
 #[derive(Clone, Debug)]
 enum RegistrySourceWire {
-    /// Ex) `https://pypi.org/simple`
+    /// Ex) `https://pypi.tuna.tsinghua.edu.cn/simple`
     Url(UrlString),
     /// Ex) `../path/to/local/index`
     Path(PortablePathBuf),
@@ -6098,13 +6098,13 @@ requires-python = ">=3.12"
 [[package]]
 name = "a"
 version = "0.1.0"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package]]
 name = "b"
 version = "0.1.0"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package.dependencies]]
@@ -6124,18 +6124,18 @@ requires-python = ">=3.12"
 [[package]]
 name = "a"
 version = "0.1.0"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package]]
 name = "b"
 version = "0.1.0"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package.dependencies]]
 name = "a"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 "#;
         let result: Result<Lock, _> = toml::from_str(data);
         insta::assert_debug_snapshot!(result);
@@ -6150,13 +6150,13 @@ requires-python = ">=3.12"
 [[package]]
 name = "a"
 version = "0.1.0"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package]]
 name = "b"
 version = "0.1.0"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package.dependencies]]
@@ -6175,19 +6175,19 @@ requires-python = ">=3.12"
 [[package]]
 name = "a"
 version = "0.1.0"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package]]
 name = "a"
 version = "0.1.1"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package]]
 name = "b"
 version = "0.1.0"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package.dependencies]]
@@ -6207,24 +6207,24 @@ requires-python = ">=3.12"
 [[package]]
 name = "a"
 version = "0.1.0"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package]]
 name = "a"
 version = "0.1.1"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package]]
 name = "b"
 version = "0.1.0"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package.dependencies]]
 name = "a"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 "#;
         let result = toml::from_str::<Lock>(data).unwrap_err();
         assert_stripped_snapshot!(result, @"Dependency `a` has missing `version` field but has more than one matching package");
@@ -6239,19 +6239,19 @@ requires-python = ">=3.12"
 [[package]]
 name = "a"
 version = "0.1.0"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package]]
 name = "a"
 version = "0.1.1"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package]]
 name = "b"
 version = "0.1.0"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package.dependencies]]
@@ -6274,13 +6274,13 @@ source = { editable = "path/to/a" }
 [[package]]
 name = "a"
 version = "0.1.1"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package]]
 name = "b"
 version = "0.1.0"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://example.com", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 0 }
 
 [[package.dependencies]]
@@ -6300,7 +6300,7 @@ requires-python = ">=3.12"
 [[package]]
 name = "anyio"
 version = "4.3.0"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 wheels = [{ url = "https://files.pythonhosted.org/packages/14/fd/2f20c40b45e4fb4324834aea24bd4afdf1143390242c0b33774da0e2e34f/anyio-4.3.0-py3-none-any.whl" }]
 "#;
         let result: Result<Lock, _> = toml::from_str(data);
@@ -6316,7 +6316,7 @@ requires-python = ">=3.12"
 [[package]]
 name = "anyio"
 version = "4.3.0"
-source = { registry = "https://pypi.org/simple" }
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 wheels = [{ url = "https://files.pythonhosted.org/packages/14/fd/2f20c40b45e4fb4324834aea24bd4afdf1143390242c0b33774da0e2e34f/anyio-4.3.0-py3-none-any.whl", hash = "sha256:048e05d0f6caeed70d731f3db756d35dcc1f35747c8c403364a8332c630441b8" }]
 "#;
         let result: Result<Lock, _> = toml::from_str(data);

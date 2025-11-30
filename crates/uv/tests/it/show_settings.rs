@@ -44,7 +44,7 @@ fn resolve_uv_toml() -> anyhow::Result<()> {
         [pip]
         resolution = "lowest-direct"
         generate-hashes = true
-        index-url = "https://pypi.org/simple"
+        index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
     "#})?;
 
     let requirements_in = context.temp_dir.child("requirements.in");
@@ -138,7 +138,7 @@ fn resolve_uv_toml() -> anyhow::Result<()> {
                                     fragment: None,
                                 },
                                 given: Some(
-                                    "https://pypi.org/simple",
+                                    "https://pypi.tuna.tsinghua.edu.cn/simple",
                                 ),
                             },
                         ),
@@ -341,7 +341,7 @@ fn resolve_uv_toml() -> anyhow::Result<()> {
                                     fragment: None,
                                 },
                                 given: Some(
-                                    "https://pypi.org/simple",
+                                    "https://pypi.tuna.tsinghua.edu.cn/simple",
                                 ),
                             },
                         ),
@@ -545,7 +545,7 @@ fn resolve_uv_toml() -> anyhow::Result<()> {
                                     fragment: None,
                                 },
                                 given: Some(
-                                    "https://pypi.org/simple",
+                                    "https://pypi.tuna.tsinghua.edu.cn/simple",
                                 ),
                             },
                         ),
@@ -679,7 +679,7 @@ fn resolve_pyproject_toml() -> anyhow::Result<()> {
         [pip]
         resolution = "lowest-direct"
         generate-hashes = true
-        index-url = "https://pypi.org/simple"
+        index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
     "#})?;
 
     // Write a `pyproject.toml` file to the directory.
@@ -781,7 +781,7 @@ fn resolve_pyproject_toml() -> anyhow::Result<()> {
                                     fragment: None,
                                 },
                                 given: Some(
-                                    "https://pypi.org/simple",
+                                    "https://pypi.tuna.tsinghua.edu.cn/simple",
                                 ),
                             },
                         ),
@@ -1076,7 +1076,7 @@ fn resolve_pyproject_toml() -> anyhow::Result<()> {
         python-platform = "x86_64-unknown-linux-gnu"
         resolution = "lowest-direct"
         generate-hashes = true
-        index-url = "https://pypi.org/simple"
+        index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
     "#})?;
 
     // Resolution should use the lowest direct version, and generate hashes.
@@ -1167,7 +1167,7 @@ fn resolve_pyproject_toml() -> anyhow::Result<()> {
                                     fragment: None,
                                 },
                                 given: Some(
-                                    "https://pypi.org/simple",
+                                    "https://pypi.tuna.tsinghua.edu.cn/simple",
                                 ),
                             },
                         ),
@@ -1304,7 +1304,7 @@ fn resolve_index_url() -> anyhow::Result<()> {
 
         [tool.uv.pip]
         index-url = "https://test.pypi.org/simple"
-        extra-index-url = ["https://pypi.org/simple"]
+        extra-index-url = ["https://pypi.tuna.tsinghua.edu.cn/simple"]
     "#})?;
 
     let requirements_in = context.temp_dir.child("requirements.in");
@@ -1397,7 +1397,7 @@ fn resolve_index_url() -> anyhow::Result<()> {
                                     fragment: None,
                                 },
                                 given: Some(
-                                    "https://pypi.org/simple",
+                                    "https://pypi.tuna.tsinghua.edu.cn/simple",
                                 ),
                             },
                         ),
@@ -1670,7 +1670,7 @@ fn resolve_index_url() -> anyhow::Result<()> {
                                     fragment: None,
                                 },
                                 given: Some(
-                                    "https://pypi.org/simple",
+                                    "https://pypi.tuna.tsinghua.edu.cn/simple",
                                 ),
                             },
                         ),
@@ -3854,7 +3854,7 @@ fn resolve_both() -> anyhow::Result<()> {
         [pip]
         resolution = "lowest-direct"
         generate-hashes = true
-        index-url = "https://pypi.org/simple"
+        index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
     "#})?;
 
     // Write a `pyproject.toml` file to the directory
@@ -3964,7 +3964,7 @@ fn resolve_both() -> anyhow::Result<()> {
                                     fragment: None,
                                 },
                                 given: Some(
-                                    "https://pypi.org/simple",
+                                    "https://pypi.tuna.tsinghua.edu.cn/simple",
                                 ),
                             },
                         ),
@@ -4102,7 +4102,7 @@ fn resolve_both_special_fields() -> anyhow::Result<()> {
         [pip]
         resolution = "lowest-direct"
         generate-hashes = true
-        index-url = "https://pypi.org/simple"
+        index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
     "#})?;
 
     // Write a `pyproject.toml` file to the directory
@@ -4213,7 +4213,7 @@ fn resolve_both_special_fields() -> anyhow::Result<()> {
                                     fragment: None,
                                 },
                                 given: Some(
-                                    "https://pypi.org/simple",
+                                    "https://pypi.tuna.tsinghua.edu.cn/simple",
                                 ),
                             },
                         ),
@@ -4446,7 +4446,7 @@ fn resolve_config_file() -> anyhow::Result<()> {
         [pip]
         resolution = "lowest-direct"
         generate-hashes = true
-        index-url = "https://pypi.org/simple"
+        index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
     "#})?;
 
     let requirements_in = context.temp_dir.child("requirements.in");
@@ -4541,7 +4541,7 @@ fn resolve_config_file() -> anyhow::Result<()> {
                                     fragment: None,
                                 },
                                 given: Some(
-                                    "https://pypi.org/simple",
+                                    "https://pypi.tuna.tsinghua.edu.cn/simple",
                                 ),
                             },
                         ),
@@ -4664,7 +4664,7 @@ fn resolve_config_file() -> anyhow::Result<()> {
         [tool.uv.pip]
         resolution = "lowest-direct"
         generate-hashes = true
-        index-url = "https://pypi.org/simple"
+        index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
     "#})?;
 
     // The file should be rejected for violating the schema.
@@ -4697,7 +4697,7 @@ fn resolve_config_file() -> anyhow::Result<()> {
         [tool.uv.pip]
         resolution = "lowest-direct"
         generate-hashes = true
-        index-url = "https://pypi.org/simple"
+        index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
         """#
     })?;
 

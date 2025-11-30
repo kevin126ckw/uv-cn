@@ -2322,7 +2322,7 @@ fn tool_install_requirements_txt_arguments() {
     let requirements_txt = context.temp_dir.child("requirements.txt");
     requirements_txt
         .write_str(indoc! { r"
-        --index-url https://pypi.org/simple
+        --index-url https://pypi.tuna.tsinghua.edu.cn/simple
         idna
         "
         })

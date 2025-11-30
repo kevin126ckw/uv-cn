@@ -2038,7 +2038,7 @@ fn install_extra_index_url_has_priority() {
         .arg("--index-url")
         .arg("https://test.pypi.org/simple")
         .arg("--extra-index-url")
-        .arg("https://pypi.org/simple")
+        .arg("https://pypi.tuna.tsinghua.edu.cn/simple")
         // This tests what we want because BOTH of the following
         // are true: `black` is on pypi.org and test.pypi.org, AND
         // `black==24.2.0` is on pypi.org and NOT test.pypi.org. So
@@ -2072,7 +2072,7 @@ async fn install_deduplicated_indices() {
 
     Mock::given(method("GET"))
         .respond_with(
-            ResponseTemplate::new(302).insert_header("Location", "https://pypi.org/simple/sniffio"),
+            ResponseTemplate::new(302).insert_header("Location", "https://pypi.tuna.tsinghua.edu.cn/simple/sniffio"),
         )
         .expect(1)
         .mount(&redirect_server)
@@ -11646,7 +11646,7 @@ fn pep_751_multiple_sources() -> Result<()> {
         [[packages]]
         name = "typing-extensions"
         version = "4.10.0"
-        index = "https://pypi.org/simple"
+        index = "https://pypi.tuna.tsinghua.edu.cn/simple"
         sdist = { url = "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz", size = 77558, hashes = { sha256 = "b0abd7c89e8fb96f98db18d86106ff1d90ab692004eb746cf6eda2682f91b3cb" } }
         wheels = [{ url = "https://files.pythonhosted.org/packages/f9/de/dc04a3ea60b22624b51c703a84bbe0184abcd1d0b9bc8074b5d6b7ab90bb/typing_extensions-4.10.0-py3-none-any.whl", size = 33926, hashes = { sha256 = "69b1a937c3a517342112fb4c6df7e72fc39a38e7891a5730ed4985b5214b5475" } }]
         archive = { path = "iniconfig-2.0.0-py3-none-any.whl", hashes = { sha256 = "c5185871a79d2e3b22d2d1b94ac2824226a63c6b741c88f7ae975f18b6778374" } }
@@ -11922,7 +11922,7 @@ async fn bogus_redirect() -> Result<()> {
     // Configure a bogus redirect where for all packages, anyio is returned.
     Mock::given(method("GET"))
         .respond_with(
-            ResponseTemplate::new(302).insert_header("Location", "https://pypi.org/simple/anyio/"),
+            ResponseTemplate::new(302).insert_header("Location", "https://pypi.tuna.tsinghua.edu.cn/simple/anyio/"),
         )
         .mount(&redirect_server)
         .await;

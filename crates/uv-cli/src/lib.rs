@@ -1672,7 +1672,7 @@ pub struct PipCompileArgs {
     pub no_emit_marker_expression: bool,
 
     /// Include comment annotations indicating the index used to resolve each package (e.g.,
-    /// `# from https://pypi.org/simple`).
+    /// `# from https://pypi.tuna.tsinghua.edu.cn/simple`).
     #[arg(long, overrides_with("no_emit_index_annotation"))]
     pub emit_index_annotation: bool,
 
@@ -6219,7 +6219,7 @@ pub struct IndexArgs {
     #[arg(long, env = EnvVars::UV_INDEX, value_parser = parse_indices, help_heading = "Index options")]
     pub index: Option<Vec<Vec<Maybe<Index>>>>,
 
-    /// The URL of the default package index (by default: <https://pypi.org/simple>).
+    /// The URL of the default package index (by default: <https://pypi.tuna.tsinghua.edu.cn/simple>).
     ///
     /// Accepts either a repository compliant with PEP 503 (the simple repository API), or a local
     /// directory laid out in the same format.
@@ -6230,7 +6230,7 @@ pub struct IndexArgs {
     pub default_index: Option<Maybe<Index>>,
 
     /// (Deprecated: use `--default-index` instead) The URL of the Python package index (by default:
-    /// <https://pypi.org/simple>).
+    /// <https://pypi.tuna.tsinghua.edu.cn/simple>).
     ///
     /// Accepts either a repository compliant with PEP 503 (the simple repository API), or a local
     /// directory laid out in the same format.
@@ -7052,8 +7052,8 @@ pub struct PublishArgs {
     /// ```toml
     /// [[tool.uv.index]]
     /// name = "pypi"
-    /// url = "https://pypi.org/simple"
-    /// publish-url = "https://upload.pypi.org/legacy/"
+    /// url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+    /// publish-url = "https://pypi.tuna.tsinghua.edu.cn/legacy/"
     /// ```
     ///
     /// The index `url` will be used to check for existing files to skip duplicate uploads.
@@ -7062,7 +7062,7 @@ pub struct PublishArgs {
     ///
     /// ```shell
     /// uv publish --index pypi
-    /// uv publish --publish-url https://upload.pypi.org/legacy/ --check-url https://pypi.org/simple
+    /// uv publish --publish-url https://pypi.tuna.tsinghua.edu.cn/legacy/ --check-url https://pypi.tuna.tsinghua.edu.cn/simple
     /// ```
     #[arg(
         long,
@@ -7117,7 +7117,7 @@ pub struct PublishArgs {
     /// Note that there are typically different URLs for index access (e.g., `https:://.../simple`)
     /// and index upload.
     ///
-    /// Defaults to PyPI's publish URL (<https://upload.pypi.org/legacy/>).
+    /// Defaults to PyPI's publish URL (<https://pypi.tuna.tsinghua.edu.cn/legacy/>).
     #[arg(long, env = EnvVars::UV_PUBLISH_URL)]
     pub publish_url: Option<DisplaySafeUrl>,
 

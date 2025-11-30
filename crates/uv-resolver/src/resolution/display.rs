@@ -286,7 +286,7 @@ impl std::fmt::Display for DisplayResolutionGraph<'_> {
             }
 
             // If enabled, include indexes to indicate which index was used for each package (e.g.,
-            // `# from https://pypi.org/simple`).
+            // `# from https://pypi.tuna.tsinghua.edu.cn/simple`).
             if self.include_index_annotation {
                 if let Some(index) = node.dist.index() {
                     let url = index.without_credentials();

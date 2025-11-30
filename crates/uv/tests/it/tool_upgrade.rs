@@ -45,7 +45,7 @@ fn tool_upgrade_empty() {
     uv_snapshot!(context.filters(), context.tool_install()
         .arg("babel")
         .arg("--index-url")
-        .arg("https://pypi.org/simple/")
+        .arg("https://pypi.tuna.tsinghua.edu.cn/simple/")
         .env(EnvVars::UV_TOOL_DIR, tool_dir.as_os_str())
         .env(EnvVars::XDG_BIN_HOME, bin_dir.as_os_str())
         .env(EnvVars::PATH, bin_dir.as_os_str()), @r###"
@@ -123,7 +123,7 @@ fn tool_upgrade_name() {
     uv_snapshot!(context.filters(), context.tool_upgrade()
         .arg("babel")
         .arg("--index-url")
-        .arg("https://pypi.org/simple/")
+        .arg("https://pypi.tuna.tsinghua.edu.cn/simple/")
         .env(EnvVars::UV_TOOL_DIR, tool_dir.as_os_str())
         .env(EnvVars::XDG_BIN_HOME, bin_dir.as_os_str())
         .env(EnvVars::PATH, bin_dir.as_os_str()), @r###"
@@ -194,7 +194,7 @@ fn tool_upgrade_multiple_names() {
         .arg("babel")
         .arg("python-dotenv")
         .arg("--index-url")
-        .arg("https://pypi.org/simple/")
+        .arg("https://pypi.tuna.tsinghua.edu.cn/simple/")
         .env(EnvVars::UV_TOOL_DIR, tool_dir.as_os_str())
         .env(EnvVars::XDG_BIN_HOME, bin_dir.as_os_str())
         .env(EnvVars::PATH, bin_dir.as_os_str()), @r###"
@@ -249,7 +249,7 @@ fn tool_upgrade_pinned_hint() {
     uv_snapshot!(context.filters(), context.tool_upgrade()
         .arg("babel")
         .arg("--index-url")
-        .arg("https://pypi.org/simple/")
+        .arg("https://pypi.tuna.tsinghua.edu.cn/simple/")
         .env(EnvVars::UV_TOOL_DIR, tool_dir.as_os_str())
         .env(EnvVars::XDG_BIN_HOME, bin_dir.as_os_str())
         .env(EnvVars::PATH, bin_dir.as_os_str()), @r###"
@@ -301,7 +301,7 @@ fn tool_upgrade_pinned_hint_with_mixed_constraint() {
     uv_snapshot!(context.filters(), context.tool_upgrade()
         .arg("babel")
         .arg("--index-url")
-        .arg("https://pypi.org/simple/")
+        .arg("https://pypi.tuna.tsinghua.edu.cn/simple/")
         .env(EnvVars::UV_TOOL_DIR, tool_dir.as_os_str())
         .env(EnvVars::XDG_BIN_HOME, bin_dir.as_os_str())
         .env(EnvVars::PATH, bin_dir.as_os_str()), @r###"
@@ -371,7 +371,7 @@ fn tool_upgrade_all() {
     uv_snapshot!(context.filters(), context.tool_upgrade()
         .arg("--all")
         .arg("--index-url")
-        .arg("https://pypi.org/simple/")
+        .arg("https://pypi.tuna.tsinghua.edu.cn/simple/")
         .env(EnvVars::UV_TOOL_DIR, tool_dir.as_os_str())
         .env(EnvVars::XDG_BIN_HOME, bin_dir.as_os_str())
         .env(EnvVars::PATH, bin_dir.as_os_str()), @r###"
@@ -489,7 +489,7 @@ fn tool_upgrade_not_stop_if_upgrade_fails() -> anyhow::Result<()> {
     uv_snapshot!(context.filters(), context.tool_upgrade()
         .arg("--all")
         .arg("--index-url")
-        .arg("https://pypi.org/simple/")
+        .arg("https://pypi.tuna.tsinghua.edu.cn/simple/")
         .env(EnvVars::UV_TOOL_DIR, tool_dir.as_os_str())
         .env(EnvVars::XDG_BIN_HOME, bin_dir.as_os_str())
         .env(EnvVars::PATH, bin_dir.as_os_str()), @r###"
@@ -608,7 +608,7 @@ fn tool_upgrade_respect_constraints() {
     uv_snapshot!(context.filters(), context.tool_upgrade()
         .arg("babel")
         .arg("--index-url")
-        .arg("https://pypi.org/simple/")
+        .arg("https://pypi.tuna.tsinghua.edu.cn/simple/")
         .env(EnvVars::UV_TOOL_DIR, tool_dir.as_os_str())
         .env(EnvVars::XDG_BIN_HOME, bin_dir.as_os_str())
         .env(EnvVars::PATH, bin_dir.as_os_str()), @r###"
@@ -659,7 +659,7 @@ fn tool_upgrade_constraint() {
     uv_snapshot!(context.filters(), context.tool_upgrade()
         .arg("babel<2.12.0")
         .arg("--index-url")
-        .arg("https://pypi.org/simple/")
+        .arg("https://pypi.tuna.tsinghua.edu.cn/simple/")
         .env(EnvVars::UV_TOOL_DIR, tool_dir.as_os_str())
         .env(EnvVars::XDG_BIN_HOME, bin_dir.as_os_str())
         .env(EnvVars::PATH, bin_dir.as_os_str()), @r###"
@@ -680,7 +680,7 @@ fn tool_upgrade_constraint() {
     uv_snapshot!(context.filters(), context.tool_upgrade()
         .arg("babel")
         .arg("--index-url")
-        .arg("https://pypi.org/simple/")
+        .arg("https://pypi.tuna.tsinghua.edu.cn/simple/")
         .arg("--upgrade-package")
         .arg("babel<2.14.0")
         .env(EnvVars::UV_TOOL_DIR, tool_dir.as_os_str())
@@ -704,7 +704,7 @@ fn tool_upgrade_constraint() {
     uv_snapshot!(context.filters(), context.tool_upgrade()
         .arg("babel")
         .arg("--index-url")
-        .arg("https://pypi.org/simple/")
+        .arg("https://pypi.tuna.tsinghua.edu.cn/simple/")
         .env(EnvVars::UV_TOOL_DIR, tool_dir.as_os_str())
         .env(EnvVars::XDG_BIN_HOME, bin_dir.as_os_str())
         .env(EnvVars::PATH, bin_dir.as_os_str()), @r###"
@@ -724,7 +724,7 @@ fn tool_upgrade_constraint() {
     uv_snapshot!(context.filters(), context.tool_upgrade()
         .arg("babel")
         .arg("--index-url")
-        .arg("https://pypi.org/simple/")
+        .arg("https://pypi.tuna.tsinghua.edu.cn/simple/")
         .arg("--upgrade")
         .env(EnvVars::UV_TOOL_DIR, tool_dir.as_os_str())
         .env(EnvVars::XDG_BIN_HOME, bin_dir.as_os_str())
@@ -774,7 +774,7 @@ fn tool_upgrade_with() {
     uv_snapshot!(context.filters(), context.tool_upgrade()
         .arg("babel")
         .arg("--index-url")
-        .arg("https://pypi.org/simple/")
+        .arg("https://pypi.tuna.tsinghua.edu.cn/simple/")
         .env(EnvVars::UV_TOOL_DIR, tool_dir.as_os_str())
         .env(EnvVars::XDG_BIN_HOME, bin_dir.as_os_str())
         .env(EnvVars::PATH, bin_dir.as_os_str()), @r###"
