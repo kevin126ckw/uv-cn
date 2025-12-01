@@ -144,7 +144,7 @@ If you're using a custom index through `[[tool.uv.index]]`, add `publish-url` an
 ```toml
 [[tool.uv.index]]
 name = "testpypi"
-url = "https://test.pypi.org/simple/"
+url = "https://test.pypi.tuna.tsinghua.edu.cn/simple/"
 publish-url = "https://test.pypi.org/legacy/"
 explicit = true
 ```

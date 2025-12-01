@@ -585,7 +585,7 @@ pub struct ResolverInstallerSchema {
         default = "\"https://pypi.tuna.tsinghua.edu.cn/simple\"",
         value_type = "str",
         example = r#"
-            index-url = "https://test.pypi.org/simple"
+            index-url = "https://test.pypi.tuna.tsinghua.edu.cn/simple"
         "#
     )]
     pub index_url: Option<PipIndex>,
@@ -1117,7 +1117,7 @@ pub struct PipOptions {
         default = "\"https://pypi.tuna.tsinghua.edu.cn/simple\"",
         value_type = "str",
         example = r#"
-            index-url = "https://test.pypi.org/simple"
+            index-url = "https://test.pypi.tuna.tsinghua.edu.cn/simple"
         "#
     )]
     pub index_url: Option<PipIndex>,
@@ -2332,7 +2332,7 @@ pub struct PublishOptions {
         default = "None",
         value_type = "str",
         example = r#"
-            check-url = "https://test.pypi.org/simple"
+            check-url = "https://test.pypi.tuna.tsinghua.edu.cn/simple"
         "#
     )]
     pub check_url: Option<IndexUrl>,

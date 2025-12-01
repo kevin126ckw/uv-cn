@@ -31,7 +31,7 @@ supports, but they both CLI options.
 **pypi-keyring**
 ```console
 uv pip install keyring
-keyring set https://test.pypi.org/legacy/?astral-test-keyring __token__
+keyring set https://test.pypi.tuna.tsinghua.edu.cn/legacy/?astral-test-keyring __token__
 ```
 The query parameter a horrible hack stolen from
 https://github.com/pypa/twine/issues/565#issue-555219267
@@ -39,7 +39,7 @@ to prevent the other projects from implicitly using the same credentials.
 
 **pypi-text-store**
 ```console
-uv auth login https://test.pypi.org/legacy/?astral-test-text-store --token <token>
+uv auth login https://test.pypi.tuna.tsinghua.edu.cn/legacy/?astral-test-text-store --token <token>
 ```
 The query parameter a horrible hack stolen from
 https://github.com/pypa/twine/issues/565#issue-555219267
@@ -85,7 +85,7 @@ from sigstore import oidc
 from sigstore.models import ClientTrustConfig
 from sigstore.sign import SigningContext
 
-TEST_PYPI_PUBLISH_URL = "https://test.pypi.org/legacy/"
+TEST_PYPI_PUBLISH_URL = "https://test.pypi.tuna.tsinghua.edu.cn/legacy/"
 PYTHON_VERSION = os.environ.get("UV_TEST_PUBLISH_PYTHON_VERSION", "3.12")
 # `pyproject.toml` contents using all supported metadata fields, except for the
 # generated header with `[project]`, name and version.
@@ -141,23 +141,23 @@ local_targets: dict[str, TargetConfiguration] = {
     "pypi-token": TargetConfiguration(
         "astral-test-token",
         TEST_PYPI_PUBLISH_URL,
-        "https://test.pypi.org/simple/",
+        "https://test.pypi.tuna.tsinghua.edu.cn/simple/",
         "test-pypi",
     ),
     "pypi-password-env": TargetConfiguration(
         "astral-test-password",
         TEST_PYPI_PUBLISH_URL,
-        "https://test.pypi.org/simple/",
+        "https://test.pypi.tuna.tsinghua.edu.cn/simple/",
     ),
     "pypi-keyring": TargetConfiguration(
         "astral-test-keyring",
-        "https://test.pypi.org/legacy/?astral-test-keyring",
-        "https://test.pypi.org/simple/",
+        "https://test.pypi.tuna.tsinghua.edu.cn/legacy/?astral-test-keyring",
+        "https://test.pypi.tuna.tsinghua.edu.cn/simple/",
     ),
     "pypi-text-store": TargetConfiguration(
         "astral-test-text-store",
-        "https://test.pypi.org/legacy/?astral-test-text-store",
-        "https://test.pypi.org/simple/",
+        "https://test.pypi.tuna.tsinghua.edu.cn/legacy/?astral-test-text-store",
+        "https://test.pypi.tuna.tsinghua.edu.cn/simple/",
     ),
     "gitlab": TargetConfiguration(
         "astral-test-token",
@@ -185,7 +185,7 @@ all_targets: dict[str, TargetConfiguration] = local_targets | {
     "pypi-trusted-publishing": TargetConfiguration(
         "astral-test-trusted-publishing",
         TEST_PYPI_PUBLISH_URL,
-        "https://test.pypi.org/simple/",
+        "https://test.pypi.tuna.tsinghua.edu.cn/simple/",
         index=None,
         attestations=True,
     ),

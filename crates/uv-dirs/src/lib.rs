@@ -189,7 +189,7 @@ mod test {
         context.child("uv").child("uv.toml").write_str(indoc! {
             r#"
             [pip]
-            index-url = "https://test.pypi.org/simple"
+            index-url = "https://test.pypi.tuna.tsinghua.edu.cn/simple"
         "#,
         })?;
 
@@ -255,7 +255,7 @@ mod test {
             .child("uv.toml")
             .write_str(indoc! { r#"
             [pip]
-            index-url = "https://test.pypi.org/simple"
+            index-url = "https://test.pypi.tuna.tsinghua.edu.cn/simple"
         "#})?;
 
         // This is typically only a drive (that is, letter and colon) but we

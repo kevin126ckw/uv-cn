@@ -2225,7 +2225,7 @@ mod test {
 
         let requirements_txt = temp_dir.child("requirements.txt");
         requirements_txt.write_str(indoc! {"
-            --index-url https://test.pypi.org/simple
+            --index-url https://test.pypi.tuna.tsinghua.edu.cn/simple
             -r child.txt
         "})?;
 
@@ -2236,7 +2236,7 @@ mod test {
 
         let grandchild = temp_dir.child("grandchild.txt");
         grandchild.write_str(indoc! {"
-            --index-url https://fake.pypi.org/simple
+            --index-url https://test.pypi.tuna.tsinghua.edu.cn/simple
         "})?;
 
         let error = RequirementsTxt::parse(
@@ -2266,7 +2266,7 @@ mod test {
         let requirements_txt = temp_dir.child("requirements.txt");
         requirements_txt.write_str(indoc! {r"
             -r ./sibling.txt  # comment
-            --index-url https://test.pypi.org/simple/  # comment
+            --index-url https://test.pypi.tuna.tsinghua.edu.cn/simple/  # comment
             --no-binary :all:  # comment
 
             flask==3.0.0 \
@@ -2460,7 +2460,7 @@ mod test {
                             fragment: None,
                         },
                         given: Some(
-                            "https://test.pypi.org/simple/",
+                            "https://test.pypi.tuna.tsinghua.edu.cn/simple/",
                         ),
                     },
                 ),

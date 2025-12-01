@@ -20,7 +20,7 @@ example, to set a persistent index URL, add the following to a `pyproject.toml`:
 
 ```toml title="pyproject.toml"
 [[tool.uv.index]]
-url = "https://test.pypi.org/simple"
+url = "https://test.pypi.tuna.tsinghua.edu.cn/simple"
 default = true
 ```
 
@@ -32,7 +32,7 @@ uv will also search for `uv.toml` files, which follow an identical structure, bu
 
 ```toml title="uv.toml"
 [[index]]
-url = "https://test.pypi.org/simple"
+url = "https://test.pypi.tuna.tsinghua.edu.cn/simple"
 default = true
 ```
 
@@ -121,5 +121,5 @@ would only affect the `uv pip` subcommands (e.g., `uv pip install`, but not `uv 
 
 ```toml title="pyproject.toml"
 [tool.uv.pip]
-index-url = "https://test.pypi.org/simple"
+index-url = "https://test.pypi.tuna.tsinghua.edu.cn/simple"
 ```

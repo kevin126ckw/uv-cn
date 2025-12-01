@@ -891,12 +891,12 @@ The index must provide one of the supported hashes (SHA-256, SHA-384, or SHA-512
 
     ```toml
     [tool.uv]
-    check-url = "https://test.pypi.org/simple"
+    check-url = "https://test.pypi.tuna.tsinghua.edu.cn/simple"
     ```
 === "uv.toml"
 
     ```toml
-    check-url = "https://test.pypi.org/simple"
+    check-url = "https://test.pypi.tuna.tsinghua.edu.cn/simple"
     ```
 
 ---
@@ -1424,12 +1424,12 @@ The index provided by this setting is given lower priority than any indexes spec
 
     ```toml
     [tool.uv]
-    index-url = "https://test.pypi.org/simple"
+    index-url = "https://test.pypi.tuna.tsinghua.edu.cn/simple"
     ```
 === "uv.toml"
 
     ```toml
-    index-url = "https://test.pypi.org/simple"
+    index-url = "https://test.pypi.tuna.tsinghua.edu.cn/simple"
     ```
 
 ---
@@ -2979,13 +2979,13 @@ The index provided by this setting is given lower priority than any indexes spec
 
     ```toml
     [tool.uv.pip]
-    index-url = "https://test.pypi.org/simple"
+    index-url = "https://test.pypi.tuna.tsinghua.edu.cn/simple"
     ```
 === "uv.toml"
 
     ```toml
     [pip]
-    index-url = "https://test.pypi.org/simple"
+    index-url = "https://test.pypi.tuna.tsinghua.edu.cn/simple"
     ```
 
 ---
